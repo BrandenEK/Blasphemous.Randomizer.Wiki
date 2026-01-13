@@ -1,4 +1,6 @@
-
+{% capture footer_custom %}
+  {%- include footer_custom.html -%}
+{% endcapture %}
 <hr>
 <footer>
 
@@ -13,5 +15,9 @@
       {% endif %}
     </div>
   {% endif %}
+
+  {%- comment -%}
+    note: nav_footer_custom and/or this "site footer" appear in components/sidebar.html for the desktop view.
+  {%- endcomment -%}
 
 </footer>
