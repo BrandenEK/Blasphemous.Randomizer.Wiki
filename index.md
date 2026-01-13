@@ -1,4 +1,3 @@
-
 ---
 id: Home
 title: Home

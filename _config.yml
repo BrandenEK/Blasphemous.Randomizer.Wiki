@@ -4,6 +4,7 @@ plugins:
 title: Blasphemous Randomizer Wiki
 tagline: Information related to the Blasphemous Randomizer
 description: Wiki information for the Blasphemous Randomizer
+version: false
 
 sidebar:
   - Home
