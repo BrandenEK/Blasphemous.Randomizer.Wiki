@@ -2,7 +2,6 @@
 id: D01Z01S01
 title: D01Z01S01
 parent: The Holy Line
-next_page: D01Z01S02
 last_modified_date: 2026-1-13
 ---
 
