@@ -1,20 +1,22 @@
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+remote_theme: just-the-docs/just-the-docs@main
 plugins:
 - jekyll-remote-theme
+
 title: Blasphemous Randomizer Wiki
 tagline: Information related to the Blasphemous Randomizer
 description: Wiki information for the Blasphemous Randomizer
 
+# Zendesk theme properties
 version: v0.1.0
 search_enabled: true
 mermaid_enabled: false
 
-sidebar:
-  - Home
-  - label: The Holy Line
-    children:
-      - D01Z01S01
-      - D01Z01S02
-      - D01Z01S03
-      - D01Z01S07
-  - Ending
+#sidebar:
+ # - Home
+  #- label: The Holy Line
+   # children:
+    #  - D01Z01S01
+     # - D01Z01S02
+      #- D01Z01S03
+      #- D01Z01S07
+  #- Ending
