@@ -9,6 +9,8 @@ description: Wiki information for the Blasphemous Randomizer
 # Just the Docs properties
 color_scheme: dark
 nav_enabled: true
+logo: "https://github.com/BrandenEK/Blasphemous.Randomizer/raw/main/resources/data/Randomizer/logo.png"
+favicon_ico: "https://cdn2.steamgriddb.com/icon/f3d24e8d7784db1ed4ec0b98c85e1df8/32/256x256.png"
 
 aux_links:
   Blasphemous Randomizer on GitHub:
