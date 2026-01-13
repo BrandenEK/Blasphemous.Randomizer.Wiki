@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
@@ -9,13 +10,29 @@ public class LocalImporter(string doorPath, string locationPath) : IImporter
 {
     public async Task<IEnumerable<Door>> LoadDoors()
     {
-        string json = await File.ReadAllTextAsync(doorPath);
-        return JsonConvert.DeserializeObject<Door[]>(json)!;
+        try
+        {
+            string json = await File.ReadAllTextAsync(doorPath);
+            return JsonConvert.DeserializeObject<Door[]>(json)!;
+        }
+        catch (Exception ex)
+        {
+            Logger.Fatal(ex);
+            return [];
+        }
     }
 
     public async Task<IEnumerable<ItemLocation>> LoadItemLocations()
     {
-        string json = await File.ReadAllTextAsync(locationPath);
-        return JsonConvert.DeserializeObject<ItemLocation[]>(json)!;
+        try
+        {
+            string json = await File.ReadAllTextAsync(locationPath);
+            return JsonConvert.DeserializeObject<ItemLocation[]>(json)!;
+        }
+        catch (Exception ex)
+        {
+            Logger.Fatal(ex);
+            return [];
+        }
     }
 }

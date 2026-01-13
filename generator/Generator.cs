@@ -3,23 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace blas1wikigen;
 
 public class Generator(IImporter importer)
 {
-    public async void Run()
+    public async Task Run()
     {
-        Logger.Info("Starting blas1 wiki generator...");
-
-        if (args.Length != 2)
-        {
-            Logger.Fatal("Invalid number of parameters");
-            return;
-        }
-
-        IImporter importer = new LocalImporter(args[0], args[1]);
-
         Logger.Info($"Loading door info...");
         IEnumerable<Door> doors = await importer.LoadDoors();
 
