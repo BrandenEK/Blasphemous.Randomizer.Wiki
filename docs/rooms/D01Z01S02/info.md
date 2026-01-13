@@ -1,7 +1,7 @@
 ---
 id: D01Z01S02
 title: D01Z01S02
-parent: Home
+parent: The Holy Line
 previous_page: D01Z01S01
 next_page: D01Z01S03
 ---
