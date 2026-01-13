@@ -4,3 +4,13 @@ plugins:
 title: Blasphemous Randomizer Wiki
 tagline: Information related to the Blasphemous Randomizer
 description: Wiki information for the Blasphemous Randomizer
+
+sidebar:
+  - Home
+  - label: The Holy Line
+    children:
+      - D01Z01S01
+      - D01Z01S02
+      - D01Z01S03
+      - D01Z01S07
+  - Ending
