@@ -15,6 +15,10 @@ mermaid_enabled: false
 color_scheme: dark
 nav_enabled: true
 
+aux_links:
+  Blasphemous Randomizer on GitHub:
+    - https://github.com/BrandenEK/Blasphemous.Randomizer
+
 #sidebar:
  # - Home
   #- label: The Holy Line
