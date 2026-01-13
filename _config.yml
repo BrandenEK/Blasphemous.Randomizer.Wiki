@@ -11,6 +11,10 @@ version: v0.1.0
 search_enabled: true
 mermaid_enabled: false
 
+# Just the Docs properties
+color_scheme: dark
+nav_enabled: true
+
 #sidebar:
  # - Home
   #- label: The Holy Line

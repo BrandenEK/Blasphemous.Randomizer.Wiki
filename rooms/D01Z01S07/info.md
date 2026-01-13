@@ -1,6 +1,7 @@
 ---
 id: D01Z01S07
 title: D01Z01S07
+parent: Home
 previous_page: D01Z01S03
 ---
 
