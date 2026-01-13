@@ -9,6 +9,7 @@ public class DocsExporter(string docsDir) : IExporter
         string path = Path.Combine(docsDir, room, "info.md");
         Logger.Info($"Exporting text to {path}");
 
-
+        Directory.CreateDirectory(Path.GetDirectoryName(path)!);
+        File.WriteAllText(path, text);
     }
 }
