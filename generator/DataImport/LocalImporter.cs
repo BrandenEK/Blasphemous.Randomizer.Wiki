@@ -1,0 +1,21 @@
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
+
+namespace blas1wikigen.DataImport;
+
+public class LocalImporter(string doorPath, string locationPath) : IImporter
+{
+    public async Task<IEnumerable<Door>> LoadDoors()
+    {
+        string json = await File.ReadAllTextAsync(doorPath);
+        return JsonConvert.DeserializeObject<Door[]>(json)!;
+    }
+
+    public async Task<IEnumerable<ItemLocation>> LoadItemLocations()
+    {
+        string json = await File.ReadAllTextAsync(locationPath);
+        return JsonConvert.DeserializeObject<ItemLocation[]>(json)!;
+    }
+}
