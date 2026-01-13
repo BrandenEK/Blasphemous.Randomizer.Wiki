@@ -1,4 +1,5 @@
-﻿using blas1wikigen.Import;
+﻿using blas1wikigen.Export;
+using blas1wikigen.Import;
 using blas1wikigen.TextCreation;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace blas1wikigen;
 
-public class Generator(IImporter importer, ITextCreator textCreator)
+public class Generator(IImporter importer, IExporter exporter, ITextCreator textCreator)
 {
     public async Task Run()
     {
@@ -23,8 +24,7 @@ public class Generator(IImporter importer, ITextCreator textCreator)
         {
             Logger.Info($"Generating room {room}...");
             string text = textCreator.Create(room, doors.Where(x => x.Room == room), locations.Where(x => x.Room == room));
-
-            Logger.Error(text);
+            exporter.Export(room, text);
         }
     }
 
