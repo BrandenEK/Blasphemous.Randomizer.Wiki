@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using blas1wikigen.Models;
+using System.Collections.Generic;
 
 namespace blas1wikigen.TextCreation;
 
