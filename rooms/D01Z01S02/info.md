@@ -12,10 +12,12 @@ next_page: D01Z01S03
 ## Items
 
 Hanging skeleton (PR14)
-> No logic
+
+```No logic```
 
 Across blood platforms (RB07)
-> blood || doubleJump
+
+```blood || doubleJump```
 
 ## Doors
 
