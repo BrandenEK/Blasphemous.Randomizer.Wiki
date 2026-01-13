@@ -18,8 +18,8 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
 
         Logger.Info(string.Empty);
-        var rooms = doors.Select(x => x.Room).Concat(locations.Select(x => x.Room)).Distinct().OrderBy(x => x);
 
+        var rooms = doors.Select(x => x.Room).Concat(locations.Select(x => x.Room)).Distinct().OrderBy(x => x);
         foreach (string room in rooms.Where(x => x.StartsWith("D01Z01")))
         {
             Logger.Info($"Generating room {room}...");
