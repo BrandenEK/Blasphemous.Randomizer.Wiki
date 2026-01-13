@@ -10,6 +10,8 @@ public class LocalImporter(string doorPath, string locationPath) : IImporter
 {
     public async Task<IEnumerable<Door>> LoadDoors()
     {
+        Logger.Info($"Loading door info from {doorPath}");
+
         try
         {
             string json = await File.ReadAllTextAsync(doorPath);
@@ -24,6 +26,8 @@ public class LocalImporter(string doorPath, string locationPath) : IImporter
 
     public async Task<IEnumerable<ItemLocation>> LoadItemLocations()
     {
+        Logger.Info($"Loading item location info from {locationPath}");
+
         try
         {
             string json = await File.ReadAllTextAsync(locationPath);

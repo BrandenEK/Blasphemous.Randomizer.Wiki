@@ -11,18 +11,12 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
 {
     public async Task Run()
     {
-        Logger.Info($"Loading door info...");
         IEnumerable<Door> doors = await importer.LoadDoors();
-
-        Logger.Info($"Loading item location info...");
         IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
-
-        Logger.Info(string.Empty);
-
         var rooms = doors.Select(x => x.Room).Concat(locations.Select(x => x.Room)).Distinct().OrderBy(x => x);
+
         foreach (string room in rooms.Where(x => x.StartsWith("D01Z01")))
         {
-            Logger.Info($"Generating room {room}...");
             string text = textCreator.Create(room, doors.Where(x => x.Room == room), locations.Where(x => x.Room == room));
             exporter.Export(room, text);
         }

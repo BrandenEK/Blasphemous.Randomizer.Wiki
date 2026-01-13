@@ -9,6 +9,7 @@ public class StandardTextCreator : ITextCreator
 {
     public string Create(string room, IEnumerable<Door> doors, IEnumerable<ItemLocation> locations)
     {
+        Logger.Info($"Creating text for room {room}");
         var sb = new StringBuilder();
 
         // Front matter

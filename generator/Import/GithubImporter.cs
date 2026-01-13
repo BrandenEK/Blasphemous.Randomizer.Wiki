@@ -10,6 +10,7 @@ public class GithubImporter(string doorUrl, string locationUrl) : IImporter
 {
     public async Task<IEnumerable<Door>> LoadDoors()
     {
+        Logger.Info($"Loading door info from {doorUrl}");
         using var client = new HttpClient();
 
         try
@@ -26,6 +27,7 @@ public class GithubImporter(string doorUrl, string locationUrl) : IImporter
 
     public async Task<IEnumerable<ItemLocation>> LoadItemLocations()
     {
+        Logger.Info($"Loading item location info from {locationUrl}");
         using var client = new HttpClient();
 
         try
