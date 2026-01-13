@@ -15,7 +15,7 @@ next_page: D01Z01S03
 | ID | Name | Logic |
 | --- | --- | ---|
 | PR14 | Hanging skeleton | - |
-| RB07 | Across blood platforms | ```blood || doubleJump``` |
+| RB07 | Across blood platforms | blood \|\| doubleJump |
 
 ## Doors
 

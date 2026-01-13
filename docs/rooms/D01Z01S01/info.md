@@ -19,4 +19,4 @@ None
 | --- | --- | ---|
 | D01Z01S01[W] | West door | - |
 | D01Z01S01[E] | East door | - |
-| D01Z01S01[S] | South door | ```D01Z01S01[S] || canBreakHoles || doubleJump``` |
+| D01Z01S01[S] | South door | D01Z01S01[S] \|\| canBreakHoles \|\| doubleJump |
