@@ -12,6 +12,13 @@ nav_enabled: true
 logo: "https://github.com/BrandenEK/Blasphemous.Randomizer/raw/main/resources/data/Randomizer/logo.png"
 favicon_ico: "https://cdn2.steamgriddb.com/icon/f3d24e8d7784db1ed4ec0b98c85e1df8/32/256x256.png"
 
+# Footer
+last_edit_timestamp: true
+last_edit_time_format: "%b %d %Y"
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/BrandenEK/Blasphemous.Randomizer.Wiki" 
+
 aux_links:
   Blasphemous Randomizer on GitHub:
     - https://github.com/BrandenEK/Blasphemous.Randomizer
