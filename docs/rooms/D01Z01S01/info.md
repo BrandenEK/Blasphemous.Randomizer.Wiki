@@ -2,8 +2,8 @@
 id: D01Z01S01
 title: D01Z01S01
 parent: The Holy Line
-last_modified_date: 2026-1-1
-generator_version: 3
+last_modified_date: 2026-01-13
+generator_version: 1
 ---
 
 # D01Z01S01
@@ -16,8 +16,10 @@ None
 
 ## Doors
 
-| ID | Name | Logic |
-| --- | --- | ---|
-| D01Z01S01[W] | West door | - |
-| D01Z01S01[E] | East door | - |
-| D01Z01S01[S] | South door | D01Z01S01[S] \|\| canBreakHoles \|\| doubleJump |
+| ID | Logic |
+| --- | --- |
+| D01Z01S01[W] | - |
+| D01Z01S01[E] | - |
+| D01Z01S01[S] | D01Z01S01[S] \|\| canBreakHoles \|\| doubleJump |
+
+
