@@ -1,4 +1,5 @@
 ﻿using blas1wikigen.DataImport;
+using blas1wikigen.TextCreation;
 using System.Threading.Tasks;
 
 namespace blas1wikigen;
@@ -12,8 +13,9 @@ internal class Core
         IImporter importer = args.Length == 2
             ? new LocalImporter(args[0], args[1])
             : new GithubImporter("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json", "https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/locations_items.json");
+        ITextCreator textCreator = new StandardTextCreator();
 
-        var generator = new Generator(importer);
+        var generator = new Generator(importer, textCreator);
         await generator.Run();
     }
 }
