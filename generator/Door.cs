@@ -17,7 +17,7 @@ public class Door
     {
         Id = id;
         Name = string.Empty;
-        Logic = logic;
+        Logic = LogicUtils.ProcessLogic(logic);
         Room = id.Substring(0, id.IndexOf('['));
     }
 }

@@ -17,7 +17,7 @@ public class ItemLocation
     {
         Id = id;
         Name = name;
-        Logic = logic;
+        Logic = LogicUtils.ProcessLogic(logic);
         Room = room;
     }
 }

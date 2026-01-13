@@ -49,7 +49,7 @@ internal class Core
         return JsonConvert.DeserializeObject<ItemLocation[]>(json)!;
     }
 
-    static void GenerateRoom(string room, IEnumerable<Door> doors, IEnumerable<ItemLocation> locations)
+    static string GenerateRoom(string room, IEnumerable<Door> doors, IEnumerable<ItemLocation> locations)
     {
         var sb = new StringBuilder();
 
@@ -74,18 +74,49 @@ internal class Core
         // Items
         sb.AppendLine("## Items");
         sb.AppendLine();
-
-        sb.AppendLine("None");
+        sb.AppendLine(GenerateItemTable(locations));
         sb.AppendLine();
 
         // Doors
         sb.AppendLine("## Doors");
         sb.AppendLine();
-
-        sb.AppendLine("None");
+        sb.AppendLine(GenerateDoorTable(doors));
         sb.AppendLine();
 
         Logger.Error(sb);
+        return sb.ToString();
+    }
+
+    static string GenerateDoorTable(IEnumerable<Door> doors)
+    {
+        if (!doors.Any())
+            return "None";
+
+        var sb = new StringBuilder();
+
+        sb.AppendLine("| ID | Logic |");
+        sb.AppendLine("| --- | --- |");
+
+        foreach (Door door in doors)
+            sb.AppendLine($"| {door.Id} | {door.Logic} |");
+
+        return sb.ToString();
+    }
+
+    static string GenerateItemTable(IEnumerable<ItemLocation> locations)
+    {
+        if (!locations.Any())
+            return "None";
+
+        var sb = new StringBuilder();
+
+        sb.AppendLine("| ID | Name | Logic |");
+        sb.AppendLine("| --- | --- | --- |");
+
+        foreach (ItemLocation location in locations)
+            sb.AppendLine($"| {location.Id} | {location.Name} | {location.Logic} |");
+
+        return sb.ToString();
     }
 
     private const int GENERATOR_VERSION = 1;
