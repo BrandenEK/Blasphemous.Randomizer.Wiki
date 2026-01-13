@@ -15,7 +15,8 @@ internal class Core
             return;
         }
 
-        IImporter importer = new LocalImporter(args[0], args[1]);
+        IImporter importer = new GithubImporter("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json", "https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/locations_items.json");
+        //IImporter importer = new LocalImporter(args[0], args[1]);
         var generator = new Generator(importer);
 
         await generator.Run();
