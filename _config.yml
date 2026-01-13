@@ -5,8 +5,9 @@ title: Blasphemous Randomizer Wiki
 tagline: Information related to the Blasphemous Randomizer
 description: Wiki information for the Blasphemous Randomizer
 
-version: false
+version: v0.1.0
 search_enabled: true
+mermaid_enabled: false
 
 sidebar:
   - Home
