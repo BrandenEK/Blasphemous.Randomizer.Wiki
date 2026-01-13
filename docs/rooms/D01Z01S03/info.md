@@ -12,19 +12,15 @@ next_page: D01Z01S07
 
 ## Items
 
-Underground ledge (CO04)
-> No logic
-
-Underground chest (QI55)
-> blood && dash && canWaterJump
-
-Child of Moonlight (RESCUED_CHERUB_07)
-> No logic
+| ID | Name | Logic |
+| --- | --- | ---|
+| CO04 | Underground ledge | - |
+| QI55 | Underground chest | ```blood && dash && canWaterJump``` |
+| RESCUED_CHERUB_07 | Child of Moonlight | - |
 
 ## Doors
 
-West door (D01Z01S03[W])
-> No logic
-
-East door (D01Z01S03[E])
-> No logic
+| ID | Name | Logic |
+| --- | --- | ---|
+| D01Z01S03[W] | West door | - |
+| D01Z01S03[E] | East door | - |

@@ -11,13 +11,13 @@ previous_page: D01Z01S03
 
 ## Items
 
-Deogracias' gift (QI31)
-> No logic
+| ID | Name | Logic |
+| --- | --- | ---|
+| QI31 | Deogracias' gift | - |
 
 ## Doors
 
-West door (D01Z01S07[W])
-> No logic
-
-East door (D01Z01S07[E])
-> No logic
+| ID | Name | Logic |
+| --- | --- | ---|
+| D01Z01S07[W] | West door | - |
+| D01Z01S07[E] | East door | - |

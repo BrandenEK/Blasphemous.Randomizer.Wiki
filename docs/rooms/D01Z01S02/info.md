@@ -12,18 +12,14 @@ next_page: D01Z01S03
 
 ## Items
 
-Hanging skeleton (PR14)
-
-```No logic```
-
-Across blood platforms (RB07)
-
-```blood || doubleJump```
+| ID | Name | Logic |
+| --- | --- | ---|
+| PR14 | Hanging skeleton | - |
+| RB07 | Across blood platforms | ```blood || doubleJump``` |
 
 ## Doors
 
-West door (D01Z01S02[W])
-> No logic
-
-East door (D01Z01S02[E])
-> No logic
+| ID | Name | Logic |
+| --- | --- | ---|
+| D01Z01S02[W] | West door | - |
+| D01Z01S02[E] | East door | - |
