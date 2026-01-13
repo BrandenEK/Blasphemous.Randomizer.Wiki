@@ -1,6 +1,8 @@
 ---
 id: D01Z01S02
 title: D01Z01S02
+previous_page: D01Z01S01
+next_page: D01Z01S03
 ---
 
 # D01Z01S02
