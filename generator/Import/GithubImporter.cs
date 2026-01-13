@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace blas1wikigen.DataImport;
+namespace blas1wikigen.Import;
 
 public class GithubImporter(string doorUrl, string locationUrl) : IImporter
 {

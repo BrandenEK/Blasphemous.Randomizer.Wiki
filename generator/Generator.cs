@@ -1,4 +1,4 @@
-﻿using blas1wikigen.DataImport;
+﻿using blas1wikigen.Import;
 using blas1wikigen.TextCreation;
 using System.Collections.Generic;
 using System.Linq;

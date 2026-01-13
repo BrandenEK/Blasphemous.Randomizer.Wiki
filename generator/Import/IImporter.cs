@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace blas1wikigen.DataImport;
+namespace blas1wikigen.Import;
 
 public interface IImporter
 {

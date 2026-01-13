@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace blas1wikigen.DataImport;
+namespace blas1wikigen.Import;
 
 public class LocalImporter(string doorPath, string locationPath) : IImporter
 {
