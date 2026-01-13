@@ -18,6 +18,9 @@ last_edit_time_format: "%b %d %Y"
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/BrandenEK/Blasphemous.Randomizer.Wiki" 
+gh_edit_branch: "main"
+gh_edit_source: "docs"
+gh_edit_view_mode: "tree"
 
 aux_links:
   Blasphemous Randomizer on GitHub:
