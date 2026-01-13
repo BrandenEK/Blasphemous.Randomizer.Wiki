@@ -1,7 +1,7 @@
 ---
 id: D01Z01S01
 title: D01Z01S01
-parent: The Holy Line
+parent: D01Z01
 last_modified_date: 2026-1-1
 generator_version: 3
 ---
