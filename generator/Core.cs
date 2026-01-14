@@ -24,13 +24,9 @@ internal class Core
         string imageDir = Path.Combine(baseDir, "images");
         string exportDir = Path.Combine(baseDir, args[0]);
 
-        IImporter importer = args.Length == 2
-            ? new LocalImporter(args[0], args[1])
-            : new GithubImporter("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json", "https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/locations_items.json");
         IExporter exporter = new DocsExporter(Path.Combine(exportDir, "rooms"));
-        ITextCreator textCreator = new StandardTextCreator();
 
-        var generator = new Generator(importer, exporter, textCreator);
+        var generator = new Generator(exporter);
         await generator.Run(dataDir, imageDir, exportDir);
     }
 }

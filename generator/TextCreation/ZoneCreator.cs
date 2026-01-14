@@ -4,7 +4,7 @@ using System.Text;
 
 namespace blas1wikigen.TextCreation;
 
-public class ZoneCreator
+public class ZoneCreator : ITextCreator<Zone>
 {
     public string Create(Zone zone)
     {

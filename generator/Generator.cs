@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace blas1wikigen;
 
-public class Generator(IImporter importer, IExporter exporter, ITextCreator textCreator)
+public class Generator(IExporter exporter)
 {
     public async Task Run(string dataDir, string imageDir, string exportDir)
     {
