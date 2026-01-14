@@ -21,6 +21,7 @@ last_edit_time_format: "%b %d %Y"
 #gh_edit_source: "docs"
 #gh_edit_view_mode: "tree"
 
+aux_links_new_tab: true
 aux_links:
   Blasphemous Randomizer on GitHub:
     - https://github.com/BrandenEK/Blasphemous.Randomizer
