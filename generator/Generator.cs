@@ -12,7 +12,7 @@ namespace blas1wikigen;
 
 public class Generator(IImporter importer, IExporter exporter, ITextCreator textCreator)
 {
-    public async Task Run()
+    public async Task Run(string importDir, string exportDir)
     {
         IEnumerable<Door> doors = await importer.LoadDoors();
         IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
@@ -24,9 +24,8 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         //    exporter.Export(room, text);
         //}
 
-        string baseDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..");
-        var zoneImporter = new NewImporter<Zone>(Path.Combine(baseDir, "data", "zones.json"));
-        var zoneExporter = new ZoneExporter(Path.Combine(baseDir, "publish", "zones"));
+        var zoneImporter = new NewImporter<Zone>(Path.Combine(importDir, "zones.json"));
+        var zoneExporter = new ZoneExporter(Path.Combine(exportDir, "zones"));
         IEnumerable<Zone> zones = zoneImporter.Import();
 
         var zoneCreator = new ZoneCreator();
