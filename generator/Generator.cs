@@ -2,10 +2,8 @@
 using blas1wikigen.Import;
 using blas1wikigen.Models;
 using blas1wikigen.TextCreation;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace blas1wikigen;
