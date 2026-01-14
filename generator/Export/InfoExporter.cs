@@ -2,7 +2,7 @@
 
 namespace blas1wikigen.Export;
 
-public class InfoExporter(string baseDir)
+public class InfoExporter(string baseDir) : IInfoExporter
 {
     public void Export(string name, string text)
     {

@@ -8,20 +8,10 @@ using System.Threading.Tasks;
 
 namespace blas1wikigen;
 
-public class Generator(IExporter exporter)
+public class Generator()
 {
     public async Task Run(string dataDir, string imageDir, string exportDir)
     {
-        //IEnumerable<Door> doors = await importer.LoadDoors();
-        //IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
-        //var rooms = doors.Select(x => x.Room).Concat(locations.Select(x => x.Room)).Distinct().OrderBy(x => x);
-
-        //foreach (string room in rooms.Where(x => x.StartsWith("D01Z01")))
-        //{
-        //    string text = textCreator.Create(room, doors.Where(x => x.Room == room), locations.Where(x => x.Room == room));
-        //    exporter.Export(room, text);
-        //}
-
         // Import data
         var internetImporter = new InternetImporter();
         IEnumerable<Door> doors = await internetImporter.Import<Door>("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json");

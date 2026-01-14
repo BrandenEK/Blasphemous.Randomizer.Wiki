@@ -1,7 +1,4 @@
-﻿using blas1wikigen.Export;
-using blas1wikigen.Import;
-using blas1wikigen.TextCreation;
-using System;
+﻿using System;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -24,9 +21,7 @@ internal class Core
         string imageDir = Path.Combine(baseDir, "images");
         string exportDir = Path.Combine(baseDir, args[0]);
 
-        IExporter exporter = new DocsExporter(Path.Combine(exportDir, "rooms"));
-
-        var generator = new Generator(exporter);
+        var generator = new Generator();
         await generator.Run(dataDir, imageDir, exportDir);
     }
 }
