@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace blas1wikigen.Import;
 
-public class NewImporter
+public class FileImporter : IImporter
 {
     public async Task<IEnumerable<T>> Import<T>(string path)
     {
@@ -19,7 +19,7 @@ public class NewImporter
         }
         catch (Exception ex)
         {
-            Logger.Fatal(ex);
+            Logger.Error(ex);
             return [];
         }
     }

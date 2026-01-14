@@ -27,11 +27,9 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         IEnumerable<Door> doors = await internetImporter.Import<Door>("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json");
         IEnumerable<ItemLocation> locations = await internetImporter.Import<ItemLocation>("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/locations_items.json");
 
-        // TODO - Change these to async as well
-
-        var newImporter = new NewImporter();
-        IEnumerable<Zone> zones = await newImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
-        IEnumerable<Room> rooms = await newImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
+        var fileImporter = new FileImporter();
+        IEnumerable<Zone> zones = await fileImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
+        IEnumerable<Room> rooms = await fileImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
 
         // Setup zone things
         var zoneCreator = new ZoneCreator();
