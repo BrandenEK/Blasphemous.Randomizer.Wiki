@@ -13,7 +13,7 @@ internal class Core
     {
         Logger.Info("Starting blas1 wiki generator...");
 
-        bool exportForReal = false;
+        bool exportForReal = true;
 
         string baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
         string dataDir = Path.Combine(baseDir, "data");
