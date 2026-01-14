@@ -8,35 +8,18 @@ using System.Threading.Tasks;
 
 namespace blas1wikigen;
 
-public class Generator(IImporter importer, IExporter exporter, ITextCreator textCreator)
+public class Generator()
 {
     public async Task Run(string dataDir, string imageDir, string exportDir)
-    {
-        //IEnumerable<Door> doors = await importer.LoadDoors();
-        //IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
-        //var rooms = doors.Select(x => x.Room).Concat(locations.Select(x => x.Room)).Distinct().OrderBy(x => x);
-
-        //foreach (string room in rooms.Where(x => x.StartsWith("D01Z01")))
-        //{
-        //    string text = textCreator.Create(room, doors.Where(x => x.Room == room), locations.Where(x => x.Room == room));
-        //    exporter.Export(room, text);
-        //}
-
-        await NewStuff(dataDir, imageDir, exportDir);
-    }
-
-    private async Task NewStuff(string dataDir, string imageDir, string exportDir)
     {
         // Import data
         var internetImporter = new InternetImporter();
         IEnumerable<Door> doors = await internetImporter.Import<Door>("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json");
         IEnumerable<ItemLocation> locations = await internetImporter.Import<ItemLocation>("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/locations_items.json");
 
-        // TODO - Change these to async as well
-
-        var newImporter = new NewImporter();
-        IEnumerable<Zone> zones = newImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
-        IEnumerable<Room> rooms = newImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
+        var fileImporter = new FileImporter();
+        IEnumerable<Zone> zones = await fileImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
+        IEnumerable<Room> rooms = await fileImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
 
         // Setup zone things
         var zoneCreator = new ZoneCreator();
@@ -53,7 +36,7 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         var roomCreator = new RoomCreator(locations, doors);
         var roomExporter = new InfoExporter(Path.Combine(exportDir, "rooms"));
         var roomLayoutExporter = new LayoutExporter(Path.Combine(imageDir, "rooms"), Path.Combine(exportDir, "rooms"));
-        
+
         // Create and export room files
         foreach (Room room in rooms)
         {
@@ -63,5 +46,5 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         }
     }
 
-    public const int GENERATOR_VERSION = 2;
+    public const int GENERATOR_VERSION = 3;
 }

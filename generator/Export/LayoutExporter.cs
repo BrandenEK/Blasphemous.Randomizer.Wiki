@@ -2,7 +2,7 @@
 
 namespace blas1wikigen.Export;
 
-public class LayoutExporter(string sourceDir, string exportDir)
+public class LayoutExporter(string sourceDir, string exportDir) : ILayoutExporter
 {
     public void Export(string name)
     {

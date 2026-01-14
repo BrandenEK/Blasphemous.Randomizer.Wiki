@@ -6,7 +6,7 @@ using System.Text;
 
 namespace blas1wikigen.TextCreation;
 
-public class RoomCreator
+public class RoomCreator : ITextCreator<Room>
 {
     private readonly Dictionary<string, ItemLocation> _locationMap;
     private readonly Dictionary<string, Door> _doorMap;

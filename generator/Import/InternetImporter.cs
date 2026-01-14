@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace blas1wikigen.Import;
 
-public class InternetImporter
+public class InternetImporter : IImporter
 {
     public async Task<IEnumerable<T>> Import<T>(string url)
     {
@@ -21,7 +21,7 @@ public class InternetImporter
         }
         catch (Exception ex)
         {
-            Logger.Fatal(ex);
+            Logger.Error(ex);
             return [];
         }
     }
