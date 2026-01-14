@@ -8,7 +8,16 @@ namespace blas1wikigen.TextCreation;
 
 public class RoomCreator
 {
-    public string Create(Room room, IEnumerable<Door> doors, IEnumerable<ItemLocation> locations)
+    private readonly Dictionary<string, ItemLocation> _locationMap;
+    private readonly Dictionary<string, Door> _doorMap;
+
+    public RoomCreator(IEnumerable<ItemLocation> locations, IEnumerable<Door> doors)
+    {
+        _locationMap = locations.ToDictionary(x => x.Id, x => x);
+        _doorMap = doors.ToDictionary(x => x.Id, x => x);
+    }
+
+    public string Create(Room room)
     {
         Logger.Info($"Creating text for room {room.Name}");
         var sb = new StringBuilder();
@@ -34,13 +43,13 @@ public class RoomCreator
         // Items
         sb.AppendLine("## Items");
         sb.AppendLine();
-        sb.Append(CreateItemTable(locations));
+        sb.Append(CreateItemTable(room.Items.Select(x => _locationMap[x])));
         sb.AppendLine();
 
         // Doors
         sb.AppendLine("## Doors");
         sb.AppendLine();
-        sb.Append(CreateDoorTable(doors));
+        sb.Append(CreateDoorTable(room.Doors.Select(x => _doorMap[x])));
         sb.AppendLine();
 
         return sb.ToString();
