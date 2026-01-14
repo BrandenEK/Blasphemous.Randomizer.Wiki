@@ -34,13 +34,13 @@ public class StandardTextCreator : ITextCreator
         // Items
         sb.AppendLine("## Items");
         sb.AppendLine();
-        sb.AppendLine(CreateItemTable(locations));
+        sb.Append(CreateItemTable(locations));
         sb.AppendLine();
 
         // Doors
         sb.AppendLine("## Doors");
         sb.AppendLine();
-        sb.AppendLine(CreateDoorTable(doors));
+        sb.Append(CreateDoorTable(doors));
         sb.AppendLine();
 
         return sb.ToString();

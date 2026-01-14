@@ -26,15 +26,15 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
 
         string baseDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..");
         var zoneImporter = new NewImporter<Zone>(Path.Combine(baseDir, "data", "zones.json"));
+        var zoneExporter = new ZoneExporter(Path.Combine(baseDir, "publish", "zones"));
         IEnumerable<Zone> zones = zoneImporter.Import();
 
         var zoneCreator = new ZoneCreator();
 
         foreach (Zone zone in zones)
         {
-            Logger.Warn(zone.Name);
             string text = zoneCreator.Create(zone);
-            Logger.Error(text);
+            zoneExporter.Export(zone, text);
         }
     }
 
