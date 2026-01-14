@@ -46,5 +46,5 @@ public class Generator()
         }
     }
 
-    public const int GENERATOR_VERSION = 2;
+    public const int GENERATOR_VERSION = 3;
 }
