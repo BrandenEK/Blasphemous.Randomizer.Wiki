@@ -1,0 +1,4085 @@
+[
+  {
+    "name": "D01BZ01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D01BZ02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "QI58",
+      "RB05",
+      "RB09"
+    ],
+    "doors": [
+      "D01BZ02S01[C]"
+    ]
+  },
+  {
+    "name": "D01BZ04S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RB104",
+      "RB105",
+      "PR11"
+    ],
+    "doors": [
+      "D01BZ04S01[church]"
+    ]
+  },
+  {
+    "name": "D01BZ05S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RB03"
+    ],
+    "doors": [
+      "D01BZ05S01[Reward]"
+    ]
+  },
+  {
+    "name": "D01BZ06S01",
+    "zone": "ZONENAME",
+    "items": [
+      "Undertaker[250]",
+      "Undertaker[500]",
+      "Undertaker[750]",
+      "Undertaker[1000]",
+      "Undertaker[1250]",
+      "Undertaker[1500]",
+      "Undertaker[1750]",
+      "Undertaker[2000]",
+      "Undertaker[2500]",
+      "Undertaker[3000]",
+      "Undertaker[5000]"
+    ],
+    "doors": [
+      "D01BZ06S01[Ossary]",
+      "D01BZ06S01[E]"
+    ]
+  },
+  {
+    "name": "D01BZ07S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01BZ07S01[Santos]"
+    ]
+  },
+  {
+    "name": "D01BZ08S01",
+    "zone": "ZONENAME",
+    "items": [
+      "QI201"
+    ],
+    "doors": [
+      "D01BZ08S01[W]"
+    ]
+  },
+  {
+    "name": "D01BZ09S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01BZ09S01[W]"
+    ]
+  },
+  {
+    "name": "D01Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z01S01[W]",
+      "D01Z01S01[E]",
+      "D01Z01S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z01S02",
+    "zone": "ZONENAME",
+    "items": [
+      "PR14",
+      "RB07"
+    ],
+    "doors": [
+      "D01Z01S02[W]",
+      "D01Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D01Z01S03",
+    "zone": "ZONENAME",
+    "items": [
+      "CO04",
+      "QI55",
+      "RESCUED_CHERUB_07"
+    ],
+    "doors": [
+      "D01Z01S03[W]",
+      "D01Z01S03[E]"
+    ]
+  },
+  {
+    "name": "D01Z01S07",
+    "zone": "ZONENAME",
+    "items": [
+      "QI31"
+    ],
+    "doors": [
+      "D01Z01S07[W]",
+      "D01Z01S07[E]"
+    ]
+  },
+  {
+    "name": "D01Z02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RE02",
+      "RE04",
+      "RE10"
+    ],
+    "doors": [
+      "D01Z02S01[W]",
+      "D01Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D01Z02S02",
+    "zone": "ZONENAME",
+    "items": [
+      "RB01",
+      "QI66",
+      "Tirso[500]",
+      "Tirso[1000]",
+      "Tirso[2000]",
+      "Tirso[5000]",
+      "Tirso[10000]",
+      "QI56"
+    ],
+    "doors": [
+      "D01Z02S02[SW]",
+      "D01Z02S02[SE]",
+      "D01Z02S02[W]",
+      "D01Z02S02[E]",
+      "D01Z02S02[NE]"
+    ]
+  },
+  {
+    "name": "D01Z02S03",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_08",
+      "Lvdovico[500]",
+      "Lvdovico[1000]",
+      "PR03",
+      "QI01"
+    ],
+    "doors": [
+      "D01Z02S03[W]",
+      "D01Z02S03[NW]",
+      "D01Z02S03[E]",
+      "D01Z02S03[church]",
+      "D01Z02S03[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z02S04",
+    "zone": "ZONENAME",
+    "items": [
+      "CO43"
+    ],
+    "doors": [
+      "D01Z02S04[W]",
+      "D01Z02S04[E]",
+      "D01Z02S04[Ossary]"
+    ]
+  },
+  {
+    "name": "D01Z02S05",
+    "zone": "ZONENAME",
+    "items": [
+      "CO16"
+    ],
+    "doors": [
+      "D01Z02S05[W]",
+      "D01Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D01Z02S06",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D01Z02S06]"
+    ],
+    "doors": [
+      "D01Z02S06[W]",
+      "D01Z02S06[E]"
+    ]
+  },
+  {
+    "name": "D01Z02S07",
+    "zone": "ZONENAME",
+    "items": [
+      "QI65"
+    ],
+    "doors": [
+      "D01Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D01Z03S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RB04"
+    ],
+    "doors": [
+      "D01Z03S01[W]",
+      "D01Z03S01[E]",
+      "D01Z03S01[SE]"
+    ]
+  },
+  {
+    "name": "D01Z03S02",
+    "zone": "ZONENAME",
+    "items": [
+      "CO14"
+    ],
+    "doors": [
+      "D01Z03S02[W]",
+      "D01Z03S02[SW]",
+      "D01Z03S02[E]",
+      "D01Z03S02[S]"
+    ]
+  },
+  {
+    "name": "D01Z03S03",
+    "zone": "ZONENAME",
+    "items": [
+      "CO36",
+      "RESCUED_CHERUB_10"
+    ],
+    "doors": [
+      "D01Z03S03[W]",
+      "D01Z03S03[E]",
+      "D01Z03S03[Cherubs]",
+      "D01Z03S03[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z03S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z03S04[SW]",
+      "D01Z03S04[W]",
+      "D01Z03S04[NW]",
+      "D01Z03S04[SE]",
+      "D01Z03S04[E]"
+    ]
+  },
+  {
+    "name": "D01Z03S05",
+    "zone": "ZONENAME",
+    "items": [
+      "QI06"
+    ],
+    "doors": [
+      "D01Z03S05[W]",
+      "D01Z03S05[E]",
+      "D01Z03S05[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z03S06",
+    "zone": "ZONENAME",
+    "items": [
+      "RB20"
+    ],
+    "doors": [
+      "D01Z03S06[W]",
+      "D01Z03S06[E]"
+    ]
+  },
+  {
+    "name": "D01Z03S07",
+    "zone": "ZONENAME",
+    "items": [
+      "HE02",
+      "RESCUED_CHERUB_38"
+    ],
+    "doors": [
+      "D01Z03S07[E]",
+      "D01Z03S07[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z04S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S01[NW]",
+      "D01Z04S01[NE]",
+      "D01Z04S01[W]",
+      "D01Z04S01[E]",
+      "D01Z04S01[SE]",
+      "D01Z04S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z04S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S02[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S03[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S05",
+    "zone": "ZONENAME",
+    "items": [
+      "CO30"
+    ],
+    "doors": [
+      "D01Z04S05[NW]",
+      "D01Z04S05[SW]"
+    ]
+  },
+  {
+    "name": "D01Z04S06",
+    "zone": "ZONENAME",
+    "items": [
+      "CO03",
+      "RESCUED_CHERUB_09"
+    ],
+    "doors": [
+      "D01Z04S06[E]",
+      "D01Z04S06[NW]",
+      "D01Z04S06[SW]"
+    ]
+  },
+  {
+    "name": "D01Z04S07",
+    "zone": "ZONENAME",
+    "items": [
+      "PR01"
+    ],
+    "doors": [
+      "D01Z04S07[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S08",
+    "zone": "ZONENAME",
+    "items": [
+      "RB17"
+    ],
+    "doors": [
+      "D01Z04S08[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S09[W]",
+      "D01Z04S09[E]",
+      "D01Z04S09[C]"
+    ]
+  },
+  {
+    "name": "D01Z04S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S10[NW]",
+      "D01Z04S10[SW]",
+      "D01Z04S10[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S11",
+    "zone": "ZONENAME",
+    "items": [
+      "QI48"
+    ],
+    "doors": [
+      "D01Z04S11[NE]"
+    ]
+  },
+  {
+    "name": "D01Z04S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S12[NW]",
+      "D01Z04S12[W]",
+      "D01Z04S12[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S13",
+    "zone": "ZONENAME",
+    "items": [
+      "CO21"
+    ],
+    "doors": [
+      "D01Z04S13[NW]",
+      "D01Z04S13[NE]",
+      "D01Z04S13[SW]",
+      "D01Z04S13[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S14",
+    "zone": "ZONENAME",
+    "items": [
+      "CO38"
+    ],
+    "doors": [
+      "D01Z04S14[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S15",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S15[N]",
+      "D01Z04S15[NE]",
+      "D01Z04S15[W]",
+      "D01Z04S15[E]",
+      "D01Z04S15[SW]",
+      "D01Z04S15[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S16",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_33"
+    ],
+    "doors": [
+      "D01Z04S16[W]",
+      "D01Z04S16[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S17",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z04S17[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S18",
+    "zone": "ZONENAME",
+    "items": [
+      "BS01"
+    ],
+    "doors": [
+      "D01Z04S18[W]",
+      "D01Z04S18[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S19",
+    "zone": "ZONENAME",
+    "items": [
+      "QI38"
+    ],
+    "doors": [
+      "D01Z04S19[W]",
+      "D01Z04S19[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S01[N]",
+      "D01Z05S01[W]",
+      "D01Z05S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S02[N]",
+      "D01Z05S02[W]",
+      "D01Z05S02[E]",
+      "D01Z05S02[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S03[NW]",
+      "D01Z05S03[NE]",
+      "D01Z05S03[W]",
+      "D01Z05S03[E]",
+      "D01Z05S03[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S04[W]",
+      "D01Z05S04[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S05",
+    "zone": "ZONENAME",
+    "items": [
+      "CO09",
+      "QI67"
+    ],
+    "doors": [
+      "D01Z05S05[N]",
+      "D01Z05S05[NW]",
+      "D01Z05S05[NE]",
+      "D01Z05S05[SW]",
+      "D01Z05S05[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S06",
+    "zone": "ZONENAME",
+    "items": [
+      "PR16",
+      "RESCUED_CHERUB_13"
+    ],
+    "doors": [
+      "D01Z05S06[W]",
+      "D01Z05S06[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z05S07",
+    "zone": "ZONENAME",
+    "items": [
+      "Oil[D01Z05S07]"
+    ],
+    "doors": [
+      "D01Z05S07[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S08",
+    "zone": "ZONENAME",
+    "items": [
+      "QI12",
+      "RESCUED_CHERUB_14"
+    ],
+    "doors": [
+      "D01Z05S08[W]"
+    ]
+  },
+  {
+    "name": "D01Z05S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S09[NW]",
+      "D01Z05S09[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S10[W]",
+      "D01Z05S10[NE]",
+      "D01Z05S10[SE]",
+      "D01Z05S10[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S11",
+    "zone": "ZONENAME",
+    "items": [
+      "QI45"
+    ],
+    "doors": [
+      "D01Z05S11[W]",
+      "D01Z05S11[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z05S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S12[W]",
+      "D01Z05S12[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S13",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_12"
+    ],
+    "doors": [
+      "D01Z05S13[SW]",
+      "D01Z05S13[N]",
+      "D01Z05S13[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S14",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_11"
+    ],
+    "doors": [
+      "D01Z05S14[W]",
+      "D01Z05S14[N]",
+      "D01Z05S14[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S15",
+    "zone": "ZONENAME",
+    "items": [
+      "CO41"
+    ],
+    "doors": [
+      "D01Z05S15[W]",
+      "D01Z05S15[SW]",
+      "D01Z05S15[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S16",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S16[N]",
+      "D01Z05S16[SW]",
+      "D01Z05S16[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S17",
+    "zone": "ZONENAME",
+    "items": [
+      "CO32"
+    ],
+    "doors": [
+      "D01Z05S17[W]",
+      "D01Z05S17[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S18",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S18[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S19",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S19[W]",
+      "D01Z05S19[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S20",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_15"
+    ],
+    "doors": [
+      "D01Z05S20[W]",
+      "D01Z05S20[N]"
+    ]
+  },
+  {
+    "name": "D01Z05S21",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S21[W]",
+      "D01Z05S21[E]",
+      "D01Z05S21[Reward]"
+    ]
+  },
+  {
+    "name": "D01Z05S22",
+    "zone": "ZONENAME",
+    "items": [
+      "Lady[D01Z05S22]"
+    ],
+    "doors": [
+      "D01Z05S22[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S23",
+    "zone": "ZONENAME",
+    "items": [
+      "QI75"
+    ],
+    "doors": [
+      "D01Z05S23[W]",
+      "D01Z05S23[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S24",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D01Z05S24]"
+    ],
+    "doors": [
+      "D01Z05S24[W]",
+      "D01Z05S24[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S25",
+    "zone": "ZONENAME",
+    "items": [
+      "CO44",
+      "RESCUED_CHERUB_22"
+    ],
+    "doors": [
+      "D01Z05S25[NE]",
+      "D01Z05S25[W]",
+      "D01Z05S25[E]",
+      "D01Z05S25[SW]",
+      "D01Z05S25[SE]",
+      "D01Z05S25[EchoesW]",
+      "D01Z05S25[EchoesE]"
+    ]
+  },
+  {
+    "name": "D01Z05S26",
+    "zone": "ZONENAME",
+    "items": [
+      "Lady[D01Z05S26]"
+    ],
+    "doors": [
+      "D01Z05S26[W]"
+    ]
+  },
+  {
+    "name": "D01Z05S27",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D01Z05S27[E]"
+    ]
+  },
+  {
+    "name": "D01Z06S01",
+    "zone": "ZONENAME",
+    "items": [
+      "QI101"
+    ],
+    "doors": [
+      "D01Z06S01[N]",
+      "D01Z06S01[Santos]"
+    ]
+  },
+  {
+    "name": "D02BZ02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "QI11",
+      "RB37",
+      "RB02"
+    ],
+    "doors": [
+      "D02BZ02S01[C]"
+    ]
+  },
+  {
+    "name": "D02Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "CO11",
+      "QI59",
+      "RB10"
+    ],
+    "doors": [
+      "D02Z01S01[SW]",
+      "D02Z01S01[W]",
+      "D02Z01S01[SE]",
+      "D02Z01S01[CherubsL]",
+      "D02Z01S01[CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z01S02",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_23"
+    ],
+    "doors": [
+      "D02Z01S02[W]",
+      "D02Z01S02[NW]",
+      "D02Z01S02[E]",
+      "D02Z01S02[NE]",
+      "D02Z01S02[]"
+    ]
+  },
+  {
+    "name": "D02Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z01S03[SW]",
+      "D02Z01S03[W]",
+      "D02Z01S03[SE]",
+      "D02Z01S03[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z01S04",
+    "zone": "ZONENAME",
+    "items": [
+      "QI20",
+      "QI68"
+    ],
+    "doors": [
+      "D02Z01S04[E]",
+      "D02Z01S04[-N]"
+    ]
+  },
+  {
+    "name": "D02Z01S05",
+    "zone": "ZONENAME",
+    "items": [
+      "QI07"
+    ],
+    "doors": [
+      "D02Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D02Z01S06",
+    "zone": "ZONENAME",
+    "items": [
+      "CO19",
+      "RESCUED_CHERUB_27"
+    ],
+    "doors": [
+      "D02Z01S06[W]",
+      "D02Z01S06[E]",
+      "D02Z01S06[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z01S08",
+    "zone": "ZONENAME",
+    "items": [
+      "PR04"
+    ],
+    "doors": [
+      "D02Z01S08[E]",
+      "D02Z01S08[N]"
+    ]
+  },
+  {
+    "name": "D02Z01S09",
+    "zone": "ZONENAME",
+    "items": [
+      "HE05"
+    ],
+    "doors": [
+      "D02Z01S09[W]",
+      "D02Z01S09[-CherubsL]",
+      "D02Z01S09[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z02S01[W]",
+      "D02Z02S01[NW]",
+      "D02Z02S01[E]",
+      "D02Z02S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S02",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_24"
+    ],
+    "doors": [
+      "D02Z02S02[SE]",
+      "D02Z02S02[NW]",
+      "D02Z02S02[NE]",
+      "D02Z02S02[-CherubsR]",
+      "D02Z02S02[CherubsL]",
+      "D02Z02S02[CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S03",
+    "zone": "ZONENAME",
+    "items": [
+      "QI46",
+      "CO29",
+      "QI08"
+    ],
+    "doors": [
+      "D02Z02S03[SW]",
+      "D02Z02S03[NW]",
+      "D02Z02S03[NE]",
+      "D02Z02S03[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S04",
+    "zone": "ZONENAME",
+    "items": [
+      "RB32",
+      "CO01",
+      "RESCUED_CHERUB_25"
+    ],
+    "doors": [
+      "D02Z02S04[W]",
+      "D02Z02S04[SE]",
+      "D02Z02S04[E]",
+      "D02Z02S04[NE]",
+      "D02Z02S04[-CherubsL]"
+    ]
+  },
+  {
+    "name": "D02Z02S05",
+    "zone": "ZONENAME",
+    "items": [
+      "RB15"
+    ],
+    "doors": [
+      "D02Z02S05[SW]",
+      "D02Z02S05[W]",
+      "D02Z02S05[SE]",
+      "D02Z02S05[E]",
+      "D02Z02S05[NW]",
+      "D02Z02S05[-CherubsL]",
+      "D02Z02S05[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S06",
+    "zone": "ZONENAME",
+    "items": [
+      "RB38"
+    ],
+    "doors": [
+      "D02Z02S06[E]"
+    ]
+  },
+  {
+    "name": "D02Z02S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z02S07[W]",
+      "D02Z02S07[E]",
+      "D02Z02S07[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S08",
+    "zone": "ZONENAME",
+    "items": [
+      "CO42",
+      "RESCUED_CHERUB_31"
+    ],
+    "doors": [
+      "D02Z02S08[W]",
+      "D02Z02S08[E]",
+      "D02Z02S08[C]",
+      "D02Z02S08[CherubsL]",
+      "D02Z02S08[CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D02Z02S10",
+    "zone": "ZONENAME",
+    "items": [
+      "Oil[D02Z02S10]"
+    ],
+    "doors": [
+      "D02Z02S10[W]"
+    ]
+  },
+  {
+    "name": "D02Z02S11",
+    "zone": "ZONENAME",
+    "items": [
+      "QI53",
+      "RESCUED_CHERUB_26"
+    ],
+    "doors": [
+      "D02Z02S11[W]",
+      "D02Z02S11[SE]",
+      "D02Z02S11[E]",
+      "D02Z02S11[NW]",
+      "D02Z02S11[NE]",
+      "D02Z02S11[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S12",
+    "zone": "ZONENAME",
+    "items": [
+      "Lady[D02Z02S12]"
+    ],
+    "doors": [
+      "D02Z02S12[W]"
+    ]
+  },
+  {
+    "name": "D02Z02S13",
+    "zone": "ZONENAME",
+    "items": [
+      "HE11"
+    ],
+    "doors": [
+      "D02Z02S13[W]"
+    ]
+  },
+  {
+    "name": "D02Z02S14",
+    "zone": "ZONENAME",
+    "items": [
+      "RB106",
+      "Amanecida[D02Z02S14]"
+    ],
+    "doors": [
+      "D02Z02S14[W]",
+      "D02Z02S14[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S01[W]",
+      "D02Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S02[S]",
+      "D02Z03S02[W]",
+      "D02Z03S02[NW]",
+      "D02Z03S02[NE]",
+      "D02Z03S02[N]"
+    ]
+  },
+  {
+    "name": "D02Z03S03",
+    "zone": "ZONENAME",
+    "items": [
+      "CO05"
+    ],
+    "doors": [
+      "D02Z03S03[W]",
+      "D02Z03S03[NW]",
+      "D02Z03S03[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S05",
+    "zone": "ZONENAME",
+    "items": [
+      "RB08"
+    ],
+    "doors": [
+      "D02Z03S05[S]",
+      "D02Z03S05[E]",
+      "D02Z03S05[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S06[W]",
+      "D02Z03S06[S]"
+    ]
+  },
+  {
+    "name": "D02Z03S07",
+    "zone": "ZONENAME",
+    "items": [
+      "CO15"
+    ],
+    "doors": [
+      "D02Z03S07[W]",
+      "D02Z03S07[NWW]",
+      "D02Z03S07[NW]",
+      "D02Z03S07[N]",
+      "D02Z03S07[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S08",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S08[SW]",
+      "D02Z03S08[W]",
+      "D02Z03S08[SE]",
+      "D02Z03S08[E]",
+      "D02Z03S08[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S09[W]",
+      "D02Z03S09[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S10[W]",
+      "D02Z03S10[-W]",
+      "D02Z03S10[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z03S11",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S11[S]",
+      "D02Z03S11[W]",
+      "D02Z03S11[NW]",
+      "D02Z03S11[E]",
+      "D02Z03S11[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S12",
+    "zone": "ZONENAME",
+    "items": [
+      "HE03"
+    ],
+    "doors": [
+      "D02Z03S12[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S13",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D02Z03S13]"
+    ],
+    "doors": [
+      "D02Z03S13[W]"
+    ]
+  },
+  {
+    "name": "D02Z03S14",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S14[W]",
+      "D02Z03S14[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S15",
+    "zone": "ZONENAME",
+    "items": [
+      "Lady[D02Z03S15]"
+    ],
+    "doors": [
+      "D02Z03S15[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S16",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S16[W]",
+      "D02Z03S16[N]"
+    ]
+  },
+  {
+    "name": "D02Z03S17",
+    "zone": "ZONENAME",
+    "items": [
+      "RB24"
+    ],
+    "doors": [
+      "D02Z03S17[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S18",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S18[NW]",
+      "D02Z03S18[SE]",
+      "D02Z03S18[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S19",
+    "zone": "ZONENAME",
+    "items": [
+      "QI61"
+    ],
+    "doors": [
+      "D02Z03S19[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S20",
+    "zone": "ZONENAME",
+    "items": [
+      "BS03"
+    ],
+    "doors": [
+      "D02Z03S20[W]",
+      "D02Z03S20[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S21",
+    "zone": "ZONENAME",
+    "items": [
+      "QI40",
+      "QI57"
+    ],
+    "doors": [
+      "D02Z03S21[W]",
+      "D02Z03S21[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S22",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S22[W]"
+    ]
+  },
+  {
+    "name": "D02Z03S23",
+    "zone": "ZONENAME",
+    "items": [
+      "RB107"
+    ],
+    "doors": [
+      "D02Z03S23[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S24",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D02Z03S24[E]"
+    ]
+  },
+  {
+    "name": "D03BZ01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D03Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "CO13"
+    ],
+    "doors": [
+      "D03Z01S01[W]",
+      "D03Z01S01[NE]",
+      "D03Z01S01[S]",
+      "D03Z01S01[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z01S02[W]",
+      "D03Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D03Z01S03",
+    "zone": "ZONENAME",
+    "items": [
+      "QI47",
+      "RB22",
+      "RESCUED_CHERUB_16",
+      "Amanecida[D03Z01S03]"
+    ],
+    "doors": [
+      "D03Z01S03[W]",
+      "D03Z01S03[E]",
+      "D03Z01S03[SW]",
+      "D03Z01S03[SE]",
+      "D03Z01S03[-WestL]",
+      "D03Z01S03[-WestR]",
+      "D03Z01S03[-EastL]",
+      "D03Z01S03[-EastR]"
+    ]
+  },
+  {
+    "name": "D03Z01S04",
+    "zone": "ZONENAME",
+    "items": [
+      "QI63"
+    ],
+    "doors": [
+      "D03Z01S04[NW]",
+      "D03Z01S04[E]"
+    ]
+  },
+  {
+    "name": "D03Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z01S05[W]",
+      "D03Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D03Z01S06",
+    "zone": "ZONENAME",
+    "items": [
+      "RB13",
+      "QI14"
+    ],
+    "doors": [
+      "D03Z01S06[W]",
+      "D03Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D03Z02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "CO08",
+      "PR10"
+    ],
+    "doors": [
+      "D03Z02S01[W]",
+      "D03Z02S01[N]",
+      "D03Z02S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z02S02[W]",
+      "D03Z02S02[E]",
+      "D03Z02S02[S]",
+      "D03Z02S02[CherubsL]",
+      "D03Z02S02[CherubsR]"
+    ]
+  },
+  {
+    "name": "D03Z02S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z02S03[W]",
+      "D03Z02S03[E]",
+      "D03Z02S03[N]",
+      "D03Z02S03[SE2]",
+      "D03Z02S03[SW]",
+      "D03Z02S03[SE]",
+      "D03Z02S03[SSL]",
+      "D03Z02S03[SSC]",
+      "D03Z02S03[SSR]"
+    ]
+  },
+  {
+    "name": "D03Z02S04",
+    "zone": "ZONENAME",
+    "items": [
+      "CO33"
+    ],
+    "doors": [
+      "D03Z02S04[NW]",
+      "D03Z02S04[NE]",
+      "D03Z02S04[S]"
+    ]
+  },
+  {
+    "name": "D03Z02S05",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_18"
+    ],
+    "doors": [
+      "D03Z02S05[W]",
+      "D03Z02S05[E]",
+      "D03Z02S05[S]"
+    ]
+  },
+  {
+    "name": "D03Z02S06",
+    "zone": "ZONENAME",
+    "items": [
+      "QI19"
+    ],
+    "doors": [
+      "D03Z02S06[W]",
+      "D03Z02S06[N]"
+    ]
+  },
+  {
+    "name": "D03Z02S07",
+    "zone": "ZONENAME",
+    "items": [
+      "CO07"
+    ],
+    "doors": [
+      "D03Z02S07[W]",
+      "D03Z02S07[E]",
+      "D03Z02S07[N]"
+    ]
+  },
+  {
+    "name": "D03Z02S08",
+    "zone": "ZONENAME",
+    "items": [
+      "QI41"
+    ],
+    "doors": [
+      "D03Z02S08[W]",
+      "D03Z02S08[E]",
+      "D03Z02S08[N]"
+    ]
+  },
+  {
+    "name": "D03Z02S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z02S09[W]",
+      "D03Z02S09[N]",
+      "D03Z02S09[S]",
+      "D03Z02S09[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S10",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_17"
+    ],
+    "doors": [
+      "D03Z02S10[W]",
+      "D03Z02S10[N]",
+      "D03Z02S10[S]",
+      "D03Z02S10[E]",
+      "D03Z02S10[-Cherubs]",
+      "D03Z02S10[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S11",
+    "zone": "ZONENAME",
+    "items": [
+      "HE06",
+      "RESCUED_CHERUB_37"
+    ],
+    "doors": [
+      "D03Z02S11[W]",
+      "D03Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D03Z02S12",
+    "zone": "ZONENAME",
+    "items": [
+      "QI52"
+    ],
+    "doors": [
+      "D03Z02S12[E]",
+      "D03Z02S12[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S13",
+    "zone": "ZONENAME",
+    "items": [
+      "RB28"
+    ],
+    "doors": [
+      "D03Z02S13[E]",
+      "D03Z02S13[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S14",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D03Z02S15",
+    "zone": "ZONENAME",
+    "items": [
+      "QI103"
+    ],
+    "doors": [
+      "D03Z02S15[W]",
+      "D03Z02S15[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S01[W]",
+      "D03Z03S01[S]",
+      "D03Z03S01[NL]",
+      "D03Z03S01[NC]",
+      "D03Z03S01[NR]"
+    ]
+  },
+  {
+    "name": "D03Z03S02",
+    "zone": "ZONENAME",
+    "items": [
+      "QI44"
+    ],
+    "doors": [
+      "D03Z03S02[W]",
+      "D03Z03S02[NE]",
+      "D03Z03S02[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S03[W]",
+      "D03Z03S03[NE]",
+      "D03Z03S03[SE]"
+    ]
+  },
+  {
+    "name": "D03Z03S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S04[NW]",
+      "D03Z03S04[NE]",
+      "D03Z03S04[E]",
+      "D03Z03S04[SW]",
+      "D03Z03S04[SE]",
+      "D03Z03S04[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z03S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S05[NW]",
+      "D03Z03S05[NE]",
+      "D03Z03S05[SW]",
+      "D03Z03S05[SE]"
+    ]
+  },
+  {
+    "name": "D03Z03S06",
+    "zone": "ZONENAME",
+    "items": [
+      "CO12",
+      "RE07",
+      "RESCUED_CHERUB_19"
+    ],
+    "doors": [
+      "D03Z03S06[W]"
+    ]
+  },
+  {
+    "name": "D03Z03S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S07[NW]",
+      "D03Z03S07[NE]",
+      "D03Z03S07[SW]",
+      "D03Z03S07[E]",
+      "D03Z03S07[S]"
+    ]
+  },
+  {
+    "name": "D03Z03S08",
+    "zone": "ZONENAME",
+    "items": [
+      "QI10",
+      "RESCUED_CHERUB_21"
+    ],
+    "doors": [
+      "D03Z03S08[W]",
+      "D03Z03S08[-CherubsL]",
+      "D03Z03S08[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D03Z03S09",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_20"
+    ],
+    "doors": [
+      "D03Z03S09[SW]",
+      "D03Z03S09[N]"
+    ]
+  },
+  {
+    "name": "D03Z03S10",
+    "zone": "ZONENAME",
+    "items": [
+      "QI13",
+      "RB06"
+    ],
+    "doors": [
+      "D03Z03S10[E]",
+      "D03Z03S10[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z03S11",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S11[W]",
+      "D03Z03S11[E]",
+      "D03Z03S11[CherubsL]",
+      "D03Z03S11[CherubsR]"
+    ]
+  },
+  {
+    "name": "D03Z03S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S12[W]",
+      "D03Z03S12[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S13",
+    "zone": "ZONENAME",
+    "items": [
+      "Oil[D03Z03S13]"
+    ],
+    "doors": [
+      "D03Z03S13[W]"
+    ]
+  },
+  {
+    "name": "D03Z03S14",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S14[W]"
+    ]
+  },
+  {
+    "name": "D03Z03S15",
+    "zone": "ZONENAME",
+    "items": [
+      "BS04"
+    ],
+    "doors": [
+      "D03Z03S15[W]",
+      "D03Z03S15[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S16",
+    "zone": "ZONENAME",
+    "items": [
+      "QI39"
+    ],
+    "doors": [
+      "D03Z03S16[W]",
+      "D03Z03S16[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S17",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S17[W]",
+      "D03Z03S17[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S18",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S18[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S19",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D03Z03S19[E]"
+    ]
+  },
+  {
+    "name": "D04BZ02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RE03",
+      "QI54"
+    ],
+    "doors": [
+      "D04BZ02S01[Redento]"
+    ]
+  },
+  {
+    "name": "D04BZ03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D04Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "CO23",
+      "RESCUED_CHERUB_35"
+    ],
+    "doors": [
+      "D04Z01S01[W]",
+      "D04Z01S01[E]",
+      "D04Z01S01[NE]",
+      "D04Z01S01[N]",
+      "D04Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z01S02",
+    "zone": "ZONENAME",
+    "items": [
+      "RB14"
+    ],
+    "doors": [
+      "D04Z01S02[W]",
+      "D04Z01S02[NW]",
+      "D04Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D04Z01S03",
+    "zone": "ZONENAME",
+    "items": [
+      "QI37",
+      "CO39",
+      "RESCUED_CHERUB_28"
+    ],
+    "doors": [
+      "D04Z01S03[W]",
+      "D04Z01S03[E]",
+      "D04Z01S03[S]"
+    ]
+  },
+  {
+    "name": "D04Z01S04",
+    "zone": "ZONENAME",
+    "items": [
+      "RB21",
+      "Amanecida[D04Z01S04]"
+    ],
+    "doors": [
+      "D04Z01S04[W]",
+      "D04Z01S04[E]",
+      "D04Z01S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z01S05[S]",
+      "D04Z01S05[N]",
+      "D04Z01S05[-Cherubs]",
+      "D04Z01S05[CherubsN]"
+    ]
+  },
+  {
+    "name": "D04Z01S06",
+    "zone": "ZONENAME",
+    "items": [
+      "QI102"
+    ],
+    "doors": [
+      "D04Z01S06[S]",
+      "D04Z01S06[E]",
+      "D04Z01S06[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RE402",
+      "RESCUED_CHERUB_30"
+    ],
+    "doors": [
+      "D04Z02S01[W]",
+      "D04Z02S01[N]",
+      "D04Z02S01[E]",
+      "D04Z02S01[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S02",
+    "zone": "ZONENAME",
+    "items": [
+      "CO17"
+    ],
+    "doors": [
+      "D04Z02S02[S]",
+      "D04Z02S02[SE]",
+      "D04Z02S02[NE]",
+      "D04Z02S02[N]"
+    ]
+  },
+  {
+    "name": "D04Z02S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S03[W]",
+      "D04Z02S03[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S04[SW]",
+      "D04Z02S04[SE]",
+      "D04Z02S04[W]",
+      "D04Z02S04[E]",
+      "D04Z02S04[NW]",
+      "D04Z02S04[NE]",
+      "D04Z02S04[N]",
+      "D04Z02S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S05[W]",
+      "D04Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S06",
+    "zone": "ZONENAME",
+    "items": [
+      "CO34"
+    ],
+    "doors": [
+      "D04Z02S06[S]",
+      "D04Z02S06[NW]",
+      "D04Z02S06[N]",
+      "D04Z02S06[NE]",
+      "D04Z02S06[E]",
+      "D04Z02S06[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S07",
+    "zone": "ZONENAME",
+    "items": [
+      "CO35",
+      "RB33"
+    ],
+    "doors": [
+      "D04Z02S07[SW]",
+      "D04Z02S07[W]",
+      "D04Z02S07[N]",
+      "D04Z02S07[NE]",
+      "D04Z02S07[SE]"
+    ]
+  },
+  {
+    "name": "D04Z02S08",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S08[W]",
+      "D04Z02S08[E]",
+      "D04Z02S08[S]",
+      "D04Z02S08[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S09[W]",
+      "D04Z02S09[E]",
+      "D04Z02S09[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S10[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S11",
+    "zone": "ZONENAME",
+    "items": [
+      "CO20",
+      "RESCUED_CHERUB_29"
+    ],
+    "doors": [
+      "D04Z02S11[W]",
+      "D04Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S12",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D04Z02S12]"
+    ],
+    "doors": [
+      "D04Z02S12[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S13[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S14",
+    "zone": "ZONENAME",
+    "items": [
+      "Oil[D04Z02S14]"
+    ],
+    "doors": [
+      "D04Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S15",
+    "zone": "ZONENAME",
+    "items": [
+      "QI60"
+    ],
+    "doors": [
+      "D04Z02S15[W]",
+      "D04Z02S15[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S16",
+    "zone": "ZONENAME",
+    "items": [
+      "HE01"
+    ],
+    "doors": [
+      "D04Z02S16[W]",
+      "D04Z02S16[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S17",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S17[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S19",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S19[W]",
+      "D04Z02S19[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S20",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S20[W]",
+      "D04Z02S20[Redento]"
+    ]
+  },
+  {
+    "name": "D04Z02S21",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S21[W]",
+      "D04Z02S21[SE]",
+      "D04Z02S21[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S22",
+    "zone": "ZONENAME",
+    "items": [
+      "BS05"
+    ],
+    "doors": [
+      "D04Z02S22[W]",
+      "D04Z02S22[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S23",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S23[W]",
+      "D04Z02S23[SE]",
+      "D04Z02S23[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S24",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S24[NW]",
+      "D04Z02S24[SW]",
+      "D04Z02S24[SE]"
+    ]
+  },
+  {
+    "name": "D04Z02S25",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z02S25[W]"
+    ]
+  },
+  {
+    "name": "D04Z03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z03S01[W]",
+      "D04Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D04Z03S02",
+    "zone": "ZONENAME",
+    "items": [
+      "HE201"
+    ],
+    "doors": [
+      "D04Z03S02[W]"
+    ]
+  },
+  {
+    "name": "D04Z04S01",
+    "zone": "ZONENAME",
+    "items": [
+      "PR201"
+    ],
+    "doors": [
+      "D04Z04S01[W]",
+      "D04Z04S01[E]"
+    ]
+  },
+  {
+    "name": "D04Z04S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D04Z04S02[W]"
+    ]
+  },
+  {
+    "name": "D05BZ01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RB301"
+    ],
+    "doors": [
+      "D05BZ01S01[FrontalS]",
+      "D05BZ01S01[FrontalN]"
+    ]
+  },
+  {
+    "name": "D05BZ02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RB12",
+      "QI49",
+      "QI71"
+    ],
+    "doors": [
+      "D05BZ02S01[C]"
+    ]
+  },
+  {
+    "name": "D05Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S01[W]",
+      "D05Z01S01[NW]",
+      "D05Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S02[W]",
+      "D05Z01S02[NW]",
+      "D05Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S03[W]",
+      "D05Z01S03[E]",
+      "D05Z01S03[Frontal]"
+    ]
+  },
+  {
+    "name": "D05Z01S04",
+    "zone": "ZONENAME",
+    "items": [
+      "CO18",
+      "RESCUED_CHERUB_01"
+    ],
+    "doors": [
+      "D05Z01S04[W]",
+      "D05Z01S04[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S05",
+    "zone": "ZONENAME",
+    "items": [
+      "QI50",
+      "CO22"
+    ],
+    "doors": [
+      "D05Z01S05[SW]",
+      "D05Z01S05[E]",
+      "D05Z01S05[NE]"
+    ]
+  },
+  {
+    "name": "D05Z01S06",
+    "zone": "ZONENAME",
+    "items": [
+      "RB31"
+    ],
+    "doors": [
+      "D05Z01S06[W]",
+      "D05Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S07[SW]",
+      "D05Z01S07[NW]",
+      "D05Z01S07[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S08",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S08[W]",
+      "D05Z01S08[NW]",
+      "D05Z01S08[E]",
+      "D05Z01S08[Health]",
+      "D05Z01S08[NE]"
+    ]
+  },
+  {
+    "name": "D05Z01S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S09[W]",
+      "D05Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S10",
+    "zone": "ZONENAME",
+    "items": [
+      "PR07"
+    ],
+    "doors": [
+      "D05Z01S10[W]",
+      "D05Z01S10[NW]",
+      "D05Z01S10[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S11",
+    "zone": "ZONENAME",
+    "items": [
+      "RB203",
+      "CO28",
+      "RB30",
+      "RESCUED_CHERUB_02"
+    ],
+    "doors": [
+      "D05Z01S11[SW]",
+      "D05Z01S11[NW]",
+      "D05Z01S11[NE]",
+      "D05Z01S11[SE]",
+      "D05Z01S11[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S13",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D05Z01S13]"
+    ],
+    "doors": [
+      "D05Z01S13[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S14",
+    "zone": "ZONENAME",
+    "items": [
+      "Lady[D05Z01S14]"
+    ],
+    "doors": [
+      "D05Z01S14[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S15",
+    "zone": "ZONENAME",
+    "items": [
+      "QI62"
+    ],
+    "doors": [
+      "D05Z01S15[W]",
+      "D05Z01S15[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S16",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S16[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S17",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S17[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S18",
+    "zone": "ZONENAME",
+    "items": [
+      "PR15"
+    ],
+    "doors": [
+      "D05Z01S18[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S19",
+    "zone": "ZONENAME",
+    "items": [
+      "Oil[D05Z01S19]"
+    ],
+    "doors": [
+      "D05Z01S19[W]",
+      "D05Z01S19[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S20",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S20[W]",
+      "D05Z01S20[E]",
+      "D05Z01S20[N]"
+    ]
+  },
+  {
+    "name": "D05Z01S21",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_32"
+    ],
+    "doors": [
+      "D05Z01S21[SW]",
+      "D05Z01S21[NW]",
+      "D05Z01S21[NE]",
+      "D05Z01S21[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D05Z01S22",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S22[FrontalN]",
+      "D05Z01S22[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S23",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S23[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S24",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z01S24[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S01[W]",
+      "D05Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S02",
+    "zone": "ZONENAME",
+    "items": [
+      "QI64"
+    ],
+    "doors": [
+      "D05Z02S02[SW]",
+      "D05Z02S02[NW]",
+      "D05Z02S02[SE]",
+      "D05Z02S02[NE]"
+    ]
+  },
+  {
+    "name": "D05Z02S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S03[W]",
+      "D05Z02S03[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S04[W]",
+      "D05Z02S04[E]",
+      "D05Z02S04[C]"
+    ]
+  },
+  {
+    "name": "D05Z02S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S05[W]",
+      "D05Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S06[SW]",
+      "D05Z02S06[NW]",
+      "D05Z02S06[SE]",
+      "D05Z02S06[NE]"
+    ]
+  },
+  {
+    "name": "D05Z02S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S07[W]",
+      "D05Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S08",
+    "zone": "ZONENAME",
+    "items": [
+      "HE07"
+    ],
+    "doors": [
+      "D05Z02S08[W]"
+    ]
+  },
+  {
+    "name": "D05Z02S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S09[W]",
+      "D05Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S10",
+    "zone": "ZONENAME",
+    "items": [
+      "RE05",
+      "PR05"
+    ],
+    "doors": [
+      "D05Z02S10[W]",
+      "D05Z02S10[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S11",
+    "zone": "ZONENAME",
+    "items": [
+      "CO31"
+    ],
+    "doors": [
+      "D05Z02S11[W]",
+      "D05Z02S11[Cherubs]"
+    ]
+  },
+  {
+    "name": "D05Z02S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S12[W]",
+      "D05Z02S12[E]",
+      "D05Z02S12[N]"
+    ]
+  },
+  {
+    "name": "D05Z02S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D05Z02S13[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S14",
+    "zone": "ZONENAME",
+    "items": [
+      "BS06"
+    ],
+    "doors": [
+      "D05Z02S14[W]",
+      "D05Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S15",
+    "zone": "ZONENAME",
+    "items": [
+      "QI104"
+    ],
+    "doors": [
+      "D05Z02S15[S]",
+      "D05Z02S15[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S01[SW]",
+      "D06Z01S01[SE]",
+      "D06Z01S01[W]",
+      "D06Z01S01[E]",
+      "D06Z01S01[NW]",
+      "D06Z01S01[NE]",
+      "D06Z01S01[NNW]",
+      "D06Z01S01[NNE]",
+      "D06Z01S01[N]",
+      "D06Z01S01[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S02[W]",
+      "D06Z01S02[E]",
+      "D06Z01S02[S]"
+    ]
+  },
+  {
+    "name": "D06Z01S03",
+    "zone": "ZONENAME",
+    "items": [
+      "QI02"
+    ],
+    "doors": [
+      "D06Z01S03[W]",
+      "D06Z01S03[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S04[SW]",
+      "D06Z01S04[W]",
+      "D06Z01S04[Health]",
+      "D06Z01S04[NW]",
+      "D06Z01S04[NE]",
+      "D06Z01S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S06",
+    "zone": "ZONENAME",
+    "items": [
+      "QI03"
+    ],
+    "doors": [
+      "D06Z01S06[WW]",
+      "D06Z01S06[E]",
+      "D06Z01S06[W]",
+      "D06Z01S06[EE]"
+    ]
+  },
+  {
+    "name": "D06Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S07[W]",
+      "D06Z01S07[E]",
+      "D06Z01S07[CherubsL]",
+      "D06Z01S07[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S08",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S08[W]",
+      "D06Z01S08[E]",
+      "D06Z01S08[N]"
+    ]
+  },
+  {
+    "name": "D06Z01S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S09[W]",
+      "D06Z01S09[E]",
+      "D06Z01S09[-CherubsL]",
+      "D06Z01S09[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S10[W]",
+      "D06Z01S10[E]",
+      "D06Z01S10[-CherubsL]",
+      "D06Z01S10[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S11",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D06Z01S11]"
+    ],
+    "doors": [
+      "D06Z01S11[W]"
+    ]
+  },
+  {
+    "name": "D06Z01S12",
+    "zone": "ZONENAME",
+    "items": [
+      "CO06",
+      "PR12",
+      "RESCUED_CHERUB_36"
+    ],
+    "doors": [
+      "D06Z01S12[S]",
+      "D06Z01S12[W]",
+      "D06Z01S12[E]",
+      "D06Z01S12[NW]",
+      "D06Z01S12[NE]",
+      "D06Z01S12[NE2]"
+    ]
+  },
+  {
+    "name": "D06Z01S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S13[W]",
+      "D06Z01S13[E]",
+      "D06Z01S13[S]"
+    ]
+  },
+  {
+    "name": "D06Z01S14",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S14[W]",
+      "D06Z01S14[E]",
+      "D06Z01S14[N]"
+    ]
+  },
+  {
+    "name": "D06Z01S15",
+    "zone": "ZONENAME",
+    "items": [
+      "CO40"
+    ],
+    "doors": [
+      "D06Z01S15[SW]",
+      "D06Z01S15[NW]",
+      "D06Z01S15[NE]"
+    ]
+  },
+  {
+    "name": "D06Z01S16",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S16[W]",
+      "D06Z01S16[E]",
+      "D06Z01S16[-CherubsL]",
+      "D06Z01S16[-CherubsR]",
+      "D06Z01S16[CherubsL]",
+      "D06Z01S16[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S17",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S17[W]",
+      "D06Z01S17[E]",
+      "D06Z01S17[-Cherubs]",
+      "D06Z01S17[CherubsL]",
+      "D06Z01S17[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S18",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S18[E]",
+      "D06Z01S18[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S19",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S19[S]",
+      "D06Z01S19[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S20",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S20[W]",
+      "D06Z01S20[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S21",
+    "zone": "ZONENAME",
+    "items": [
+      "QI04"
+    ],
+    "doors": [
+      "D06Z01S21[W]",
+      "D06Z01S21[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S22",
+    "zone": "ZONENAME",
+    "items": [
+      "HE04"
+    ],
+    "doors": [
+      "D06Z01S22[Sword]"
+    ]
+  },
+  {
+    "name": "D06Z01S23",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S23[Sword]",
+      "D06Z01S23[E]",
+      "D06Z01S23[S]",
+      "D06Z01S23[Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S24",
+    "zone": "ZONENAME",
+    "items": [
+      "Lady[D06Z01S24]"
+    ],
+    "doors": [
+      "D06Z01S24[W]"
+    ]
+  },
+  {
+    "name": "D06Z01S25",
+    "zone": "ZONENAME",
+    "items": [
+      "BS16"
+    ],
+    "doors": [
+      "D06Z01S25[W]",
+      "D06Z01S25[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S26",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D06Z01S26[W]"
+    ]
+  },
+  {
+    "name": "D07Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "PR08"
+    ],
+    "doors": [
+      "D07Z01S01[W]",
+      "D07Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D07Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D07Z01S02[W]",
+      "D07Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D07Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D07Z01S03[W]"
+    ]
+  },
+  {
+    "name": "D07Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D07Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D08Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "BS12",
+      "PR09"
+    ],
+    "doors": [
+      "D08Z01S01[W]",
+      "D08Z01S01[E]",
+      "D08Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D08Z01S02",
+    "zone": "ZONENAME",
+    "items": [
+      "HE101"
+    ],
+    "doors": [
+      "D08Z01S02[NE]",
+      "D08Z01S02[SE]",
+      "D08Z01S02[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D08Z02S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D08Z02S01[W]",
+      "D08Z02S01[SE]",
+      "D08Z02S01[E]",
+      "D08Z02S01[N]"
+    ]
+  },
+  {
+    "name": "D08Z02S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D08Z02S02[W]"
+    ]
+  },
+  {
+    "name": "D08Z02S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D08Z02S03[W]",
+      "D08Z02S03[E]",
+      "D08Z02S03[S]"
+    ]
+  },
+  {
+    "name": "D08Z03S01",
+    "zone": "ZONENAME",
+    "items": [
+      "QI105"
+    ],
+    "doors": [
+      "D08Z03S01[W]",
+      "D08Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D08Z03S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D08Z03S02[SW]",
+      "D08Z03S02[NW]"
+    ]
+  },
+  {
+    "name": "D08Z03S03",
+    "zone": "ZONENAME",
+    "items": [
+      "LaudesBossTrigger[30000]"
+    ],
+    "doors": [
+      "D08Z03S03[W]",
+      "D08Z03S03[E]"
+    ]
+  },
+  {
+    "name": "D09BZ01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "CO10",
+      "QI69",
+      "RESCUED_CHERUB_03",
+      "CO24",
+      "RESCUED_CHERUB_34",
+      "CO26",
+      "CO02",
+      "CO37",
+      "RESCUED_CHERUB_04"
+    ],
+    "doors": [
+      "D09BZ01S01[Cell1]",
+      "D09BZ01S01[Cell2]",
+      "D09BZ01S01[Cell3]",
+      "D09BZ01S01[Cell4]",
+      "D09BZ01S01[Cell5]",
+      "D09BZ01S01[Cell6]",
+      "D09BZ01S01[Cell7]",
+      "D09BZ01S01[Cell10]",
+      "D09BZ01S01[Cell11]",
+      "D09BZ01S01[Cell12]",
+      "D09BZ01S01[Cell13]",
+      "D09BZ01S01[Cell14]",
+      "D09BZ01S01[Cell15]",
+      "D09BZ01S01[Cell16]",
+      "D09BZ01S01[Cell17]",
+      "D09BZ01S01[Cell18]",
+      "D09BZ01S01[Cell19]",
+      "D09BZ01S01[Cell20]",
+      "D09BZ01S01[Cell21]",
+      "D09BZ01S01[Cell22]",
+      "D09BZ01S01[Cell23]",
+      "D09BZ01S01[Cell24]"
+    ]
+  },
+  {
+    "name": "D09Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "Amanecida[D09Z01S01]"
+    ],
+    "doors": [
+      "D09Z01S01[W]",
+      "D09Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D09Z01S02",
+    "zone": "ZONENAME",
+    "items": [
+      "QI51",
+      "RB11"
+    ],
+    "doors": [
+      "D09Z01S02[SW]",
+      "D09Z01S02[NW]",
+      "D09Z01S02[N]",
+      "D09Z01S02[Cell1]",
+      "D09Z01S02[Cell6]",
+      "D09Z01S02[Cell5]",
+      "D09Z01S02[Cell4]",
+      "D09Z01S02[Cell2]",
+      "D09Z01S02[Cell3]",
+      "D09Z01S02[Cell22]",
+      "D09Z01S02[Cell23]"
+    ]
+  },
+  {
+    "name": "D09Z01S03",
+    "zone": "ZONENAME",
+    "items": [
+      "BS14"
+    ],
+    "doors": [
+      "D09Z01S03[W]",
+      "D09Z01S03[N]"
+    ]
+  },
+  {
+    "name": "D09Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D09Z01S04[W]",
+      "D09Z01S04[E]",
+      "D09Z01S04[S]"
+    ]
+  },
+  {
+    "name": "D09Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D09Z01S05[W]",
+      "D09Z01S05[SE]",
+      "D09Z01S05[NE]"
+    ]
+  },
+  {
+    "name": "D09Z01S06",
+    "zone": "ZONENAME",
+    "items": [
+      "RESCUED_CHERUB_05"
+    ],
+    "doors": [
+      "D09Z01S06[-E]",
+      "D09Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D09Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D09Z01S07[SW]",
+      "D09Z01S07[SE]",
+      "D09Z01S07[W]",
+      "D09Z01S07[E]",
+      "D09Z01S07[NW]",
+      "D09Z01S07[N]",
+      "D09Z01S07[NE]"
+    ]
+  },
+  {
+    "name": "D09Z01S08",
+    "zone": "ZONENAME",
+    "items": [
+      "QI72"
+    ],
+    "doors": [
+      "D09Z01S08[W]",
+      "D09Z01S08[S]",
+      "D09Z01S08[SE]",
+      "D09Z01S08[NE]",
+      "D09Z01S08[Cell14]",
+      "D09Z01S08[Cell15]",
+      "D09Z01S08[Cell7]",
+      "D09Z01S08[Cell16]",
+      "D09Z01S08[Cell18]",
+      "D09Z01S08[Cell17]"
+    ]
+  },
+  {
+    "name": "D09Z01S09",
+    "zone": "ZONENAME",
+    "items": [
+      "RB16"
+    ],
+    "doors": [
+      "D09Z01S09[SW]",
+      "D09Z01S09[NW]",
+      "D09Z01S09[E]",
+      "D09Z01S09[Cell24]",
+      "D09Z01S09[Cell19]",
+      "D09Z01S09[Cell20]",
+      "D09Z01S09[Cell21]"
+    ]
+  },
+  {
+    "name": "D09Z01S10",
+    "zone": "ZONENAME",
+    "items": [
+      "QI70",
+      "CO27"
+    ],
+    "doors": [
+      "D09Z01S10[W]",
+      "D09Z01S10[Cell13]",
+      "D09Z01S10[Cell12]",
+      "D09Z01S10[Cell10]",
+      "D09Z01S10[Cell11]"
+    ]
+  },
+  {
+    "name": "D09Z01S11",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D09Z01S11[W]",
+      "D09Z01S11[E]",
+      "D09Z01S11[S]"
+    ]
+  },
+  {
+    "name": "D09Z01S12",
+    "zone": "ZONENAME",
+    "items": [
+      "Oil[D09Z01S12]"
+    ],
+    "doors": [
+      "D09Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D09Z01S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D09Z01S13[E]"
+    ]
+  },
+  {
+    "name": "D13Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D14Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D14Z02S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D14Z03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D17BZ01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RE01"
+    ],
+    "doors": [
+      "D17BZ01S01[relic]"
+    ]
+  },
+  {
+    "name": "D17BZ02S01",
+    "zone": "ZONENAME",
+    "items": [
+      "CO25"
+    ],
+    "doors": [
+      "D17BZ02S01[FrontL]",
+      "D17BZ02S01[FrontR]"
+    ]
+  },
+  {
+    "name": "D17BZ03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D17Z01S01",
+    "zone": "ZONENAME",
+    "items": [
+      "RB204",
+      "RESCUED_CHERUB_06"
+    ],
+    "doors": [
+      "D17Z01S01[E]",
+      "D17Z01S01[Cherubs1]",
+      "D17Z01S01[Cherubs2]",
+      "D17Z01S01[Cherubs3]"
+    ]
+  },
+  {
+    "name": "D17Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S02[W]",
+      "D17Z01S02[E]",
+      "D17Z01S02[N]"
+    ]
+  },
+  {
+    "name": "D17Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S03[W]",
+      "D17Z01S03[E]",
+      "D17Z01S03[relic]"
+    ]
+  },
+  {
+    "name": "D17Z01S04",
+    "zone": "ZONENAME",
+    "items": [
+      "RE401"
+    ],
+    "doors": [
+      "D17Z01S04[W]",
+      "D17Z01S04[S]",
+      "D17Z01S04[FrontL]",
+      "D17Z01S04[N]",
+      "D17Z01S04[FrontR]"
+    ]
+  },
+  {
+    "name": "D17Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S05[W]",
+      "D17Z01S05[E]",
+      "D17Z01S05[S]"
+    ]
+  },
+  {
+    "name": "D17Z01S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S07[SW]",
+      "D17Z01S07[SE]",
+      "D17Z01S07[W]",
+      "D17Z01S07[NW]",
+      "D17Z01S07[N]"
+    ]
+  },
+  {
+    "name": "D17Z01S08",
+    "zone": "ZONENAME",
+    "items": [
+      "Sword[D17Z01S08]"
+    ],
+    "doors": [
+      "D17Z01S08[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S10[W]",
+      "D17Z01S10[S]"
+    ]
+  },
+  {
+    "name": "D17Z01S11",
+    "zone": "ZONENAME",
+    "items": [
+      "BS13"
+    ],
+    "doors": [
+      "D17Z01S11[W]",
+      "D17Z01S11[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D17Z01S13[W]",
+      "D17Z01S13[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S14",
+    "zone": "ZONENAME",
+    "items": [
+      "PR203"
+    ],
+    "doors": [
+      "D17Z01S14[W]",
+      "D17Z01S14[E]",
+      "D17Z01S14[-Cherubs1]",
+      "D17Z01S14[-Cherubs2]",
+      "D17Z01S14[-Cherubs3]"
+    ]
+  },
+  {
+    "name": "D17Z01S15",
+    "zone": "ZONENAME",
+    "items": [
+      "QI204",
+      "QI301"
+    ],
+    "doors": [
+      "D17Z01S15[E]"
+    ]
+  },
+  {
+    "name": "D18Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D19Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D20Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S01[W]",
+      "D20Z01S01[E]",
+      "D20Z01S01[S]",
+      "D20Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D20Z01S02",
+    "zone": "ZONENAME",
+    "items": [
+      "RB108"
+    ],
+    "doors": [
+      "D20Z01S02[W]",
+      "D20Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S03[W]",
+      "D20Z01S03[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S04[W]",
+      "D20Z01S04[E]",
+      "D20Z01S04[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S05[W]",
+      "D20Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S06[NE]",
+      "D20Z01S06[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S07[NW]",
+      "D20Z01S07[NE]",
+      "D20Z01S07[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S08",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S08[W]"
+    ]
+  },
+  {
+    "name": "D20Z01S09",
+    "zone": "ZONENAME",
+    "items": [
+      "RB202"
+    ],
+    "doors": [
+      "D20Z01S09[W]",
+      "D20Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S10[W]",
+      "D20Z01S10[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S11",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S11[W]",
+      "D20Z01S11[NW]",
+      "D20Z01S11[NE]",
+      "D20Z01S11[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S13[W]",
+      "D20Z01S13[E]",
+      "D20Z01S13[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S14",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z01S14[S]",
+      "D20Z01S14[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S01[W]",
+      "D20Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S02",
+    "zone": "ZONENAME",
+    "items": [
+      "RB201"
+    ],
+    "doors": [
+      "D20Z02S02[W]"
+    ]
+  },
+  {
+    "name": "D20Z02S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S03[W]",
+      "D20Z02S03[NE]",
+      "D20Z02S03[SE]"
+    ]
+  },
+  {
+    "name": "D20Z02S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S04[W]",
+      "D20Z02S04[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S05[SW]",
+      "D20Z02S05[NW]",
+      "D20Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S06[SW]",
+      "D20Z02S06[SE]",
+      "D20Z02S06[NW]",
+      "D20Z02S06[NE]"
+    ]
+  },
+  {
+    "name": "D20Z02S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S07[W]",
+      "D20Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S08",
+    "zone": "ZONENAME",
+    "items": [
+      "BossTrigger[5000]",
+      "QI202"
+    ],
+    "doors": [
+      "D20Z02S08[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S09[W]",
+      "D20Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S10[W]",
+      "D20Z02S10[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S11",
+    "zone": "ZONENAME",
+    "items": [
+      "PR202"
+    ],
+    "doors": [
+      "D20Z02S11[SW]",
+      "D20Z02S11[NW]",
+      "D20Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": [
+      "D20Z02S12[W]",
+      "D20Z02S12[E]"
+    ]
+  },
+  {
+    "name": "D20Z03S01",
+    "zone": "ZONENAME",
+    "items": [
+      "QI203"
+    ],
+    "doors": [
+      "D20Z03S01[W]"
+    ]
+  },
+  {
+    "name": "D21Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D21Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D21Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D21Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S00",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S08",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S09",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S10",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S11",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S12",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S13",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S14",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S15",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S16",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S17",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S18",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D22Z01S19",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D23Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D23Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D23Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D23Z01S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D23Z01S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D24Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z01S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z01S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z01S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z02S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z02S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z02S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z02S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S03",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S04",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S05",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S06",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z03S07",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z04S01",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D25Z04S02",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "Landing",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "leftovers",
+    "zone": "fake",
+    "items": [
+      "QI106",
+      "RB18",
+      "RB19",
+      "RB25",
+      "RB26",
+      "QI107",
+      "QI108",
+      "QI109",
+      "QI110",
+      "PR101",
+      "QI32",
+      "QI33",
+      "QI34",
+      "QI35",
+      "QI79",
+      "QI80",
+      "QI81",
+      "Arena_NailManager[1000]",
+      "HE10",
+      "Arena_NailManager[3000]",
+      "RB34",
+      "Arena_NailManager[5000]",
+      "RB35",
+      "RB36",
+      "COMBO_1",
+      "COMBO_2",
+      "COMBO_3",
+      "CHARGED_1",
+      "CHARGED_2",
+      "CHARGED_3",
+      "RANGED_1",
+      "RANGED_2",
+      "RANGED_3",
+      "VERTICAL_1",
+      "VERTICAL_2",
+      "VERTICAL_3",
+      "LUNGE_1",
+      "LUNGE_2",
+      "LUNGE_3"
+    ],
+    "doors": []
+  },
+  {
+    "name": "MainMenu",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "Preload",
+    "zone": "ZONENAME",
+    "items": [],
+    "doors": []
+  }
+]
