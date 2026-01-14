@@ -293,7 +293,7 @@
   },
   {
     "name": "D01Z04S01",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 1,
     "items": [],
     "doors": [
@@ -307,7 +307,7 @@
   },
   {
     "name": "D01Z04S02",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 2,
     "items": [],
     "doors": [
@@ -316,7 +316,7 @@
   },
   {
     "name": "D01Z04S03",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 3,
     "items": [],
     "doors": [
@@ -325,7 +325,7 @@
   },
   {
     "name": "D01Z04S05",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 4,
     "items": [
       "CO30"
@@ -337,7 +337,7 @@
   },
   {
     "name": "D01Z04S06",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 5,
     "items": [
       "CO03",
@@ -351,7 +351,7 @@
   },
   {
     "name": "D01Z04S07",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 6,
     "items": [
       "PR01"
@@ -362,7 +362,7 @@
   },
   {
     "name": "D01Z04S08",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 7,
     "items": [
       "RB17"
@@ -373,7 +373,7 @@
   },
   {
     "name": "D01Z04S09",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 8,
     "items": [],
     "doors": [
@@ -384,7 +384,7 @@
   },
   {
     "name": "D01Z04S10",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 9,
     "items": [],
     "doors": [
@@ -395,7 +395,7 @@
   },
   {
     "name": "D01Z04S11",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 10,
     "items": [
       "QI48"
@@ -406,7 +406,7 @@
   },
   {
     "name": "D01Z04S12",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 11,
     "items": [],
     "doors": [
@@ -417,7 +417,7 @@
   },
   {
     "name": "D01Z04S13",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 12,
     "items": [
       "CO21"
@@ -431,7 +431,7 @@
   },
   {
     "name": "D01Z04S14",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 13,
     "items": [
       "CO38"
@@ -442,7 +442,7 @@
   },
   {
     "name": "D01Z04S15",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 14,
     "items": [],
     "doors": [
@@ -456,7 +456,7 @@
   },
   {
     "name": "D01Z04S16",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 15,
     "items": [
       "RESCUED_CHERUB_33"
@@ -468,7 +468,7 @@
   },
   {
     "name": "D01Z04S17",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 16,
     "items": [],
     "doors": [
@@ -477,7 +477,7 @@
   },
   {
     "name": "D01Z04S18",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 17,
     "items": [
       "BS01"
@@ -489,7 +489,7 @@
   },
   {
     "name": "D01Z04S19",
-    "zone": "D01Z04",
+    "zone": "Mercy Dreams",
     "order": 18,
     "items": [
       "QI38"
@@ -501,7 +501,7 @@
   },
   {
     "name": "D01BZ02S01",
-    "zone": "D01BZ0",
+    "zone": "Mercy Dreams",
     "order": 19,
     "items": [
       "QI58",
