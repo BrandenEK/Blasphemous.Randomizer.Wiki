@@ -13,9 +13,11 @@ internal class Core
     {
         Logger.Info("Starting blas1 wiki generator...");
 
+        bool exportForReal = true;
+
         string baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
         string importDir = Path.Combine(baseDir, "data");
-        string exportDir = Path.Combine(baseDir, "publish");
+        string exportDir = Path.Combine(baseDir, exportForReal ? "docs" : "publish");
 
         IImporter importer = args.Length == 2
             ? new LocalImporter(args[0], args[1])
