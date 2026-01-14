@@ -1,33 +1,5 @@
 [
   {
-    "name": "D01BZ01S01",
-    "zone": "D01BZ0",
-    "order": 1,
-    "items": [],
-    "doors": []
-  },
-  {
-    "name": "D01BZ07S01",
-    "zone": "D01BZ0",
-    "order": 6,
-    "items": [],
-    "doors": [
-      "D01BZ07S01[Santos]"
-    ]
-  },
-  {
-    "name": "D01Z06S01",
-    "zone": "D01Z06",
-    "order": 1,
-    "items": [
-      "QI101"
-    ],
-    "doors": [
-      "D01Z06S01[N]",
-      "D01Z06S01[Santos]"
-    ]
-  },
-  {
     "name": "D02BZ02S01",
     "zone": "D02BZ0",
     "order": 1,

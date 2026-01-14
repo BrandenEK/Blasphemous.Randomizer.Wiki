@@ -850,5 +850,26 @@
     "doors": [
       "D01BZ09S01[W]"
     ]
+  },
+  {
+    "name": "D01Z06S01",
+    "zone": "Petrous",
+    "order": 1,
+    "items": [
+      "QI101"
+    ],
+    "doors": [
+      "D01Z06S01[N]",
+      "D01Z06S01[Santos]"
+    ]
+  },
+  {
+    "name": "D01BZ07S01",
+    "zone": "Petrous",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D01BZ07S01[Santos]"
+    ]
   }
 ]
