@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace blas1wikigen;
+namespace blas1wikigen.Models;
 
-public class Door
+public class ItemLocation
 {
     public string Id { get; }
 
@@ -13,11 +13,11 @@ public class Door
     public string Room { get; }
 
     [JsonConstructor]
-    public Door(string id, string logic)
+    public ItemLocation(string id, string name, string logic, string room)
     {
         Id = id;
-        Name = string.Empty;
+        Name = name;
         Logic = LogicUtils.ProcessLogic(logic);
-        Room = id.Substring(0, id.IndexOf('['));
+        Room = room;
     }
 }

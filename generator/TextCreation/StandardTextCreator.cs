@@ -1,4 +1,5 @@
-﻿using System;
+﻿using blas1wikigen.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,7 @@ public class StandardTextCreator : ITextCreator
         sb.AppendLine("---");
         sb.AppendLine();
 
-        // Heading
+        // Header
         sb.AppendLine($"# {room}");
         sb.AppendLine();
 
@@ -33,13 +34,13 @@ public class StandardTextCreator : ITextCreator
         // Items
         sb.AppendLine("## Items");
         sb.AppendLine();
-        sb.AppendLine(CreateItemTable(locations));
+        sb.Append(CreateItemTable(locations));
         sb.AppendLine();
 
         // Doors
         sb.AppendLine("## Doors");
         sb.AppendLine();
-        sb.AppendLine(CreateDoorTable(doors));
+        sb.Append(CreateDoorTable(doors));
         sb.AppendLine();
 
         return sb.ToString();
