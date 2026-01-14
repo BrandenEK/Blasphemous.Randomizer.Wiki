@@ -17,18 +17,7 @@
       "D01BZ02S01[C]"
     ]
   },
-  {
-    "name": "D01BZ04S01",
-    "zone": "ZONENAME",
-    "items": [
-      "RB104",
-      "RB105",
-      "PR11"
-    ],
-    "doors": [
-      "D01BZ04S01[church]"
-    ]
-  },
+  
   {
     "name": "D01BZ05S01",
     "zone": "ZONENAME",
@@ -39,27 +28,7 @@
       "D01BZ05S01[Reward]"
     ]
   },
-  {
-    "name": "D01BZ06S01",
-    "zone": "ZONENAME",
-    "items": [
-      "Undertaker[250]",
-      "Undertaker[500]",
-      "Undertaker[750]",
-      "Undertaker[1000]",
-      "Undertaker[1250]",
-      "Undertaker[1500]",
-      "Undertaker[1750]",
-      "Undertaker[2000]",
-      "Undertaker[2500]",
-      "Undertaker[3000]",
-      "Undertaker[5000]"
-    ],
-    "doors": [
-      "D01BZ06S01[Ossary]",
-      "D01BZ06S01[E]"
-    ]
-  },
+  
   {
     "name": "D01BZ07S01",
     "zone": "ZONENAME",
@@ -68,119 +37,13 @@
       "D01BZ07S01[Santos]"
     ]
   },
-  {
-    "name": "D01BZ08S01",
-    "zone": "ZONENAME",
-    "items": [
-      "QI201"
-    ],
-    "doors": [
-      "D01BZ08S01[W]"
-    ]
-  },
+  
   {
     "name": "D01BZ09S01",
     "zone": "ZONENAME",
     "items": [],
     "doors": [
       "D01BZ09S01[W]"
-    ]
-  },
-  {
-    "name": "D01Z02S01",
-    "zone": "ZONENAME",
-    "order": 1,
-    "items": [
-      "RE02",
-      "RE04",
-      "RE10"
-    ],
-    "doors": [
-      "D01Z02S01[W]",
-      "D01Z02S01[E]"
-    ]
-  },
-  {
-    "name": "D01Z02S02",
-    "zone": "ZONENAME",
-    "items": [
-      "RB01",
-      "QI66",
-      "Tirso[500]",
-      "Tirso[1000]",
-      "Tirso[2000]",
-      "Tirso[5000]",
-      "Tirso[10000]",
-      "QI56"
-    ],
-    "doors": [
-      "D01Z02S02[SW]",
-      "D01Z02S02[SE]",
-      "D01Z02S02[W]",
-      "D01Z02S02[E]",
-      "D01Z02S02[NE]"
-    ]
-  },
-  {
-    "name": "D01Z02S03",
-    "zone": "ZONENAME",
-    "items": [
-      "RESCUED_CHERUB_08",
-      "Lvdovico[500]",
-      "Lvdovico[1000]",
-      "PR03",
-      "QI01"
-    ],
-    "doors": [
-      "D01Z02S03[W]",
-      "D01Z02S03[NW]",
-      "D01Z02S03[E]",
-      "D01Z02S03[church]",
-      "D01Z02S03[Cherubs]"
-    ]
-  },
-  {
-    "name": "D01Z02S04",
-    "zone": "ZONENAME",
-    "items": [
-      "CO43"
-    ],
-    "doors": [
-      "D01Z02S04[W]",
-      "D01Z02S04[E]",
-      "D01Z02S04[Ossary]"
-    ]
-  },
-  {
-    "name": "D01Z02S05",
-    "zone": "ZONENAME",
-    "items": [
-      "CO16"
-    ],
-    "doors": [
-      "D01Z02S05[W]",
-      "D01Z02S05[E]"
-    ]
-  },
-  {
-    "name": "D01Z02S06",
-    "zone": "ZONENAME",
-    "items": [
-      "Sword[D01Z02S06]"
-    ],
-    "doors": [
-      "D01Z02S06[W]",
-      "D01Z02S06[E]"
-    ]
-  },
-  {
-    "name": "D01Z02S07",
-    "zone": "ZONENAME",
-    "items": [
-      "QI65"
-    ],
-    "doors": [
-      "D01Z02S07[E]"
     ]
   },
   {
