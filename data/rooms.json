@@ -197,5 +197,679 @@
     "doors": [
       "D01BZ08S01[W]"
     ]
+  },
+  {
+    "name": "D01Z03S01",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 1,
+    "items": [
+      "RB04"
+    ],
+    "doors": [
+      "D01Z03S01[W]",
+      "D01Z03S01[E]",
+      "D01Z03S01[SE]"
+    ]
+  },
+  {
+    "name": "D01Z03S02",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 2,
+    "items": [
+      "CO14"
+    ],
+    "doors": [
+      "D01Z03S02[W]",
+      "D01Z03S02[SW]",
+      "D01Z03S02[E]",
+      "D01Z03S02[S]"
+    ]
+  },
+  {
+    "name": "D01Z03S03",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 3,
+    "items": [
+      "CO36",
+      "RESCUED_CHERUB_10"
+    ],
+    "doors": [
+      "D01Z03S03[W]",
+      "D01Z03S03[E]",
+      "D01Z03S03[Cherubs]",
+      "D01Z03S03[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z03S04",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D01Z03S04[SW]",
+      "D01Z03S04[W]",
+      "D01Z03S04[NW]",
+      "D01Z03S04[SE]",
+      "D01Z03S04[E]"
+    ]
+  },
+  {
+    "name": "D01Z03S05",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 5,
+    "items": [
+      "QI06"
+    ],
+    "doors": [
+      "D01Z03S05[W]",
+      "D01Z03S05[E]",
+      "D01Z03S05[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z03S06",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 6,
+    "items": [
+      "RB20"
+    ],
+    "doors": [
+      "D01Z03S06[W]",
+      "D01Z03S06[E]"
+    ]
+  },
+  {
+    "name": "D01Z03S07",
+    "zone": "Wasteland of the Buried Churches",
+    "order": 7,
+    "items": [
+      "HE02",
+      "RESCUED_CHERUB_38"
+    ],
+    "doors": [
+      "D01Z03S07[E]",
+      "D01Z03S07[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z04S01",
+    "zone": "Mercy Dreams",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D01Z04S01[NW]",
+      "D01Z04S01[NE]",
+      "D01Z04S01[W]",
+      "D01Z04S01[E]",
+      "D01Z04S01[SE]",
+      "D01Z04S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z04S02",
+    "zone": "Mercy Dreams",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D01Z04S02[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S03",
+    "zone": "Mercy Dreams",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D01Z04S03[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S05",
+    "zone": "Mercy Dreams",
+    "order": 4,
+    "items": [
+      "CO30"
+    ],
+    "doors": [
+      "D01Z04S05[NW]",
+      "D01Z04S05[SW]"
+    ]
+  },
+  {
+    "name": "D01Z04S06",
+    "zone": "Mercy Dreams",
+    "order": 5,
+    "items": [
+      "CO03",
+      "RESCUED_CHERUB_09"
+    ],
+    "doors": [
+      "D01Z04S06[E]",
+      "D01Z04S06[NW]",
+      "D01Z04S06[SW]"
+    ]
+  },
+  {
+    "name": "D01Z04S07",
+    "zone": "Mercy Dreams",
+    "order": 6,
+    "items": [
+      "PR01"
+    ],
+    "doors": [
+      "D01Z04S07[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S08",
+    "zone": "Mercy Dreams",
+    "order": 7,
+    "items": [
+      "RB17"
+    ],
+    "doors": [
+      "D01Z04S08[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S09",
+    "zone": "Mercy Dreams",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D01Z04S09[W]",
+      "D01Z04S09[E]",
+      "D01Z04S09[C]"
+    ]
+  },
+  {
+    "name": "D01Z04S10",
+    "zone": "Mercy Dreams",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D01Z04S10[NW]",
+      "D01Z04S10[SW]",
+      "D01Z04S10[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S11",
+    "zone": "Mercy Dreams",
+    "order": 10,
+    "items": [
+      "QI48"
+    ],
+    "doors": [
+      "D01Z04S11[NE]"
+    ]
+  },
+  {
+    "name": "D01Z04S12",
+    "zone": "Mercy Dreams",
+    "order": 11,
+    "items": [],
+    "doors": [
+      "D01Z04S12[NW]",
+      "D01Z04S12[W]",
+      "D01Z04S12[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S13",
+    "zone": "Mercy Dreams",
+    "order": 12,
+    "items": [
+      "CO21"
+    ],
+    "doors": [
+      "D01Z04S13[NW]",
+      "D01Z04S13[NE]",
+      "D01Z04S13[SW]",
+      "D01Z04S13[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S14",
+    "zone": "Mercy Dreams",
+    "order": 13,
+    "items": [
+      "CO38"
+    ],
+    "doors": [
+      "D01Z04S14[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S15",
+    "zone": "Mercy Dreams",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D01Z04S15[N]",
+      "D01Z04S15[NE]",
+      "D01Z04S15[W]",
+      "D01Z04S15[E]",
+      "D01Z04S15[SW]",
+      "D01Z04S15[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S16",
+    "zone": "Mercy Dreams",
+    "order": 15,
+    "items": [
+      "RESCUED_CHERUB_33"
+    ],
+    "doors": [
+      "D01Z04S16[W]",
+      "D01Z04S16[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S17",
+    "zone": "Mercy Dreams",
+    "order": 16,
+    "items": [],
+    "doors": [
+      "D01Z04S17[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S18",
+    "zone": "Mercy Dreams",
+    "order": 17,
+    "items": [
+      "BS01"
+    ],
+    "doors": [
+      "D01Z04S18[W]",
+      "D01Z04S18[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S19",
+    "zone": "Mercy Dreams",
+    "order": 18,
+    "items": [
+      "QI38"
+    ],
+    "doors": [
+      "D01Z04S19[W]",
+      "D01Z04S19[E]"
+    ]
+  },
+  {
+    "name": "D01BZ02S01",
+    "zone": "Mercy Dreams",
+    "order": 19,
+    "items": [
+      "QI58",
+      "RB05",
+      "RB09"
+    ],
+    "doors": [
+      "D01BZ02S01[C]"
+    ]
+  },
+  {
+    "name": "D01Z05S01",
+    "zone": "Desecrated Cistern",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D01Z05S01[N]",
+      "D01Z05S01[W]",
+      "D01Z05S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S02",
+    "zone": "Desecrated Cistern",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D01Z05S02[N]",
+      "D01Z05S02[W]",
+      "D01Z05S02[E]",
+      "D01Z05S02[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S03",
+    "zone": "Desecrated Cistern",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D01Z05S03[NW]",
+      "D01Z05S03[NE]",
+      "D01Z05S03[W]",
+      "D01Z05S03[E]",
+      "D01Z05S03[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S04",
+    "zone": "Desecrated Cistern",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D01Z05S04[W]",
+      "D01Z05S04[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S05",
+    "zone": "Desecrated Cistern",
+    "order": 5,
+    "items": [
+      "CO09",
+      "QI67"
+    ],
+    "doors": [
+      "D01Z05S05[N]",
+      "D01Z05S05[NW]",
+      "D01Z05S05[NE]",
+      "D01Z05S05[SW]",
+      "D01Z05S05[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S06",
+    "zone": "Desecrated Cistern",
+    "order": 6,
+    "items": [
+      "PR16",
+      "RESCUED_CHERUB_13"
+    ],
+    "doors": [
+      "D01Z05S06[W]",
+      "D01Z05S06[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z05S07",
+    "zone": "Desecrated Cistern",
+    "order": 7,
+    "items": [
+      "Oil[D01Z05S07]"
+    ],
+    "doors": [
+      "D01Z05S07[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S08",
+    "zone": "Desecrated Cistern",
+    "order": 8,
+    "items": [
+      "QI12",
+      "RESCUED_CHERUB_14"
+    ],
+    "doors": [
+      "D01Z05S08[W]"
+    ]
+  },
+  {
+    "name": "D01Z05S09",
+    "zone": "Desecrated Cistern",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D01Z05S09[NW]",
+      "D01Z05S09[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S10",
+    "zone": "Desecrated Cistern",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D01Z05S10[W]",
+      "D01Z05S10[NE]",
+      "D01Z05S10[SE]",
+      "D01Z05S10[S]"
+    ]
+  },
+  {
+    "name": "D01Z05S11",
+    "zone": "Desecrated Cistern",
+    "order": 11,
+    "items": [
+      "QI45"
+    ],
+    "doors": [
+      "D01Z05S11[W]",
+      "D01Z05S11[Cherubs]"
+    ]
+  },
+  {
+    "name": "D01Z05S12",
+    "zone": "Desecrated Cistern",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D01Z05S12[W]",
+      "D01Z05S12[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S13",
+    "zone": "Desecrated Cistern",
+    "order": 13,
+    "items": [
+      "RESCUED_CHERUB_12"
+    ],
+    "doors": [
+      "D01Z05S13[SW]",
+      "D01Z05S13[N]",
+      "D01Z05S13[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S14",
+    "zone": "Desecrated Cistern",
+    "order": 14,
+    "items": [
+      "RESCUED_CHERUB_11"
+    ],
+    "doors": [
+      "D01Z05S14[W]",
+      "D01Z05S14[N]",
+      "D01Z05S14[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S15",
+    "zone": "Desecrated Cistern",
+    "order": 15,
+    "items": [
+      "CO41"
+    ],
+    "doors": [
+      "D01Z05S15[W]",
+      "D01Z05S15[SW]",
+      "D01Z05S15[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S16",
+    "zone": "Desecrated Cistern",
+    "order": 16,
+    "items": [],
+    "doors": [
+      "D01Z05S16[N]",
+      "D01Z05S16[SW]",
+      "D01Z05S16[SE]"
+    ]
+  },
+  {
+    "name": "D01Z05S17",
+    "zone": "Desecrated Cistern",
+    "order": 17,
+    "items": [
+      "CO32"
+    ],
+    "doors": [
+      "D01Z05S17[W]",
+      "D01Z05S17[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S18",
+    "zone": "Desecrated Cistern",
+    "order": 18,
+    "items": [],
+    "doors": [
+      "D01Z05S18[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S19",
+    "zone": "Desecrated Cistern",
+    "order": 19,
+    "items": [],
+    "doors": [
+      "D01Z05S19[W]",
+      "D01Z05S19[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S20",
+    "zone": "Desecrated Cistern",
+    "order": 20,
+    "items": [
+      "RESCUED_CHERUB_15"
+    ],
+    "doors": [
+      "D01Z05S20[W]",
+      "D01Z05S20[N]"
+    ]
+  },
+  {
+    "name": "D01Z05S21",
+    "zone": "Desecrated Cistern",
+    "order": 21,
+    "items": [],
+    "doors": [
+      "D01Z05S21[W]",
+      "D01Z05S21[E]",
+      "D01Z05S21[Reward]"
+    ]
+  },
+  {
+    "name": "D01Z05S22",
+    "zone": "Desecrated Cistern",
+    "order": 22,
+    "items": [
+      "Lady[D01Z05S22]"
+    ],
+    "doors": [
+      "D01Z05S22[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S23",
+    "zone": "Desecrated Cistern",
+    "order": 23,
+    "items": [
+      "QI75"
+    ],
+    "doors": [
+      "D01Z05S23[W]",
+      "D01Z05S23[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S24",
+    "zone": "Desecrated Cistern",
+    "order": 24,
+    "items": [
+      "Sword[D01Z05S24]"
+    ],
+    "doors": [
+      "D01Z05S24[W]",
+      "D01Z05S24[E]"
+    ]
+  },
+  {
+    "name": "D01Z05S25",
+    "zone": "Desecrated Cistern",
+    "order": 25,
+    "items": [
+      "CO44",
+      "RESCUED_CHERUB_22"
+    ],
+    "doors": [
+      "D01Z05S25[NE]",
+      "D01Z05S25[W]",
+      "D01Z05S25[E]",
+      "D01Z05S25[SW]",
+      "D01Z05S25[SE]",
+      "D01Z05S25[EchoesW]",
+      "D01Z05S25[EchoesE]"
+    ]
+  },
+  {
+    "name": "D01Z05S26",
+    "zone": "Desecrated Cistern",
+    "order": 26,
+    "items": [
+      "Lady[D01Z05S26]"
+    ],
+    "doors": [
+      "D01Z05S26[W]"
+    ]
+  },
+  {
+    "name": "D01Z05S27",
+    "zone": "Desecrated Cistern",
+    "order": 27,
+    "items": [],
+    "doors": [
+      "D01Z05S27[E]"
+    ]
+  },
+  {
+    "name": "D01BZ05S01",
+    "zone": "Desecrated Cistern",
+    "order": 28,
+    "items": [
+      "RB03"
+    ],
+    "doors": [
+      "D01BZ05S01[Reward]"
+    ]
+  },
+  {
+    "name": "D01BZ09S01",
+    "zone": "Desecrated Cistern",
+    "order": 29,
+    "items": [],
+    "doors": [
+      "D01BZ09S01[W]"
+    ]
+  },
+  {
+    "name": "D01Z06S01",
+    "zone": "Petrous",
+    "order": 1,
+    "items": [
+      "QI101"
+    ],
+    "doors": [
+      "D01Z06S01[N]",
+      "D01Z06S01[Santos]"
+    ]
+  },
+  {
+    "name": "D01BZ07S01",
+    "zone": "Petrous",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D01BZ07S01[Santos]"
+    ]
   }
 ]

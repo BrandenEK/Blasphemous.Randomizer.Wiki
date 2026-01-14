@@ -6,5 +6,21 @@
   {
     "name": "Albero",
     "order": 2
+  },
+  {
+    "name": "Wasteland of the Buried Churches",
+    "order": 3
+  },
+  {
+    "name": "Mercy Dreams",
+    "order": 4
+  },
+  {
+    "name": "Desecrated Cistern",
+    "order": 5
+  },
+  {
+    "name": "Petrous",
+    "order": 6
   }
 ]
