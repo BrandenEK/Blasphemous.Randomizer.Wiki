@@ -12,7 +12,7 @@ namespace blas1wikigen;
 
 public class Generator(IImporter importer, IExporter exporter, ITextCreator textCreator)
 {
-    public async Task Run(string importDir, string exportDir)
+    public async Task Run(string dataDir, string imageDir, string exportDir)
     {
         //IEnumerable<Door> doors = await importer.LoadDoors();
         //IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
@@ -24,10 +24,10 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         //    exporter.Export(room, text);
         //}
 
-        await NewStuff(importDir, exportDir);
+        await NewStuff(dataDir, imageDir, exportDir);
     }
 
-    private async Task NewStuff(string importDir, string exportDir)
+    private async Task NewStuff(string dataDir, string imageDir, string exportDir)
     {
         // Import data
         var internetImporter = new InternetImporter();
@@ -37,12 +37,12 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         // TODO - Change these to async as well
 
         var newImporter = new NewImporter();
-        IEnumerable<Zone> zones = newImporter.Import<Zone>(Path.Combine(importDir, "zones.json"));
-        IEnumerable<Room> rooms = newImporter.Import<Room>(Path.Combine(importDir, "rooms.json"));
+        IEnumerable<Zone> zones = newImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
+        IEnumerable<Room> rooms = newImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
 
         // Setup zone things
         var zoneCreator = new ZoneCreator();
-        var zoneExporter = new TextExporter(Path.Combine(exportDir, "zones"));
+        var zoneExporter = new InfoExporter(Path.Combine(exportDir, "zones"));
 
         // Create and export zone files
         foreach (Zone zone in zones)
@@ -53,15 +53,17 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
 
         // Setup room things
         var roomCreator = new RoomCreator(locations, doors);
-        var roomExporter = new TextExporter(Path.Combine(exportDir, "rooms"));
+        var roomExporter = new InfoExporter(Path.Combine(exportDir, "rooms"));
+        var roomLayoutExporter = new LayoutExporter(Path.Combine(imageDir, "rooms"), Path.Combine(exportDir, "rooms"));
         
         // Create and export room files
         foreach (Room room in rooms)
         {
             string text = roomCreator.Create(room);
             roomExporter.Export(room.Name, text);
+            roomLayoutExporter.Export(room.Name);
         }
     }
 
-    public const int GENERATOR_VERSION = 1;
+    public const int GENERATOR_VERSION = 2;
 }
