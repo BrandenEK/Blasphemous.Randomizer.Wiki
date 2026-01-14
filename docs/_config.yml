@@ -10,7 +10,6 @@ description: Wiki information for the Blasphemous Randomizer
 color_scheme: dark
 nav_enabled: true
 logo: "https://github.com/BrandenEK/Blasphemous.Randomizer/raw/main/resources/data/Randomizer/logo.png"
-favicon_ico: "/assets/images/favicon.ico"
 
 # Footer
 last_edit_timestamp: true
