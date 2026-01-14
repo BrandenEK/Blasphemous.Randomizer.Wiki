@@ -24,8 +24,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Run Generator
+        run: |
+          cd generator
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+          dotnet run
+          cd ..
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
