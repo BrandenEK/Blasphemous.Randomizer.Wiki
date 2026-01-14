@@ -23,7 +23,7 @@ public class StandardTextCreator : ITextCreator
         sb.AppendLine("---");
         sb.AppendLine();
 
-        // Heading
+        // Header
         sb.AppendLine($"# {room}");
         sb.AppendLine();
 

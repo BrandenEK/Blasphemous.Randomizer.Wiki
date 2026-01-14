@@ -28,9 +28,13 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         var zoneImporter = new NewImporter<Zone>(Path.Combine(baseDir, "data", "zones.json"));
         IEnumerable<Zone> zones = zoneImporter.Import();
 
+        var zoneCreator = new ZoneCreator();
+
         foreach (Zone zone in zones)
         {
             Logger.Warn(zone.Name);
+            string text = zoneCreator.Create(zone);
+            Logger.Error(text);
         }
     }
 
