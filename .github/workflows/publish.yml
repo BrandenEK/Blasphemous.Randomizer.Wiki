@@ -21,10 +21,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Build Project
+        run: |
+          cd generator
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+      - name: Run Application
+        run: dotnet run
+
+  build:
+    runs-on: ubuntu-latest
+    needs: generate
+    steps:
+      - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
