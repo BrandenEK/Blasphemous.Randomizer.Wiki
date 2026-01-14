@@ -13,12 +13,16 @@ internal class Core
     {
         Logger.Info("Starting blas1 wiki generator...");
 
-        bool exportForReal = true;
+        if (args.Length < 1)
+        {
+            Logger.Fatal("Failed to pass output directory as argument");
+            return;
+        }
 
         string baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
         string dataDir = Path.Combine(baseDir, "data");
         string imageDir = Path.Combine(baseDir, "images");
-        string exportDir = Path.Combine(baseDir, exportForReal ? "docs" : "publish");
+        string exportDir = Path.Combine(baseDir, args[0]);
 
         IImporter importer = args.Length == 2
             ? new LocalImporter(args[0], args[1])
