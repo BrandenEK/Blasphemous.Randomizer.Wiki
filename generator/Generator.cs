@@ -22,11 +22,6 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         //    exporter.Export(room, text);
         //}
 
-        await NewStuff(dataDir, imageDir, exportDir);
-    }
-
-    private async Task NewStuff(string dataDir, string imageDir, string exportDir)
-    {
         // Import data
         var internetImporter = new InternetImporter();
         IEnumerable<Door> doors = await internetImporter.Import<Door>("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json");
@@ -53,7 +48,7 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         var roomCreator = new RoomCreator(locations, doors);
         var roomExporter = new InfoExporter(Path.Combine(exportDir, "rooms"));
         var roomLayoutExporter = new LayoutExporter(Path.Combine(imageDir, "rooms"), Path.Combine(exportDir, "rooms"));
-        
+
         // Create and export room files
         foreach (Room room in rooms)
         {
