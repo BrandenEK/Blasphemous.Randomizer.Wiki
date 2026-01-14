@@ -290,5 +290,226 @@
       "D01Z03S07[E]",
       "D01Z03S07[-Cherubs]"
     ]
+  },
+  {
+    "name": "D01Z04S01",
+    "zone": "D01Z04",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D01Z04S01[NW]",
+      "D01Z04S01[NE]",
+      "D01Z04S01[W]",
+      "D01Z04S01[E]",
+      "D01Z04S01[SE]",
+      "D01Z04S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z04S02",
+    "zone": "D01Z04",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D01Z04S02[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S03",
+    "zone": "D01Z04",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D01Z04S03[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S05",
+    "zone": "D01Z04",
+    "order": 4,
+    "items": [
+      "CO30"
+    ],
+    "doors": [
+      "D01Z04S05[NW]",
+      "D01Z04S05[SW]"
+    ]
+  },
+  {
+    "name": "D01Z04S06",
+    "zone": "D01Z04",
+    "order": 5,
+    "items": [
+      "CO03",
+      "RESCUED_CHERUB_09"
+    ],
+    "doors": [
+      "D01Z04S06[E]",
+      "D01Z04S06[NW]",
+      "D01Z04S06[SW]"
+    ]
+  },
+  {
+    "name": "D01Z04S07",
+    "zone": "D01Z04",
+    "order": 6,
+    "items": [
+      "PR01"
+    ],
+    "doors": [
+      "D01Z04S07[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S08",
+    "zone": "D01Z04",
+    "order": 7,
+    "items": [
+      "RB17"
+    ],
+    "doors": [
+      "D01Z04S08[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S09",
+    "zone": "D01Z04",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D01Z04S09[W]",
+      "D01Z04S09[E]",
+      "D01Z04S09[C]"
+    ]
+  },
+  {
+    "name": "D01Z04S10",
+    "zone": "D01Z04",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D01Z04S10[NW]",
+      "D01Z04S10[SW]",
+      "D01Z04S10[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S11",
+    "zone": "D01Z04",
+    "order": 10,
+    "items": [
+      "QI48"
+    ],
+    "doors": [
+      "D01Z04S11[NE]"
+    ]
+  },
+  {
+    "name": "D01Z04S12",
+    "zone": "D01Z04",
+    "order": 11,
+    "items": [],
+    "doors": [
+      "D01Z04S12[NW]",
+      "D01Z04S12[W]",
+      "D01Z04S12[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S13",
+    "zone": "D01Z04",
+    "order": 12,
+    "items": [
+      "CO21"
+    ],
+    "doors": [
+      "D01Z04S13[NW]",
+      "D01Z04S13[NE]",
+      "D01Z04S13[SW]",
+      "D01Z04S13[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S14",
+    "zone": "D01Z04",
+    "order": 13,
+    "items": [
+      "CO38"
+    ],
+    "doors": [
+      "D01Z04S14[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S15",
+    "zone": "D01Z04",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D01Z04S15[N]",
+      "D01Z04S15[NE]",
+      "D01Z04S15[W]",
+      "D01Z04S15[E]",
+      "D01Z04S15[SW]",
+      "D01Z04S15[SE]"
+    ]
+  },
+  {
+    "name": "D01Z04S16",
+    "zone": "D01Z04",
+    "order": 15,
+    "items": [
+      "RESCUED_CHERUB_33"
+    ],
+    "doors": [
+      "D01Z04S16[W]",
+      "D01Z04S16[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S17",
+    "zone": "D01Z04",
+    "order": 16,
+    "items": [],
+    "doors": [
+      "D01Z04S17[W]"
+    ]
+  },
+  {
+    "name": "D01Z04S18",
+    "zone": "D01Z04",
+    "order": 17,
+    "items": [
+      "BS01"
+    ],
+    "doors": [
+      "D01Z04S18[W]",
+      "D01Z04S18[E]"
+    ]
+  },
+  {
+    "name": "D01Z04S19",
+    "zone": "D01Z04",
+    "order": 18,
+    "items": [
+      "QI38"
+    ],
+    "doors": [
+      "D01Z04S19[W]",
+      "D01Z04S19[E]"
+    ]
+  },
+  {
+    "name": "D01BZ02S01",
+    "zone": "D01BZ0",
+    "order": 19,
+    "items": [
+      "QI58",
+      "RB05",
+      "RB09"
+    ],
+    "doors": [
+      "D01BZ02S01[C]"
+    ]
   }
 ]
