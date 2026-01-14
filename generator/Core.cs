@@ -13,10 +13,11 @@ internal class Core
     {
         Logger.Info("Starting blas1 wiki generator...");
 
-        bool exportForReal = true;
+        bool exportForReal = false;
 
         string baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
-        string importDir = Path.Combine(baseDir, "data");
+        string dataDir = Path.Combine(baseDir, "data");
+        string imageDir = Path.Combine(baseDir, "images");
         string exportDir = Path.Combine(baseDir, exportForReal ? "docs" : "publish");
 
         IImporter importer = args.Length == 2
@@ -26,6 +27,6 @@ internal class Core
         ITextCreator textCreator = new StandardTextCreator();
 
         var generator = new Generator(importer, exporter, textCreator);
-        await generator.Run(importDir, exportDir);
+        await generator.Run(dataDir, imageDir, exportDir);
     }
 }
