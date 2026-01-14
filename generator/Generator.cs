@@ -2,7 +2,9 @@
 using blas1wikigen.Import;
 using blas1wikigen.Models;
 using blas1wikigen.TextCreation;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -16,10 +18,19 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         IEnumerable<ItemLocation> locations = await importer.LoadItemLocations();
         var rooms = doors.Select(x => x.Room).Concat(locations.Select(x => x.Room)).Distinct().OrderBy(x => x);
 
-        foreach (string room in rooms.Where(x => x.StartsWith("D01Z01")))
+        //foreach (string room in rooms.Where(x => x.StartsWith("D01Z01")))
+        //{
+        //    string text = textCreator.Create(room, doors.Where(x => x.Room == room), locations.Where(x => x.Room == room));
+        //    exporter.Export(room, text);
+        //}
+
+        string baseDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..");
+        var zoneImporter = new NewImporter<Zone>(Path.Combine(baseDir, "data", "zones.json"));
+        IEnumerable<Zone> zones = zoneImporter.Import();
+
+        foreach (Zone zone in zones)
         {
-            string text = textCreator.Create(room, doors.Where(x => x.Room == room), locations.Where(x => x.Room == room));
-            exporter.Export(room, text);
+            Logger.Warn(zone.Name);
         }
     }
 

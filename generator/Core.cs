@@ -13,10 +13,12 @@ internal class Core
     {
         Logger.Info("Starting blas1 wiki generator...");
 
+        string baseDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..");
+
         IImporter importer = args.Length == 2
             ? new LocalImporter(args[0], args[1])
             : new GithubImporter("https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/doors.json", "https://raw.githubusercontent.com/BrandenEK/Blasphemous.Randomizer/main/resources/data/Randomizer/locations_items.json");
-        IExporter exporter = new DocsExporter(Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "docs", "rooms")));
+        IExporter exporter = new DocsExporter(Path.GetFullPath(Path.Combine(baseDir, "docs", "rooms")));
         ITextCreator textCreator = new StandardTextCreator();
 
         var generator = new Generator(importer, exporter, textCreator);
