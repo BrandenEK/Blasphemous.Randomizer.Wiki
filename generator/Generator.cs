@@ -30,8 +30,8 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         // TODO - Change these to async as well
 
         var newImporter = new NewImporter();
-        IEnumerable<Zone> zones = newImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
-        IEnumerable<Room> rooms = newImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
+        IEnumerable<Zone> zones = await newImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
+        IEnumerable<Room> rooms = await newImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
 
         // Setup zone things
         var zoneCreator = new ZoneCreator();
