@@ -34,25 +34,25 @@ public class Generator(IImporter importer, IExporter exporter, ITextCreator text
         // Setup zone things
         IEnumerable<Zone> zones = newImporter.Import<Zone>(Path.Combine(importDir, "zones.json"));
         var zoneCreator = new ZoneCreator();
-        var zoneExporter = new ZoneExporter(Path.Combine(exportDir, "zones"));
+        var zoneExporter = new TextExporter(Path.Combine(exportDir, "zones"));
 
         // Create and export zone files
         foreach (Zone zone in zones)
         {
             string text = zoneCreator.Create(zone);
-            zoneExporter.Export(zone, text);
+            zoneExporter.Export(zone.Name, text);
         }
 
         // Setup room things
         IEnumerable<Room> rooms = newImporter.Import<Room>(Path.Combine(importDir, "rooms.json"));
-        //var roomCreator = new 
-
+        var roomCreator = new RoomCreator();
+        var roomExporter = new TextExporter(Path.Combine(exportDir, "rooms"));
         
         // Create and export room files
         foreach (Room room in rooms)
         {
             string text = "";
-
+            roomExporter.Export(room.Name, text);
         }
     }
 
