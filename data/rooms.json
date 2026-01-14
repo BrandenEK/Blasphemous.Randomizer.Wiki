@@ -1,0 +1,48 @@
+[
+  {
+    "name": "D01Z01S01",
+    "zone": "The Holy Line",
+    "items": [],
+    "doors": [
+      "D01Z01S01[W]",
+      "D01Z01S01[E]",
+      "D01Z01S01[S]"
+    ]
+  },
+  {
+    "name": "D01Z01S02",
+    "zone": "The Holy Line",
+    "items": [
+      "PR14",
+      "RB07"
+    ],
+    "doors": [
+      "D01Z01S02[W]",
+      "D01Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D01Z01S03",
+    "zone": "The Holy Line",
+    "items": [
+      "CO04",
+      "QI55",
+      "RESCUED_CHERUB_07"
+    ],
+    "doors": [
+      "D01Z01S03[W]",
+      "D01Z01S03[E]"
+    ]
+  },
+  {
+    "name": "D01Z01S07",
+    "zone": "The Holy Line",
+    "items": [
+      "QI31"
+    ],
+    "doors": [
+      "D01Z01S07[W]",
+      "D01Z01S07[E]"
+    ]
+  }
+]
