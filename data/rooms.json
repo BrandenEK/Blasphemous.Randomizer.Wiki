@@ -2,6 +2,7 @@
   {
     "name": "D01Z01S01",
     "zone": "The Holy Line",
+    "order": 1,
     "items": [],
     "doors": [
       "D01Z01S01[W]",
@@ -12,6 +13,7 @@
   {
     "name": "D01Z01S02",
     "zone": "The Holy Line",
+    "order": 2,
     "items": [
       "PR14",
       "RB07"
@@ -24,6 +26,7 @@
   {
     "name": "D01Z01S03",
     "zone": "The Holy Line",
+    "order": 3,
     "items": [
       "CO04",
       "QI55",
@@ -37,6 +40,7 @@
   {
     "name": "D01Z01S07",
     "zone": "The Holy Line",
+    "order": 4,
     "items": [
       "QI31"
     ],

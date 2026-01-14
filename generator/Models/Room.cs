@@ -15,11 +15,11 @@ public class Room
     public string[] Doors { get; }
 
     [JsonConstructor]
-    public Room(string name, string zone, string[] items, string[] doors)
+    public Room(string name, string zone, int order, string[] items, string[] doors)
     {
         Name = name;
         Zone = zone;
-        Order = 1;
+        Order = order;
         Items = items;
         Doors = doors;
     }
