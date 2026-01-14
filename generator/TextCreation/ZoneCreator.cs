@@ -15,7 +15,7 @@ public class ZoneCreator : ITextCreator<Zone>
         sb.AppendLine("---");
         sb.AppendLine($"title: {zone.Name}");
         sb.AppendLine($"last_modified_date: {DateTime.Now.ToString("yyyy-MM-dd")}");
-        sb.AppendLine($"generator_version: {Generator.GENERATOR_VERSION}");
+        sb.AppendLine($"generator_version: {Version.GENERATOR_VERSION}");
         sb.AppendLine($"nav_order: {40 + zone.Order}");
         sb.AppendLine("---");
         sb.AppendLine();

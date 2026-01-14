@@ -45,6 +45,4 @@ public class Generator()
             roomLayoutExporter.Export(room.Name);
         }
     }
-
-    public const int GENERATOR_VERSION = 3;
 }

@@ -27,7 +27,7 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine($"title: {room.Name}");
         sb.AppendLine($"parent: {room.Zone}");
         sb.AppendLine($"last_modified_date: {DateTime.Now.ToString("yyyy-MM-dd")}");
-        sb.AppendLine($"generator_version: {Generator.GENERATOR_VERSION}");
+        sb.AppendLine($"generator_version: {Version.GENERATOR_VERSION}");
         sb.AppendLine($"nav_order: {room.Order}");
         sb.AppendLine("---");
         sb.AppendLine();
