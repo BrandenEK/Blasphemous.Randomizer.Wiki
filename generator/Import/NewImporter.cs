@@ -5,9 +5,9 @@ using System.IO;
 
 namespace blas1wikigen.Import;
 
-public class NewImporter<T>(string path)
+public class NewImporter
 {
-    public IEnumerable<T> Import()
+    public IEnumerable<T> Import<T>(string path)
     {
         Logger.Info($"Loading {typeof(T).Name} info from {path}");
 
