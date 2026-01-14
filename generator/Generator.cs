@@ -10,7 +10,7 @@ namespace blas1wikigen;
 
 public class Generator()
 {
-    public async Task Run(string dataDir, string imageDir, string exportDir)
+    public async Task Run(string dataDir, string exportDir)
     {
         // Import data
         var internetImporter = new InternetImporter();
@@ -35,7 +35,7 @@ public class Generator()
         // Setup room things
         var roomCreator = new RoomCreator(locations, doors);
         var roomExporter = new InfoExporter(Path.Combine(exportDir, "rooms"));
-        var roomLayoutExporter = new LayoutExporter(Path.Combine(imageDir, "rooms"), Path.Combine(exportDir, "rooms"));
+        var roomLayoutExporter = new LayoutExporter(Path.Combine(dataDir, "roomimages"), Path.Combine(exportDir, "rooms"));
 
         // Create and export room files
         foreach (Room room in rooms)

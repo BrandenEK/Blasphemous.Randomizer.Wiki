@@ -18,10 +18,9 @@ internal class Core
 
         string baseDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
         string dataDir = Path.Combine(baseDir, "data");
-        string imageDir = Path.Combine(baseDir, "images");
         string exportDir = Path.Combine(baseDir, args[0]);
 
         var generator = new Generator();
-        await generator.Run(dataDir, imageDir, exportDir);
+        await generator.Run(dataDir, exportDir);
     }
 }
