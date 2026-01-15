@@ -37,8 +37,8 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine();
 
         // Image
-        sb.AppendLine("<div style=\"max-width: 100%; max-height: 500px; overflow: auto\">");
-        sb.AppendLine("  <img src=\"layout.png\" style=\"zoom: 50%\" />");
+        sb.AppendLine($"<div style=\"display: inline-block; max-height: {MAX_HEIGHT_PIXELS}px; overflow: auto\">");
+        sb.AppendLine($"<img src=\"layout.png\" style=\"min-width: max-content; min-height: max-content; zoom: {ZOOM_PERCENT}%\" />");
         sb.AppendLine("</div>");
         sb.AppendLine();
 
@@ -88,4 +88,7 @@ public class RoomCreator : ITextCreator<Room>
 
         return sb.ToString();
     }
+
+    private const int MAX_HEIGHT_PIXELS = 500;
+    private const int ZOOM_PERCENT = 60;
 }
