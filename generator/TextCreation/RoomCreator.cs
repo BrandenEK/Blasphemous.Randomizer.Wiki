@@ -37,7 +37,7 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine();
 
         // Image
-        sb.AppendLine("<div style=\"max-height: 500px; overflow: auto\">");
+        sb.AppendLine("<div style=\"max-width: 100%; max-height: 500px; overflow: auto\">");
         sb.AppendLine("  <img src=\"layout.png\" style=\"zoom: 50%\" />");
         sb.AppendLine("</div>");
         sb.AppendLine();
