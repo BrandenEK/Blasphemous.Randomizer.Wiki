@@ -7,7 +7,7 @@ tagline: Information related to the Blasphemous Randomizer
 description: Wiki information for the Blasphemous Randomizer
 
 # Just the Docs properties
-color_scheme: dark
+color_scheme: blas1rando
 nav_enabled: true
 logo: "https://github.com/BrandenEK/Blasphemous.Randomizer/raw/main/resources/data/Randomizer/logo.png"
 
