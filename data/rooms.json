@@ -874,7 +874,7 @@
   },
   {
     "name": "D02Z01S01",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 1,
     "items": [
       "CO11",
@@ -891,7 +891,7 @@
   },
   {
     "name": "D02Z01S02",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 2,
     "items": [
       "RESCUED_CHERUB_23"
@@ -906,7 +906,7 @@
   },
   {
     "name": "D02Z01S03",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 3,
     "items": [],
     "doors": [
@@ -918,7 +918,7 @@
   },
   {
     "name": "D02Z01S04",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 4,
     "items": [
       "QI20",
@@ -931,7 +931,7 @@
   },
   {
     "name": "D02Z01S05",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 5,
     "items": [
       "QI07"
@@ -942,7 +942,7 @@
   },
   {
     "name": "D02Z01S06",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 6,
     "items": [
       "CO19",
@@ -956,7 +956,7 @@
   },
   {
     "name": "D02Z01S08",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 7,
     "items": [
       "PR04"
@@ -968,7 +968,7 @@
   },
   {
     "name": "D02Z01S09",
-    "zone": "D02Z01",
+    "zone": "Where Olive Trees Wither",
     "order": 8,
     "items": [
       "HE05"
@@ -979,4 +979,466 @@
       "D02Z01S09[-CherubsR]"
     ]
   },
+  {
+    "name": "D02Z02S01",
+    "zone": "Graveyard of the Peaks",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D02Z02S01[W]",
+      "D02Z02S01[NW]",
+      "D02Z02S01[E]",
+      "D02Z02S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S02",
+    "zone": "Graveyard of the Peaks",
+    "order": 2,
+    "items": [
+      "RESCUED_CHERUB_24"
+    ],
+    "doors": [
+      "D02Z02S02[SE]",
+      "D02Z02S02[NW]",
+      "D02Z02S02[NE]",
+      "D02Z02S02[-CherubsR]",
+      "D02Z02S02[CherubsL]",
+      "D02Z02S02[CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S03",
+    "zone": "Graveyard of the Peaks",
+    "order": 3,
+    "items": [
+      "QI46",
+      "CO29",
+      "QI08"
+    ],
+    "doors": [
+      "D02Z02S03[SW]",
+      "D02Z02S03[NW]",
+      "D02Z02S03[NE]",
+      "D02Z02S03[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S04",
+    "zone": "Graveyard of the Peaks",
+    "order": 4,
+    "items": [
+      "RB32",
+      "CO01",
+      "RESCUED_CHERUB_25"
+    ],
+    "doors": [
+      "D02Z02S04[W]",
+      "D02Z02S04[SE]",
+      "D02Z02S04[E]",
+      "D02Z02S04[NE]",
+      "D02Z02S04[-CherubsL]"
+    ]
+  },
+  {
+    "name": "D02Z02S05",
+    "zone": "Graveyard of the Peaks",
+    "order": 5,
+    "items": [
+      "RB15"
+    ],
+    "doors": [
+      "D02Z02S05[SW]",
+      "D02Z02S05[W]",
+      "D02Z02S05[SE]",
+      "D02Z02S05[E]",
+      "D02Z02S05[NW]",
+      "D02Z02S05[-CherubsL]",
+      "D02Z02S05[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S06",
+    "zone": "Graveyard of the Peaks",
+    "order": 6,
+    "items": [
+      "RB38"
+    ],
+    "doors": [
+      "D02Z02S06[E]"
+    ]
+  },
+  {
+    "name": "D02Z02S07",
+    "zone": "Graveyard of the Peaks",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D02Z02S07[W]",
+      "D02Z02S07[E]",
+      "D02Z02S07[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S08",
+    "zone": "Graveyard of the Peaks",
+    "order": 8,
+    "items": [
+      "CO42",
+      "RESCUED_CHERUB_31"
+    ],
+    "doors": [
+      "D02Z02S08[W]",
+      "D02Z02S08[E]",
+      "D02Z02S08[C]",
+      "D02Z02S08[CherubsL]",
+      "D02Z02S08[CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z02S09",
+    "zone": "Graveyard of the Peaks",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D02Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D02Z02S10",
+    "zone": "Graveyard of the Peaks",
+    "order": 10,
+    "items": [
+      "Oil[D02Z02S10]"
+    ],
+    "doors": [
+      "D02Z02S10[W]"
+    ]
+  },
+  {
+    "name": "D02Z02S11",
+    "zone": "Graveyard of the Peaks",
+    "order": 11,
+    "items": [
+      "QI53",
+      "RESCUED_CHERUB_26"
+    ],
+    "doors": [
+      "D02Z02S11[W]",
+      "D02Z02S11[SE]",
+      "D02Z02S11[E]",
+      "D02Z02S11[NW]",
+      "D02Z02S11[NE]",
+      "D02Z02S11[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z02S12",
+    "zone": "Graveyard of the Peaks",
+    "order": 12,
+    "items": [
+      "Lady[D02Z02S12]"
+    ],
+    "doors": [
+      "D02Z02S12[W]"
+    ]
+  },
+  {
+    "name": "D02Z02S13",
+    "zone": "Graveyard of the Peaks",
+    "order": 13,
+    "items": [
+      "HE11"
+    ],
+    "doors": [
+      "D02Z02S13[W]"
+    ]
+  },
+  {
+    "name": "D02Z02S14",
+    "zone": "Graveyard of the Peaks",
+    "order": 14,
+    "items": [
+      "RB106",
+      "Amanecida[D02Z02S14]"
+    ],
+    "doors": [
+      "D02Z02S14[W]",
+      "D02Z02S14[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02BZ02S01",
+    "zone": "Graveyard of the Peaks",
+    "order": 15,
+    "items": [
+      "QI11",
+      "RB37",
+      "RB02"
+    ],
+    "doors": [
+      "D02BZ02S01[C]"
+    ]
+  },
+  {
+    "name": "D02Z03S01",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D02Z03S01[W]",
+      "D02Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S02",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D02Z03S02[S]",
+      "D02Z03S02[W]",
+      "D02Z03S02[NW]",
+      "D02Z03S02[NE]",
+      "D02Z03S02[N]"
+    ]
+  },
+  {
+    "name": "D02Z03S03",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 3,
+    "items": [
+      "CO05"
+    ],
+    "doors": [
+      "D02Z03S03[W]",
+      "D02Z03S03[NW]",
+      "D02Z03S03[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S05",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 4,
+    "items": [
+      "RB08"
+    ],
+    "doors": [
+      "D02Z03S05[S]",
+      "D02Z03S05[E]",
+      "D02Z03S05[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S06",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D02Z03S06[W]",
+      "D02Z03S06[S]"
+    ]
+  },
+  {
+    "name": "D02Z03S07",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 6,
+    "items": [
+      "CO15"
+    ],
+    "doors": [
+      "D02Z03S07[W]",
+      "D02Z03S07[NWW]",
+      "D02Z03S07[NW]",
+      "D02Z03S07[N]",
+      "D02Z03S07[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S08",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D02Z03S08[SW]",
+      "D02Z03S08[W]",
+      "D02Z03S08[SE]",
+      "D02Z03S08[E]",
+      "D02Z03S08[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S09",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D02Z03S09[W]",
+      "D02Z03S09[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S10",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D02Z03S10[W]",
+      "D02Z03S10[-W]",
+      "D02Z03S10[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z03S11",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D02Z03S11[S]",
+      "D02Z03S11[W]",
+      "D02Z03S11[NW]",
+      "D02Z03S11[E]",
+      "D02Z03S11[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S12",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 11,
+    "items": [
+      "HE03"
+    ],
+    "doors": [
+      "D02Z03S12[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S13",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 12,
+    "items": [
+      "Sword[D02Z03S13]"
+    ],
+    "doors": [
+      "D02Z03S13[W]"
+    ]
+  },
+  {
+    "name": "D02Z03S14",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D02Z03S14[W]",
+      "D02Z03S14[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S15",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 14,
+    "items": [
+      "Lady[D02Z03S15]"
+    ],
+    "doors": [
+      "D02Z03S15[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S16",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 15,
+    "items": [],
+    "doors": [
+      "D02Z03S16[W]",
+      "D02Z03S16[N]"
+    ]
+  },
+  {
+    "name": "D02Z03S17",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 16,
+    "items": [
+      "RB24"
+    ],
+    "doors": [
+      "D02Z03S17[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S18",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 17,
+    "items": [],
+    "doors": [
+      "D02Z03S18[NW]",
+      "D02Z03S18[SE]",
+      "D02Z03S18[NE]"
+    ]
+  },
+  {
+    "name": "D02Z03S19",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 18,
+    "items": [
+      "QI61"
+    ],
+    "doors": [
+      "D02Z03S19[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S20",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 19,
+    "items": [
+      "BS03"
+    ],
+    "doors": [
+      "D02Z03S20[W]",
+      "D02Z03S20[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S21",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 20,
+    "items": [
+      "QI40",
+      "QI57"
+    ],
+    "doors": [
+      "D02Z03S21[W]",
+      "D02Z03S21[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S22",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 21,
+    "items": [],
+    "doors": [
+      "D02Z03S22[W]"
+    ]
+  },
+  {
+    "name": "D02Z03S23",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 22,
+    "items": [
+      "RB107"
+    ],
+    "doors": [
+      "D02Z03S23[E]"
+    ]
+  },
+  {
+    "name": "D02Z03S24",
+    "zone": "Convent of Our Lady of the Charred Visage",
+    "order": 23,
+    "items": [],
+    "doors": [
+      "D02Z03S24[E]"
+    ]
+  }
 ]
