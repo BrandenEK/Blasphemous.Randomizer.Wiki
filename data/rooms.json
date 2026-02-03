@@ -871,5 +871,112 @@
     "doors": [
       "D01BZ07S01[Santos]"
     ]
-  }
+  },
+  {
+    "name": "D02Z01S01",
+    "zone": "D02Z01",
+    "order": 1,
+    "items": [
+      "CO11",
+      "QI59",
+      "RB10"
+    ],
+    "doors": [
+      "D02Z01S01[SW]",
+      "D02Z01S01[W]",
+      "D02Z01S01[SE]",
+      "D02Z01S01[CherubsL]",
+      "D02Z01S01[CherubsR]"
+    ]
+  },
+  {
+    "name": "D02Z01S02",
+    "zone": "D02Z01",
+    "order": 2,
+    "items": [
+      "RESCUED_CHERUB_23"
+    ],
+    "doors": [
+      "D02Z01S02[W]",
+      "D02Z01S02[NW]",
+      "D02Z01S02[E]",
+      "D02Z01S02[NE]",
+      "D02Z01S02[]"
+    ]
+  },
+  {
+    "name": "D02Z01S03",
+    "zone": "D02Z01",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D02Z01S03[SW]",
+      "D02Z01S03[W]",
+      "D02Z01S03[SE]",
+      "D02Z01S03[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z01S04",
+    "zone": "D02Z01",
+    "order": 4,
+    "items": [
+      "QI20",
+      "QI68"
+    ],
+    "doors": [
+      "D02Z01S04[E]",
+      "D02Z01S04[-N]"
+    ]
+  },
+  {
+    "name": "D02Z01S05",
+    "zone": "D02Z01",
+    "order": 5,
+    "items": [
+      "QI07"
+    ],
+    "doors": [
+      "D02Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D02Z01S06",
+    "zone": "D02Z01",
+    "order": 6,
+    "items": [
+      "CO19",
+      "RESCUED_CHERUB_27"
+    ],
+    "doors": [
+      "D02Z01S06[W]",
+      "D02Z01S06[E]",
+      "D02Z01S06[Cherubs]"
+    ]
+  },
+  {
+    "name": "D02Z01S08",
+    "zone": "D02Z01",
+    "order": 7,
+    "items": [
+      "PR04"
+    ],
+    "doors": [
+      "D02Z01S08[E]",
+      "D02Z01S08[N]"
+    ]
+  },
+  {
+    "name": "D02Z01S09",
+    "zone": "D02Z01",
+    "order": 8,
+    "items": [
+      "HE05"
+    ],
+    "doors": [
+      "D02Z01S09[W]",
+      "D02Z01S09[-CherubsL]",
+      "D02Z01S09[-CherubsR]"
+    ]
+  },
 ]
