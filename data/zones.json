@@ -22,5 +22,17 @@
   {
     "name": "Petrous",
     "order": 6
+  },
+  {
+    "name": "Where Olive Trees Wither",
+    "order": 7
+  },
+  {
+    "name": "Graveyard of the Peaks",
+    "order": 8
+  },
+  {
+    "name": "Convent of Our Lady of the Charred Visage",
+    "order": 9
   }
 ]
