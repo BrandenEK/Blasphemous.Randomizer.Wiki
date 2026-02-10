@@ -1440,5 +1440,88 @@
     "doors": [
       "D02Z03S24[E]"
     ]
+  },
+  {
+    "name": "D04Z01S01",
+    "zone": "Patio of the Silent Steps",
+    "order": 1,
+    "items": [
+      "CO23",
+      "RESCUED_CHERUB_35"
+    ],
+    "doors": [
+      "D04Z01S01[W]",
+      "D04Z01S01[E]",
+      "D04Z01S01[NE]",
+      "D04Z01S01[N]",
+      "D04Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z01S02",
+    "zone": "Patio of the Silent Steps",
+    "order": 2,
+    "items": [
+      "RB14"
+    ],
+    "doors": [
+      "D04Z01S02[W]",
+      "D04Z01S02[NW]",
+      "D04Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D04Z01S03",
+    "zone": "Patio of the Silent Steps",
+    "order": 3,
+    "items": [
+      "QI37",
+      "CO39",
+      "RESCUED_CHERUB_28"
+    ],
+    "doors": [
+      "D04Z01S03[W]",
+      "D04Z01S03[E]",
+      "D04Z01S03[S]"
+    ]
+  },
+  {
+    "name": "D04Z01S04",
+    "zone": "Patio of the Silent Steps",
+    "order": 4,
+    "items": [
+      "RB21",
+      "Amanecida[D04Z01S04]"
+    ],
+    "doors": [
+      "D04Z01S04[W]",
+      "D04Z01S04[E]",
+      "D04Z01S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z01S05",
+    "zone": "Patio of the Silent Steps",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D04Z01S05[S]",
+      "D04Z01S05[N]",
+      "D04Z01S05[-Cherubs]",
+      "D04Z01S05[CherubsN]"
+    ]
+  },
+  {
+    "name": "D04Z01S06",
+    "zone": "Patio of the Silent Steps",
+    "order": 6,
+    "items": [
+      "QI102"
+    ],
+    "doors": [
+      "D04Z01S06[S]",
+      "D04Z01S06[E]",
+      "D04Z01S06[Cherubs]"
+    ]
   }
 ]
