@@ -1440,5 +1440,429 @@
     "doors": [
       "D02Z03S24[E]"
     ]
+  },
+  {
+    "name": "D04Z01S01",
+    "zone": "Patio of the Silent Steps",
+    "order": 1,
+    "items": [
+      "CO23",
+      "RESCUED_CHERUB_35"
+    ],
+    "doors": [
+      "D04Z01S01[W]",
+      "D04Z01S01[E]",
+      "D04Z01S01[NE]",
+      "D04Z01S01[N]",
+      "D04Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z01S02",
+    "zone": "Patio of the Silent Steps",
+    "order": 2,
+    "items": [
+      "RB14"
+    ],
+    "doors": [
+      "D04Z01S02[W]",
+      "D04Z01S02[NW]",
+      "D04Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D04Z01S03",
+    "zone": "Patio of the Silent Steps",
+    "order": 3,
+    "items": [
+      "QI37",
+      "CO39",
+      "RESCUED_CHERUB_28"
+    ],
+    "doors": [
+      "D04Z01S03[W]",
+      "D04Z01S03[E]",
+      "D04Z01S03[S]"
+    ]
+  },
+  {
+    "name": "D04Z01S04",
+    "zone": "Patio of the Silent Steps",
+    "order": 4,
+    "items": [
+      "RB21",
+      "Amanecida[D04Z01S04]"
+    ],
+    "doors": [
+      "D04Z01S04[W]",
+      "D04Z01S04[E]",
+      "D04Z01S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z01S05",
+    "zone": "Patio of the Silent Steps",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D04Z01S05[S]",
+      "D04Z01S05[N]",
+      "D04Z01S05[-Cherubs]",
+      "D04Z01S05[CherubsN]"
+    ]
+  },
+  {
+    "name": "D04Z01S06",
+    "zone": "Patio of the Silent Steps",
+    "order": 6,
+    "items": [
+      "QI102"
+    ],
+    "doors": [
+      "D04Z01S06[S]",
+      "D04Z01S06[E]",
+      "D04Z01S06[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S01",
+    "zone": "Mother of Mothers",
+    "order": 1,
+    "items": [
+      "RE402",
+      "RESCUED_CHERUB_30"
+    ],
+    "doors": [
+      "D04Z02S01[W]",
+      "D04Z02S01[N]",
+      "D04Z02S01[E]",
+      "D04Z02S01[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S02",
+    "zone": "Mother of Mothers",
+    "order": 2,
+    "items": [
+      "CO17"
+    ],
+    "doors": [
+      "D04Z02S02[S]",
+      "D04Z02S02[SE]",
+      "D04Z02S02[NE]",
+      "D04Z02S02[N]"
+    ]
+  },
+  {
+    "name": "D04Z02S03",
+    "zone": "Mother of Mothers",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D04Z02S03[W]",
+      "D04Z02S03[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S04",
+    "zone": "Mother of Mothers",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D04Z02S04[SW]",
+      "D04Z02S04[SE]",
+      "D04Z02S04[W]",
+      "D04Z02S04[E]",
+      "D04Z02S04[NW]",
+      "D04Z02S04[NE]",
+      "D04Z02S04[N]",
+      "D04Z02S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S05",
+    "zone": "Mother of Mothers",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D04Z02S05[W]",
+      "D04Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S06",
+    "zone": "Mother of Mothers",
+    "order": 6,
+    "items": [
+      "CO34"
+    ],
+    "doors": [
+      "D04Z02S06[S]",
+      "D04Z02S06[NW]",
+      "D04Z02S06[N]",
+      "D04Z02S06[NE]",
+      "D04Z02S06[E]",
+      "D04Z02S06[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S07",
+    "zone": "Mother of Mothers",
+    "order": 7,
+    "items": [
+      "CO35",
+      "RB33"
+    ],
+    "doors": [
+      "D04Z02S07[SW]",
+      "D04Z02S07[W]",
+      "D04Z02S07[N]",
+      "D04Z02S07[NE]",
+      "D04Z02S07[SE]"
+    ]
+  },
+  {
+    "name": "D04Z02S08",
+    "zone": "Mother of Mothers",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D04Z02S08[W]",
+      "D04Z02S08[E]",
+      "D04Z02S08[S]",
+      "D04Z02S08[Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S09",
+    "zone": "Mother of Mothers",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D04Z02S09[W]",
+      "D04Z02S09[E]",
+      "D04Z02S09[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S10",
+    "zone": "Mother of Mothers",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D04Z02S10[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S11",
+    "zone": "Mother of Mothers",
+    "order": 11,
+    "items": [
+      "CO20",
+      "RESCUED_CHERUB_29"
+    ],
+    "doors": [
+      "D04Z02S11[W]",
+      "D04Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S12",
+    "zone": "Mother of Mothers",
+    "order": 12,
+    "items": [
+      "Sword[D04Z02S12]"
+    ],
+    "doors": [
+      "D04Z02S12[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S13",
+    "zone": "Mother of Mothers",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D04Z02S13[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S14",
+    "zone": "Mother of Mothers",
+    "order": 14,
+    "items": [
+      "Oil[D04Z02S14]"
+    ],
+    "doors": [
+      "D04Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S15",
+    "zone": "Mother of Mothers",
+    "order": 15,
+    "items": [
+      "QI60"
+    ],
+    "doors": [
+      "D04Z02S15[W]",
+      "D04Z02S15[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S16",
+    "zone": "Mother of Mothers",
+    "order": 16,
+    "items": [
+      "HE01"
+    ],
+    "doors": [
+      "D04Z02S16[W]",
+      "D04Z02S16[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D04Z02S17",
+    "zone": "Mother of Mothers",
+    "order": 17,
+    "items": [],
+    "doors": [
+      "D04Z02S17[W]"
+    ]
+  },
+  {
+    "name": "D04Z02S19",
+    "zone": "Mother of Mothers",
+    "order": 18,
+    "items": [],
+    "doors": [
+      "D04Z02S19[W]",
+      "D04Z02S19[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S20",
+    "zone": "Mother of Mothers",
+    "order": 19,
+    "items": [],
+    "doors": [
+      "D04Z02S20[W]",
+      "D04Z02S20[Redento]"
+    ]
+  },
+  {
+    "name": "D04Z02S21",
+    "zone": "Mother of Mothers",
+    "order": 20,
+    "items": [],
+    "doors": [
+      "D04Z02S21[W]",
+      "D04Z02S21[SE]",
+      "D04Z02S21[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S22",
+    "zone": "Mother of Mothers",
+    "order": 21,
+    "items": [
+      "BS05"
+    ],
+    "doors": [
+      "D04Z02S22[W]",
+      "D04Z02S22[E]"
+    ]
+  },
+  {
+    "name": "D04Z02S23",
+    "zone": "Mother of Mothers",
+    "order": 22,
+    "items": [],
+    "doors": [
+      "D04Z02S23[W]",
+      "D04Z02S23[SE]",
+      "D04Z02S23[NE]"
+    ]
+  },
+  {
+    "name": "D04Z02S24",
+    "zone": "Mother of Mothers",
+    "order": 23,
+    "items": [],
+    "doors": [
+      "D04Z02S24[NW]",
+      "D04Z02S24[SW]",
+      "D04Z02S24[SE]"
+    ]
+  },
+  {
+    "name": "D04Z02S25",
+    "zone": "Mother of Mothers",
+    "order": 24,
+    "items": [],
+    "doors": [
+      "D04Z02S25[W]"
+    ]
+  },
+  {
+    "name": "D04BZ02S01",
+    "zone": "Mother of Mothers",
+    "order": 25,
+    "items": [
+      "RE03",
+      "QI54"
+    ],
+    "doors": [
+      "D04BZ02S01[Redento]"
+    ]
+  },
+  {
+    "name": "D04BZ03S01",
+    "zone": "Mother of Mothers",
+    "order": 26,
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D04Z03S01",
+    "zone": "Knot of the Three Words",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D04Z03S01[W]",
+      "D04Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D04Z03S02",
+    "zone": "Knot of the Three Words",
+    "order": 2,
+    "items": [
+      "HE201"
+    ],
+    "doors": [
+      "D04Z03S02[W]"
+    ]
+  },
+  {
+    "name": "D04Z04S01",
+    "zone": "All the Tears of the Sea",
+    "order": 1,
+    "items": [
+      "PR201"
+    ],
+    "doors": [
+      "D04Z04S01[W]",
+      "D04Z04S01[E]"
+    ]
+  },
+  {
+    "name": "D04Z04S02",
+    "zone": "All the Tears of the Sea",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D04Z04S02[W]"
+    ]
   }
 ]
