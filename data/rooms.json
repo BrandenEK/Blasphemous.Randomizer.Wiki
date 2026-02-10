@@ -1522,6 +1522,200 @@
     ]
   },
   {
+    "name": "D03Z02S01",
+    "zone": "Jondo",
+    "order": 1,
+    "items": [
+      "CO08",
+      "PR10"
+    ],
+    "doors": [
+      "D03Z02S01[W]",
+      "D03Z02S01[N]",
+      "D03Z02S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S02",
+    "zone": "Jondo",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D03Z02S02[W]",
+      "D03Z02S02[E]",
+      "D03Z02S02[S]",
+      "D03Z02S02[CherubsL]",
+      "D03Z02S02[CherubsR]"
+    ]
+  },
+  {
+    "name": "D03Z02S03",
+    "zone": "Jondo",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D03Z02S03[W]",
+      "D03Z02S03[E]",
+      "D03Z02S03[N]",
+      "D03Z02S03[SE2]",
+      "D03Z02S03[SW]",
+      "D03Z02S03[SE]",
+      "D03Z02S03[SSL]",
+      "D03Z02S03[SSC]",
+      "D03Z02S03[SSR]"
+    ]
+  },
+  {
+    "name": "D03Z02S04",
+    "zone": "Jondo",
+    "order": 4,
+    "items": [
+      "CO33"
+    ],
+    "doors": [
+      "D03Z02S04[NW]",
+      "D03Z02S04[NE]",
+      "D03Z02S04[S]"
+    ]
+  },
+  {
+    "name": "D03Z02S05",
+    "zone": "Jondo",
+    "order": 5,
+    "items": [
+      "RESCUED_CHERUB_18"
+    ],
+    "doors": [
+      "D03Z02S05[W]",
+      "D03Z02S05[E]",
+      "D03Z02S05[S]"
+    ]
+  },
+  {
+    "name": "D03Z02S06",
+    "zone": "Jondo",
+    "order": 6,
+    "items": [
+      "QI19"
+    ],
+    "doors": [
+      "D03Z02S06[W]",
+      "D03Z02S06[N]"
+    ]
+  },
+  {
+    "name": "D03Z02S07",
+    "zone": "Jondo",
+    "order": 7,
+    "items": [
+      "CO07"
+    ],
+    "doors": [
+      "D03Z02S07[W]",
+      "D03Z02S07[E]",
+      "D03Z02S07[N]"
+    ]
+  },
+  {
+    "name": "D03Z02S08",
+    "zone": "Jondo",
+    "order": 8,
+    "items": [
+      "QI41"
+    ],
+    "doors": [
+      "D03Z02S08[W]",
+      "D03Z02S08[E]",
+      "D03Z02S08[N]"
+    ]
+  },
+  {
+    "name": "D03Z02S09",
+    "zone": "Jondo",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D03Z02S09[W]",
+      "D03Z02S09[N]",
+      "D03Z02S09[S]",
+      "D03Z02S09[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S10",
+    "zone": "Jondo",
+    "order": 10,
+    "items": [
+      "RESCUED_CHERUB_17"
+    ],
+    "doors": [
+      "D03Z02S10[W]",
+      "D03Z02S10[N]",
+      "D03Z02S10[S]",
+      "D03Z02S10[E]",
+      "D03Z02S10[-Cherubs]",
+      "D03Z02S10[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S11",
+    "zone": "Jondo",
+    "order": 11,
+    "items": [
+      "HE06",
+      "RESCUED_CHERUB_37"
+    ],
+    "doors": [
+      "D03Z02S11[W]",
+      "D03Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D03Z02S12",
+    "zone": "Jondo",
+    "order": 12,
+    "items": [
+      "QI52"
+    ],
+    "doors": [
+      "D03Z02S12[E]",
+      "D03Z02S12[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S13",
+    "zone": "Jondo",
+    "order": 13,
+    "items": [
+      "RB28"
+    ],
+    "doors": [
+      "D03Z02S13[E]",
+      "D03Z02S13[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z02S14",
+    "zone": "Jondo",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D03Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D03Z02S15",
+    "zone": "Jondo",
+    "order": 15,
+    "items": [
+      "QI103"
+    ],
+    "doors": [
+      "D03Z02S15[W]",
+      "D03Z02S15[E]"
+    ]
+  },
+  {
     "name": "D04Z01S01",
     "zone": "Patio of the Silent Steps",
     "order": 1,
