@@ -1,0 +1,50 @@
+[
+  {
+    "name": "pillar",
+    "hint": "debla | taranto | ruby"
+  },
+  {
+    "name": "chargeBeam",
+    "hint": "charged >= 3"
+  },
+  {
+    "name": "canAirStall",
+    "hint": "ranged > 0 + logicDifficulty >= 1"
+  },
+  {
+    "name": "canDawnJump",
+    "hint": "dawnHeart && dash && logicDifficulty >= 1"
+  },
+  {
+    "name": "canWaterJump",
+    "hint": "nail || doubleJump"
+  },
+  {
+    "name": "canBreakHoles",
+    "hint": "charged > 0 || dive > 0 || lunge >= 3 && dash || canUseAnyPrayer"
+  },
+  {
+    "name": "canDiveLaser",
+    "hint": "dive >= 3 && logicDifficulty >= 2"
+  },
+  {
+    "name": "canWalkOnRoot",
+    "hint": "root"
+  },
+  {
+    "name": "canClimbOnRoot",
+    "hint": "root && wallClimb"
+  },
+  {
+    "name": "canSurvivePoison1",
+    "hint": "lung || (logicDifficulty >= 1 && tiento) || logicDifficulty >= 2"
+  },
+  {
+    "name": "canSurvivePoison2",
+    "hint": "lung || (logicDifficulty >= 1 && tiento)"
+  },
+  {
+    "name": "canSurvivePoison3",
+    "hint": "lung || (logicDifficulty >= 2 && tiento && TotalFervour >= 120)"
+  }
+]
