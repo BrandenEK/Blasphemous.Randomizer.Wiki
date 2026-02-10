@@ -46,5 +46,77 @@
   {
     "name": "canSurvivePoison3",
     "hint": "lung || (logicDifficulty >= 2 && tiento && TotalFervour >= 120)"
+  },
+  {
+    "name": "canEnemyBounce",
+    "hint": "airImpulse && enemySkipsAllowed"
+  },
+  {
+    "name": "canEnemyUpslash",
+    "hint": "combo >= 2 && enemySkipsAllowed"
+  },
+  {
+    "name": "canCrossGap1",
+    "hint": "doubleJump || canDawnJump || wheel || canAirStall"
+  },
+  {
+    "name": "canCrossGap2",
+    "hint": "doubleJump || canDawnJump || wheel"
+  },
+  {
+    "name": "canCrossGap3",
+    "hint": "doubleJump || canDawnJump || wheel && canAirStall"
+  },
+  {
+    "name": "canCrossGap4",
+    "hint": "doubleJump || canDawnJump"
+  },
+  {
+    "name": "canCrossGap5",
+    "hint": "doubleJump || canDawnJump && canAirStall"
+  },
+  {
+    "name": "canCrossGap6",
+    "hint": "doubleJump"
+  },
+  {
+    "name": "canCrossGap7",
+    "hint": "doubleJump && (canDawnJump || wheel || canAirStall)"
+  },
+  {
+    "name": "canCrossGap8",
+    "hint": "doubleJump && (canDawnJump || wheel)"
+  },
+  {
+    "name": "canCrossGap9",
+    "hint": "doubleJump && (canDawnJump || wheel && canAirStall)"
+  },
+  {
+    "name": "canCrossGap10",
+    "hint": "doubleJump && canDawnJump"
+  },
+  {
+    "name": "canCrossGap11",
+    "hint": "doubleJump && canDawnJump && canAirStall"
+  },
+  {
+    "name": "upwarpSkipsAllowed",
+    "hint": "logicDifficulty >= 2"
+  },
+  {
+    "name": "mourningSkipAllowed",
+    "hint": "logicDifficulty >= 2"
+  },
+  {
+    "name": "enemySkipsAllowed",
+    "hint": "logicDifficulty >= 2 && !enemyShuffle"
+  },
+  {
+    "name": "obscureSkipsAllowed",
+    "hint": "logicDifficulty >= 2"
+  },
+  {
+    "name": "preciseSkipsAllowed",
+    "hint": "logicDifficulty >= 2"
   }
 ]
