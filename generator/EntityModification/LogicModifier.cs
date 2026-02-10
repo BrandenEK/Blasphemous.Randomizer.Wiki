@@ -14,6 +14,13 @@ public class LogicModifier
 
     public string ModifyLogic(string logic)
     {
+        foreach (var macro in _macros)
+        {
+            string hintlogic = LogicUtils.ProcessLogic(macro.Hint);
+            string result = $"<span class=\"macro\"> {macro.Name} <span class=\"macrohint\"> {hintlogic} </span> </span>";
+            logic = logic.Replace(macro.Name, result);
+        }
+
         return logic;
     }
 }

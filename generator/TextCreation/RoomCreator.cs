@@ -71,7 +71,10 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine("| --- | --- |");
 
         foreach (Door door in doors)
-            sb.AppendLine($"| {door.Id} | {door.Logic} |");
+        {
+            string logic = _logicModifier.ModifyLogic(door.Logic);
+            sb.AppendLine($"| {door.Id} | {logic} |");
+        }
 
         return sb.ToString();
     }
@@ -87,7 +90,10 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine("| --- | --- | --- |");
 
         foreach (ItemLocation location in locations)
-            sb.AppendLine($"| {location.Id} | {location.Name} | {location.Logic} |");
+        {
+            string logic = _logicModifier.ModifyLogic(location.Logic);
+            sb.AppendLine($"| {location.Id} | {location.Name} | {logic} |");
+        }
 
         return sb.ToString();
     }

@@ -1,7 +1,7 @@
 [
   {
     "name": "pillar",
-    "hint": "debla | taranto | ruby"
+    "hint": "debla || taranto || ruby"
   },
   {
     "name": "chargeBeam",
@@ -9,7 +9,7 @@
   },
   {
     "name": "canAirStall",
-    "hint": "ranged > 0 + logicDifficulty >= 1"
+    "hint": "ranged > 0 && logicDifficulty >= 1"
   },
   {
     "name": "canDawnJump",
