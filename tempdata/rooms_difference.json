@@ -503,48 +503,6 @@
     ]
   },
   {
-    "name": "D04Z03S01",
-    "zone": "D04Z03",
-    "order": 1,
-    "items": [],
-    "doors": [
-      "D04Z03S01[W]",
-      "D04Z03S01[E]"
-    ]
-  },
-  {
-    "name": "D04Z03S02",
-    "zone": "D04Z03",
-    "order": 2,
-    "items": [
-      "HE201"
-    ],
-    "doors": [
-      "D04Z03S02[W]"
-    ]
-  },
-  {
-    "name": "D04Z04S01",
-    "zone": "D04Z04",
-    "order": 1,
-    "items": [
-      "PR201"
-    ],
-    "doors": [
-      "D04Z04S01[W]",
-      "D04Z04S01[E]"
-    ]
-  },
-  {
-    "name": "D04Z04S02",
-    "zone": "D04Z04",
-    "order": 2,
-    "items": [],
-    "doors": [
-      "D04Z04S02[W]"
-    ]
-  },
-  {
     "name": "D05BZ01S01",
     "zone": "D05BZ0",
     "order": 1,

@@ -1822,5 +1822,47 @@
     "order": 26,
     "items": [],
     "doors": []
+  },
+  {
+    "name": "D04Z03S01",
+    "zone": "Knot of the Three Words",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D04Z03S01[W]",
+      "D04Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D04Z03S02",
+    "zone": "Knot of the Three Words",
+    "order": 2,
+    "items": [
+      "HE201"
+    ],
+    "doors": [
+      "D04Z03S02[W]"
+    ]
+  },
+  {
+    "name": "D04Z04S01",
+    "zone": "All the Tears of the Sea",
+    "order": 1,
+    "items": [
+      "PR201"
+    ],
+    "doors": [
+      "D04Z04S01[W]",
+      "D04Z04S01[E]"
+    ]
+  },
+  {
+    "name": "D04Z04S02",
+    "zone": "All the Tears of the Sea",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D04Z04S02[W]"
+    ]
   }
 ]
