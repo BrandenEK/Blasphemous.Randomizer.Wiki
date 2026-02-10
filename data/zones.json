@@ -34,5 +34,21 @@
   {
     "name": "Convent of Our Lady of the Charred Visage",
     "order": 9
+  },
+  {
+    "name": "Patio of the Silent Steps",
+    "order": 13
+  },
+  {
+    "name": "Mother of Mothers",
+    "order": 14
+  },
+  {
+    "name": "Knot of the Three Words",
+    "order": 15
+  },
+  {
+    "name": "All the Tears of the Sea",
+    "order": 16
   }
 ]
