@@ -1,4 +1,5 @@
-﻿using blas1wikigen.Export;
+﻿using blas1wikigen.EntityModification;
+using blas1wikigen.Export;
 using blas1wikigen.Import;
 using blas1wikigen.Models;
 using blas1wikigen.TextCreation;
@@ -20,6 +21,7 @@ public class Generator()
         var fileImporter = new FileImporter();
         IEnumerable<Zone> zones = await fileImporter.Import<Zone>(Path.Combine(dataDir, "zones.json"));
         IEnumerable<Room> rooms = await fileImporter.Import<Room>(Path.Combine(dataDir, "rooms.json"));
+        IEnumerable<Macro> macros = await fileImporter.Import<Macro>(Path.Combine(dataDir, "macros.json"));
 
         // Setup zone things
         var zoneCreator = new ZoneCreator();
@@ -33,7 +35,8 @@ public class Generator()
         }
 
         // Setup room things
-        var roomCreator = new RoomCreator(locations, doors);
+        var logicModifier = new LogicModifier(macros);
+        var roomCreator = new RoomCreator(logicModifier, locations, doors);
         var roomExporter = new InfoExporter(Path.Combine(exportDir, "rooms"));
         var roomLayoutExporter = new LayoutExporter(Path.Combine(dataDir, "roomimages"), Path.Combine(exportDir, "rooms"));
 
