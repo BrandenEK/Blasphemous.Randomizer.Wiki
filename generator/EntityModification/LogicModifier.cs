@@ -6,19 +6,25 @@ namespace blas1wikigen.EntityModification;
 public class LogicModifier
 {
     private readonly IEnumerable<Macro> _macros;
+    private readonly Dictionary<Macro, string> _logicCache = [];
 
     public LogicModifier(IEnumerable<Macro> macros)
     {
         _macros = macros;
+
+        foreach (var macro in macros)
+        {
+            string hint = LogicUtils.ProcessLogic(macro.Hint);
+            string text = $"<span class=\"macro\"> {macro.Name} <span class=\"macrohint\"> {hint} </span> </span>";
+            _logicCache.Add(macro, text);
+        }
     }
 
     public string ModifyLogic(string logic)
     {
         foreach (var macro in _macros)
         {
-            string hintlogic = LogicUtils.ProcessLogic(macro.Hint);
-            string result = $"<span class=\"macro\"> {macro.Name} <span class=\"macrohint\"> {hintlogic} </span> </span>";
-            logic = logic.Replace(macro.Name, result);
+            logic = logic.Replace(macro.Name, _logicCache[macro]);
         }
 
         return logic;
