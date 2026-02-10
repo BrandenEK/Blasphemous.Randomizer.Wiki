@@ -8,6 +8,9 @@ public static class LogicUtils
         if (string.IsNullOrEmpty(logic))
             return "-";
 
-        return logic.Replace("|", "\\|");
+        logic = logic.Replace("&&", "+");
+        logic = logic.Replace("||", "\\|");
+
+        return logic;
     }
 }
