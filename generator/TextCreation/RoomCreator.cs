@@ -1,4 +1,5 @@
-﻿using blas1wikigen.Models;
+﻿using blas1wikigen.EntityModification;
+using blas1wikigen.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,13 @@ namespace blas1wikigen.TextCreation;
 
 public class RoomCreator : ITextCreator<Room>
 {
+    private readonly LogicModifier _logicModifier;
     private readonly Dictionary<string, ItemLocation> _locationMap;
     private readonly Dictionary<string, Door> _doorMap;
 
-    public RoomCreator(IEnumerable<ItemLocation> locations, IEnumerable<Door> doors)
+    public RoomCreator(LogicModifier logicModifier, IEnumerable<ItemLocation> locations, IEnumerable<Door> doors)
     {
+        _logicModifier = logicModifier;
         _locationMap = locations.ToDictionary(x => x.Id, x => x);
         _doorMap = doors.ToDictionary(x => x.Id, x => x);
     }
@@ -68,7 +71,10 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine("| --- | --- |");
 
         foreach (Door door in doors)
-            sb.AppendLine($"| {door.Id} | {door.Logic} |");
+        {
+            string logic = _logicModifier.ModifyLogic(door.Logic);
+            sb.AppendLine($"| {door.Id} | {logic} |");
+        }
 
         return sb.ToString();
     }
@@ -84,7 +90,10 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine("| --- | --- | --- |");
 
         foreach (ItemLocation location in locations)
-            sb.AppendLine($"| {location.Id} | {location.Name} | {location.Logic} |");
+        {
+            string logic = _logicModifier.ModifyLogic(location.Logic);
+            sb.AppendLine($"| {location.Id} | {location.Name} | {logic} |");
+        }
 
         return sb.ToString();
     }
