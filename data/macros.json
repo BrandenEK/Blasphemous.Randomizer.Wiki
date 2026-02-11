@@ -45,15 +45,15 @@
   },
   {
     "name": "canSurvivePoison3",
-    "hint": "lung || (logicDifficulty >= 2 && tiento && TotalFervour >= 120)"
+    "hint": "lung || (logicDifficulty >= 2 && tiento && totalFervour >= 120)"
   },
   {
     "name": "canEnemyBounce",
-    "hint": "airImpulse && enemySkipsAllowed"
+    "hint": "airImpulse && logicDifficulty >= 2 && !enemyShuffle"
   },
   {
     "name": "canEnemyUpslash",
-    "hint": "combo >= 2 && enemySkipsAllowed"
+    "hint": "combo >= 2 && logicDifficulty >= 2 && !enemyShuffle"
   },
   {
     "name": "canCrossGap1",
