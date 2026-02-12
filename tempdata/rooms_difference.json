@@ -229,51 +229,6 @@
     ]
   },
   {
-    "name": "D07Z01S01",
-    "zone": "D07Z01",
-    "order": 1,
-    "items": [
-      "PR08"
-    ],
-    "doors": [
-      "D07Z01S01[W]",
-      "D07Z01S01[E]"
-    ]
-  },
-  {
-    "name": "D07Z01S02",
-    "zone": "D07Z01",
-    "order": 2,
-    "items": [],
-    "doors": [
-      "D07Z01S02[W]",
-      "D07Z01S02[E]"
-    ]
-  },
-  {
-    "name": "D07Z01S03",
-    "zone": "D07Z01",
-    "order": 3,
-    "items": [],
-    "doors": [
-      "D07Z01S03[W]"
-    ]
-  },
-  {
-    "name": "D07Z01S04",
-    "zone": "D07Z01",
-    "order": 4,
-    "items": [],
-    "doors": []
-  },
-  {
-    "name": "D07Z01S05",
-    "zone": "D07Z01",
-    "order": 5,
-    "items": [],
-    "doors": []
-  },
-  {
     "name": "D08Z01S01",
     "zone": "D08Z01",
     "order": 1,

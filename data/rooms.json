@@ -2917,5 +2917,43 @@
     "doors": [
       "D06Z01S26[W]"
     ]
+  },
+  {
+    "name": "D07Z01S01",
+    "zone": "Deambulatory of his Holiness",
+    "order": 1,
+    "items": [
+      "PR08"
+    ],
+    "doors": [
+      "D07Z01S01[W]",
+      "D07Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D07Z01S02",
+    "zone": "Deambulatory of his Holiness",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D07Z01S02[W]",
+      "D07Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D07Z01S03",
+    "zone": "Deambulatory of his Holiness",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D07Z01S03[W]"
+    ]
+  },
+  {
+    "name": "D07Z01S05",
+    "zone": "Deambulatory of his Holiness",
+    "order": 4,
+    "items": [],
+    "doors": []
   }
 ]
