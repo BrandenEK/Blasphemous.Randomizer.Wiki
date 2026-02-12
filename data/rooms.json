@@ -2138,5 +2138,915 @@
     "doors": [
       "D04Z04S02[W]"
     ]
+  },
+  {
+    "name": "D05Z01S01",
+    "zone": "Library of the Negated Words",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D05Z01S01[W]",
+      "D05Z01S01[NW]",
+      "D05Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S02",
+    "zone": "Library of the Negated Words",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D05Z01S02[W]",
+      "D05Z01S02[NW]",
+      "D05Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S03",
+    "zone": "Library of the Negated Words",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D05Z01S03[W]",
+      "D05Z01S03[E]",
+      "D05Z01S03[Frontal]"
+    ]
+  },
+  {
+    "name": "D05Z01S04",
+    "zone": "Library of the Negated Words",
+    "order": 4,
+    "items": [
+      "CO18",
+      "RESCUED_CHERUB_01"
+    ],
+    "doors": [
+      "D05Z01S04[W]",
+      "D05Z01S04[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S05",
+    "zone": "Library of the Negated Words",
+    "order": 5,
+    "items": [
+      "QI50",
+      "CO22"
+    ],
+    "doors": [
+      "D05Z01S05[SW]",
+      "D05Z01S05[E]",
+      "D05Z01S05[NE]"
+    ]
+  },
+  {
+    "name": "D05Z01S06",
+    "zone": "Library of the Negated Words",
+    "order": 6,
+    "items": [
+      "RB31"
+    ],
+    "doors": [
+      "D05Z01S06[W]",
+      "D05Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S07",
+    "zone": "Library of the Negated Words",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D05Z01S07[SW]",
+      "D05Z01S07[NW]",
+      "D05Z01S07[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S08",
+    "zone": "Library of the Negated Words",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D05Z01S08[W]",
+      "D05Z01S08[NW]",
+      "D05Z01S08[E]",
+      "D05Z01S08[Health]",
+      "D05Z01S08[NE]"
+    ]
+  },
+  {
+    "name": "D05Z01S09",
+    "zone": "Library of the Negated Words",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D05Z01S09[W]",
+      "D05Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S10",
+    "zone": "Library of the Negated Words",
+    "order": 10,
+    "items": [
+      "PR07"
+    ],
+    "doors": [
+      "D05Z01S10[W]",
+      "D05Z01S10[NW]",
+      "D05Z01S10[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S11",
+    "zone": "Library of the Negated Words",
+    "order": 11,
+    "items": [
+      "RB203",
+      "CO28",
+      "RB30",
+      "RESCUED_CHERUB_02"
+    ],
+    "doors": [
+      "D05Z01S11[SW]",
+      "D05Z01S11[NW]",
+      "D05Z01S11[NE]",
+      "D05Z01S11[SE]",
+      "D05Z01S11[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S12",
+    "zone": "Library of the Negated Words",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D05Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S13",
+    "zone": "Library of the Negated Words",
+    "order": 13,
+    "items": [
+      "Sword[D05Z01S13]"
+    ],
+    "doors": [
+      "D05Z01S13[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S14",
+    "zone": "Library of the Negated Words",
+    "order": 14,
+    "items": [
+      "Lady[D05Z01S14]"
+    ],
+    "doors": [
+      "D05Z01S14[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S15",
+    "zone": "Library of the Negated Words",
+    "order": 15,
+    "items": [
+      "QI62"
+    ],
+    "doors": [
+      "D05Z01S15[W]",
+      "D05Z01S15[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S16",
+    "zone": "Library of the Negated Words",
+    "order": 16,
+    "items": [],
+    "doors": [
+      "D05Z01S16[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S17",
+    "zone": "Library of the Negated Words",
+    "order": 17,
+    "items": [],
+    "doors": [
+      "D05Z01S17[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S18",
+    "zone": "Library of the Negated Words",
+    "order": 18,
+    "items": [
+      "PR15"
+    ],
+    "doors": [
+      "D05Z01S18[W]"
+    ]
+  },
+  {
+    "name": "D05Z01S19",
+    "zone": "Library of the Negated Words",
+    "order": 19,
+    "items": [
+      "Oil[D05Z01S19]"
+    ],
+    "doors": [
+      "D05Z01S19[W]",
+      "D05Z01S19[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S20",
+    "zone": "Library of the Negated Words",
+    "order": 20,
+    "items": [],
+    "doors": [
+      "D05Z01S20[W]",
+      "D05Z01S20[E]",
+      "D05Z01S20[N]"
+    ]
+  },
+  {
+    "name": "D05Z01S21",
+    "zone": "Library of the Negated Words",
+    "order": 21,
+    "items": [
+      "RESCUED_CHERUB_32"
+    ],
+    "doors": [
+      "D05Z01S21[SW]",
+      "D05Z01S21[NW]",
+      "D05Z01S21[NE]",
+      "D05Z01S21[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D05Z01S22",
+    "zone": "Library of the Negated Words",
+    "order": 22,
+    "items": [],
+    "doors": [
+      "D05Z01S22[FrontalN]",
+      "D05Z01S22[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S23",
+    "zone": "Library of the Negated Words",
+    "order": 23,
+    "items": [],
+    "doors": [
+      "D05Z01S23[E]"
+    ]
+  },
+  {
+    "name": "D05Z01S24",
+    "zone": "Library of the Negated Words",
+    "order": 24,
+    "items": [],
+    "doors": [
+      "D05Z01S24[E]"
+    ]
+  },
+  {
+    "name": "D05BZ01S01",
+    "zone": "Library of the Negated Words",
+    "order": 25,
+    "items": [
+      "RB301"
+    ],
+    "doors": [
+      "D05BZ01S01[FrontalS]",
+      "D05BZ01S01[FrontalN]"
+    ]
+  },
+  {
+    "name": "D05Z02S01",
+    "zone": "The Sleeping Canvases",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D05Z02S01[W]",
+      "D05Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S02",
+    "zone": "The Sleeping Canvases",
+    "order": 2,
+    "items": [
+      "QI64"
+    ],
+    "doors": [
+      "D05Z02S02[SW]",
+      "D05Z02S02[NW]",
+      "D05Z02S02[SE]",
+      "D05Z02S02[NE]"
+    ]
+  },
+  {
+    "name": "D05Z02S03",
+    "zone": "The Sleeping Canvases",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D05Z02S03[W]",
+      "D05Z02S03[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S04",
+    "zone": "The Sleeping Canvases",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D05Z02S04[W]",
+      "D05Z02S04[E]",
+      "D05Z02S04[C]"
+    ]
+  },
+  {
+    "name": "D05Z02S05",
+    "zone": "The Sleeping Canvases",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D05Z02S05[W]",
+      "D05Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S06",
+    "zone": "The Sleeping Canvases",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D05Z02S06[SW]",
+      "D05Z02S06[NW]",
+      "D05Z02S06[SE]",
+      "D05Z02S06[NE]"
+    ]
+  },
+  {
+    "name": "D05Z02S07",
+    "zone": "The Sleeping Canvases",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D05Z02S07[W]",
+      "D05Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S08",
+    "zone": "The Sleeping Canvases",
+    "order": 8,
+    "items": [
+      "HE07"
+    ],
+    "doors": [
+      "D05Z02S08[W]"
+    ]
+  },
+  {
+    "name": "D05Z02S09",
+    "zone": "The Sleeping Canvases",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D05Z02S09[W]",
+      "D05Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S10",
+    "zone": "The Sleeping Canvases",
+    "order": 10,
+    "items": [
+      "RE05",
+      "PR05"
+    ],
+    "doors": [
+      "D05Z02S10[W]",
+      "D05Z02S10[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S11",
+    "zone": "The Sleeping Canvases",
+    "order": 11,
+    "items": [
+      "CO31"
+    ],
+    "doors": [
+      "D05Z02S11[W]",
+      "D05Z02S11[Cherubs]"
+    ]
+  },
+  {
+    "name": "D05Z02S12",
+    "zone": "The Sleeping Canvases",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D05Z02S12[W]",
+      "D05Z02S12[E]",
+      "D05Z02S12[N]"
+    ]
+  },
+  {
+    "name": "D05Z02S13",
+    "zone": "The Sleeping Canvases",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D05Z02S13[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S14",
+    "zone": "The Sleeping Canvases",
+    "order": 14,
+    "items": [
+      "BS06"
+    ],
+    "doors": [
+      "D05Z02S14[W]",
+      "D05Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S15",
+    "zone": "The Sleeping Canvases",
+    "order": 15,
+    "items": [
+      "QI104"
+    ],
+    "doors": [
+      "D05Z02S15[S]",
+      "D05Z02S15[E]"
+    ]
+  },
+  {
+    "name": "D05BZ02S01",
+    "zone": "The Sleeping Canvases",
+    "order": 16,
+    "items": [
+      "RB12",
+      "QI49",
+      "QI71"
+    ],
+    "doors": [
+      "D05BZ02S01[C]"
+    ]
+  },
+  {
+    "name": "D06Z01S01",
+    "zone": "Archcathedral Rooftops",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D06Z01S01[SW]",
+      "D06Z01S01[SE]",
+      "D06Z01S01[W]",
+      "D06Z01S01[E]",
+      "D06Z01S01[NW]",
+      "D06Z01S01[NE]",
+      "D06Z01S01[NNW]",
+      "D06Z01S01[NNE]",
+      "D06Z01S01[N]",
+      "D06Z01S01[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S02",
+    "zone": "Archcathedral Rooftops",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D06Z01S02[W]",
+      "D06Z01S02[E]",
+      "D06Z01S02[S]"
+    ]
+  },
+  {
+    "name": "D06Z01S03",
+    "zone": "Archcathedral Rooftops",
+    "order": 3,
+    "items": [
+      "QI02"
+    ],
+    "doors": [
+      "D06Z01S03[W]",
+      "D06Z01S03[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S04",
+    "zone": "Archcathedral Rooftops",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D06Z01S04[SW]",
+      "D06Z01S04[W]",
+      "D06Z01S04[Health]",
+      "D06Z01S04[NW]",
+      "D06Z01S04[NE]",
+      "D06Z01S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S05",
+    "zone": "Archcathedral Rooftops",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D06Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S06",
+    "zone": "Archcathedral Rooftops",
+    "order": 6,
+    "items": [
+      "QI03"
+    ],
+    "doors": [
+      "D06Z01S06[WW]",
+      "D06Z01S06[E]",
+      "D06Z01S06[W]",
+      "D06Z01S06[EE]"
+    ]
+  },
+  {
+    "name": "D06Z01S07",
+    "zone": "Archcathedral Rooftops",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D06Z01S07[W]",
+      "D06Z01S07[E]",
+      "D06Z01S07[CherubsL]",
+      "D06Z01S07[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S08",
+    "zone": "Archcathedral Rooftops",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D06Z01S08[W]",
+      "D06Z01S08[E]",
+      "D06Z01S08[N]"
+    ]
+  },
+  {
+    "name": "D06Z01S09",
+    "zone": "Archcathedral Rooftops",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D06Z01S09[W]",
+      "D06Z01S09[E]",
+      "D06Z01S09[-CherubsL]",
+      "D06Z01S09[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S10",
+    "zone": "Archcathedral Rooftops",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D06Z01S10[W]",
+      "D06Z01S10[E]",
+      "D06Z01S10[-CherubsL]",
+      "D06Z01S10[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S11",
+    "zone": "Archcathedral Rooftops",
+    "order": 11,
+    "items": [
+      "Sword[D06Z01S11]"
+    ],
+    "doors": [
+      "D06Z01S11[W]"
+    ]
+  },
+  {
+    "name": "D06Z01S12",
+    "zone": "Archcathedral Rooftops",
+    "order": 12,
+    "items": [
+      "CO06",
+      "PR12",
+      "RESCUED_CHERUB_36"
+    ],
+    "doors": [
+      "D06Z01S12[S]",
+      "D06Z01S12[W]",
+      "D06Z01S12[E]",
+      "D06Z01S12[NW]",
+      "D06Z01S12[NE]",
+      "D06Z01S12[NE2]"
+    ]
+  },
+  {
+    "name": "D06Z01S13",
+    "zone": "Archcathedral Rooftops",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D06Z01S13[W]",
+      "D06Z01S13[E]",
+      "D06Z01S13[S]"
+    ]
+  },
+  {
+    "name": "D06Z01S14",
+    "zone": "Archcathedral Rooftops",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D06Z01S14[W]",
+      "D06Z01S14[E]",
+      "D06Z01S14[N]"
+    ]
+  },
+  {
+    "name": "D06Z01S15",
+    "zone": "Archcathedral Rooftops",
+    "order": 15,
+    "items": [
+      "CO40"
+    ],
+    "doors": [
+      "D06Z01S15[SW]",
+      "D06Z01S15[NW]",
+      "D06Z01S15[NE]"
+    ]
+  },
+  {
+    "name": "D06Z01S16",
+    "zone": "Archcathedral Rooftops",
+    "order": 16,
+    "items": [],
+    "doors": [
+      "D06Z01S16[W]",
+      "D06Z01S16[E]",
+      "D06Z01S16[-CherubsL]",
+      "D06Z01S16[-CherubsR]",
+      "D06Z01S16[CherubsL]",
+      "D06Z01S16[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S17",
+    "zone": "Archcathedral Rooftops",
+    "order": 17,
+    "items": [],
+    "doors": [
+      "D06Z01S17[W]",
+      "D06Z01S17[E]",
+      "D06Z01S17[-Cherubs]",
+      "D06Z01S17[CherubsL]",
+      "D06Z01S17[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S18",
+    "zone": "Archcathedral Rooftops",
+    "order": 18,
+    "items": [],
+    "doors": [
+      "D06Z01S18[E]",
+      "D06Z01S18[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S19",
+    "zone": "Archcathedral Rooftops",
+    "order": 19,
+    "items": [],
+    "doors": [
+      "D06Z01S19[S]",
+      "D06Z01S19[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S20",
+    "zone": "Archcathedral Rooftops",
+    "order": 20,
+    "items": [],
+    "doors": [
+      "D06Z01S20[W]",
+      "D06Z01S20[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S21",
+    "zone": "Archcathedral Rooftops",
+    "order": 21,
+    "items": [
+      "QI04"
+    ],
+    "doors": [
+      "D06Z01S21[W]",
+      "D06Z01S21[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S22",
+    "zone": "Archcathedral Rooftops",
+    "order": 22,
+    "items": [
+      "HE04"
+    ],
+    "doors": [
+      "D06Z01S22[Sword]"
+    ]
+  },
+  {
+    "name": "D06Z01S23",
+    "zone": "Archcathedral Rooftops",
+    "order": 23,
+    "items": [],
+    "doors": [
+      "D06Z01S23[Sword]",
+      "D06Z01S23[E]",
+      "D06Z01S23[S]",
+      "D06Z01S23[Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S24",
+    "zone": "Archcathedral Rooftops",
+    "order": 24,
+    "items": [
+      "Lady[D06Z01S24]"
+    ],
+    "doors": [
+      "D06Z01S24[W]"
+    ]
+  },
+  {
+    "name": "D06Z01S25",
+    "zone": "Archcathedral Rooftops",
+    "order": 25,
+    "items": [
+      "BS16"
+    ],
+    "doors": [
+      "D06Z01S25[W]",
+      "D06Z01S25[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S26",
+    "zone": "Archcathedral Rooftops",
+    "order": 26,
+    "items": [],
+    "doors": [
+      "D06Z01S26[W]"
+    ]
+  },
+  {
+    "name": "D07Z01S01",
+    "zone": "Deambulatory of his Holiness",
+    "order": 1,
+    "items": [
+      "PR08"
+    ],
+    "doors": [
+      "D07Z01S01[W]",
+      "D07Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D07Z01S02",
+    "zone": "Deambulatory of his Holiness",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D07Z01S02[W]",
+      "D07Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D07Z01S03",
+    "zone": "Deambulatory of his Holiness",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D07Z01S03[W]"
+    ]
+  },
+  {
+    "name": "D07Z01S05",
+    "zone": "Deambulatory of his Holiness",
+    "order": 4,
+    "items": [],
+    "doors": []
+  },
+  {
+    "name": "D08Z01S01",
+    "zone": "Bridge of the Three Calvaries",
+    "order": 1,
+    "items": [
+      "BS12",
+      "PR09"
+    ],
+    "doors": [
+      "D08Z01S01[W]",
+      "D08Z01S01[E]",
+      "D08Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D08Z01S02",
+    "zone": "Bridge of the Three Calvaries",
+    "order": 2,
+    "items": [
+      "HE101"
+    ],
+    "doors": [
+      "D08Z01S02[NE]",
+      "D08Z01S02[SE]",
+      "D08Z01S02[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D08Z02S01",
+    "zone": "Ferrous Tree",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D08Z02S01[W]",
+      "D08Z02S01[SE]",
+      "D08Z02S01[E]",
+      "D08Z02S01[N]"
+    ]
+  },
+  {
+    "name": "D08Z02S02",
+    "zone": "Ferrous Tree",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D08Z02S02[W]"
+    ]
+  },
+  {
+    "name": "D08Z02S03",
+    "zone": "Ferrous Tree",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D08Z02S03[W]",
+      "D08Z02S03[E]",
+      "D08Z02S03[S]"
+    ]
+  },
+  {
+    "name": "D08Z03S01",
+    "zone": "Hall of the Dawning",
+    "order": 1,
+    "items": [
+      "QI105"
+    ],
+    "doors": [
+      "D08Z03S01[W]",
+      "D08Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D08Z03S02",
+    "zone": "Hall of the Dawning",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D08Z03S02[SW]",
+      "D08Z03S02[NW]"
+    ]
+  },
+  {
+    "name": "D08Z03S03",
+    "zone": "Hall of the Dawning",
+    "order": 3,
+    "items": [
+      "LaudesBossTrigger[30000]"
+    ],
+    "doors": [
+      "D08Z03S03[W]",
+      "D08Z03S03[E]"
+    ]
   }
 ]
