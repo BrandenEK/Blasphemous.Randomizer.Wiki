@@ -2955,5 +2955,98 @@
     "order": 4,
     "items": [],
     "doors": []
+  },
+  {
+    "name": "D08Z01S01",
+    "zone": "Bridge of the Three Calvaries",
+    "order": 1,
+    "items": [
+      "BS12",
+      "PR09"
+    ],
+    "doors": [
+      "D08Z01S01[W]",
+      "D08Z01S01[E]",
+      "D08Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D08Z01S02",
+    "zone": "Bridge of the Three Calvaries",
+    "order": 2,
+    "items": [
+      "HE101"
+    ],
+    "doors": [
+      "D08Z01S02[NE]",
+      "D08Z01S02[SE]",
+      "D08Z01S02[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D08Z02S01",
+    "zone": "Ferrous Tree",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D08Z02S01[W]",
+      "D08Z02S01[SE]",
+      "D08Z02S01[E]",
+      "D08Z02S01[N]"
+    ]
+  },
+  {
+    "name": "D08Z02S02",
+    "zone": "Ferrous Tree",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D08Z02S02[W]"
+    ]
+  },
+  {
+    "name": "D08Z02S03",
+    "zone": "Ferrous Tree",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D08Z02S03[W]",
+      "D08Z02S03[E]",
+      "D08Z02S03[S]"
+    ]
+  },
+  {
+    "name": "D08Z03S01",
+    "zone": "Hall of the Dawning",
+    "order": 1,
+    "items": [
+      "QI105"
+    ],
+    "doors": [
+      "D08Z03S01[W]",
+      "D08Z03S01[E]"
+    ]
+  },
+  {
+    "name": "D08Z03S02",
+    "zone": "Hall of the Dawning",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D08Z03S02[SW]",
+      "D08Z03S02[NW]"
+    ]
+  },
+  {
+    "name": "D08Z03S03",
+    "zone": "Hall of the Dawning",
+    "order": 3,
+    "items": [
+      "LaudesBossTrigger[30000]"
+    ],
+    "doors": [
+      "D08Z03S03[W]",
+      "D08Z03S03[E]"
+    ]
   }
 ]
