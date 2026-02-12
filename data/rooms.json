@@ -2604,5 +2604,318 @@
     "doors": [
       "D05BZ02S01[C]"
     ]
+  },
+  {
+    "name": "D06Z01S01",
+    "zone": "Archcathedral Rooftops",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D06Z01S01[SW]",
+      "D06Z01S01[SE]",
+      "D06Z01S01[W]",
+      "D06Z01S01[E]",
+      "D06Z01S01[NW]",
+      "D06Z01S01[NE]",
+      "D06Z01S01[NNW]",
+      "D06Z01S01[NNE]",
+      "D06Z01S01[N]",
+      "D06Z01S01[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S02",
+    "zone": "Archcathedral Rooftops",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D06Z01S02[W]",
+      "D06Z01S02[E]",
+      "D06Z01S02[S]"
+    ]
+  },
+  {
+    "name": "D06Z01S03",
+    "zone": "Archcathedral Rooftops",
+    "order": 3,
+    "items": [
+      "QI02"
+    ],
+    "doors": [
+      "D06Z01S03[W]",
+      "D06Z01S03[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S04",
+    "zone": "Archcathedral Rooftops",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D06Z01S04[SW]",
+      "D06Z01S04[W]",
+      "D06Z01S04[Health]",
+      "D06Z01S04[NW]",
+      "D06Z01S04[NE]",
+      "D06Z01S04[Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S05",
+    "zone": "Archcathedral Rooftops",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D06Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S06",
+    "zone": "Archcathedral Rooftops",
+    "order": 6,
+    "items": [
+      "QI03"
+    ],
+    "doors": [
+      "D06Z01S06[WW]",
+      "D06Z01S06[E]",
+      "D06Z01S06[W]",
+      "D06Z01S06[EE]"
+    ]
+  },
+  {
+    "name": "D06Z01S07",
+    "zone": "Archcathedral Rooftops",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D06Z01S07[W]",
+      "D06Z01S07[E]",
+      "D06Z01S07[CherubsL]",
+      "D06Z01S07[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S08",
+    "zone": "Archcathedral Rooftops",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D06Z01S08[W]",
+      "D06Z01S08[E]",
+      "D06Z01S08[N]"
+    ]
+  },
+  {
+    "name": "D06Z01S09",
+    "zone": "Archcathedral Rooftops",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D06Z01S09[W]",
+      "D06Z01S09[E]",
+      "D06Z01S09[-CherubsL]",
+      "D06Z01S09[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S10",
+    "zone": "Archcathedral Rooftops",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D06Z01S10[W]",
+      "D06Z01S10[E]",
+      "D06Z01S10[-CherubsL]",
+      "D06Z01S10[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S11",
+    "zone": "Archcathedral Rooftops",
+    "order": 11,
+    "items": [
+      "Sword[D06Z01S11]"
+    ],
+    "doors": [
+      "D06Z01S11[W]"
+    ]
+  },
+  {
+    "name": "D06Z01S12",
+    "zone": "Archcathedral Rooftops",
+    "order": 12,
+    "items": [
+      "CO06",
+      "PR12",
+      "RESCUED_CHERUB_36"
+    ],
+    "doors": [
+      "D06Z01S12[S]",
+      "D06Z01S12[W]",
+      "D06Z01S12[E]",
+      "D06Z01S12[NW]",
+      "D06Z01S12[NE]",
+      "D06Z01S12[NE2]"
+    ]
+  },
+  {
+    "name": "D06Z01S13",
+    "zone": "Archcathedral Rooftops",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D06Z01S13[W]",
+      "D06Z01S13[E]",
+      "D06Z01S13[S]"
+    ]
+  },
+  {
+    "name": "D06Z01S14",
+    "zone": "Archcathedral Rooftops",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D06Z01S14[W]",
+      "D06Z01S14[E]",
+      "D06Z01S14[N]"
+    ]
+  },
+  {
+    "name": "D06Z01S15",
+    "zone": "Archcathedral Rooftops",
+    "order": 15,
+    "items": [
+      "CO40"
+    ],
+    "doors": [
+      "D06Z01S15[SW]",
+      "D06Z01S15[NW]",
+      "D06Z01S15[NE]"
+    ]
+  },
+  {
+    "name": "D06Z01S16",
+    "zone": "Archcathedral Rooftops",
+    "order": 16,
+    "items": [],
+    "doors": [
+      "D06Z01S16[W]",
+      "D06Z01S16[E]",
+      "D06Z01S16[-CherubsL]",
+      "D06Z01S16[-CherubsR]",
+      "D06Z01S16[CherubsL]",
+      "D06Z01S16[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S17",
+    "zone": "Archcathedral Rooftops",
+    "order": 17,
+    "items": [],
+    "doors": [
+      "D06Z01S17[W]",
+      "D06Z01S17[E]",
+      "D06Z01S17[-Cherubs]",
+      "D06Z01S17[CherubsL]",
+      "D06Z01S17[CherubsR]"
+    ]
+  },
+  {
+    "name": "D06Z01S18",
+    "zone": "Archcathedral Rooftops",
+    "order": 18,
+    "items": [],
+    "doors": [
+      "D06Z01S18[E]",
+      "D06Z01S18[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S19",
+    "zone": "Archcathedral Rooftops",
+    "order": 19,
+    "items": [],
+    "doors": [
+      "D06Z01S19[S]",
+      "D06Z01S19[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S20",
+    "zone": "Archcathedral Rooftops",
+    "order": 20,
+    "items": [],
+    "doors": [
+      "D06Z01S20[W]",
+      "D06Z01S20[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S21",
+    "zone": "Archcathedral Rooftops",
+    "order": 21,
+    "items": [
+      "QI04"
+    ],
+    "doors": [
+      "D06Z01S21[W]",
+      "D06Z01S21[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S22",
+    "zone": "Archcathedral Rooftops",
+    "order": 22,
+    "items": [
+      "HE04"
+    ],
+    "doors": [
+      "D06Z01S22[Sword]"
+    ]
+  },
+  {
+    "name": "D06Z01S23",
+    "zone": "Archcathedral Rooftops",
+    "order": 23,
+    "items": [],
+    "doors": [
+      "D06Z01S23[Sword]",
+      "D06Z01S23[E]",
+      "D06Z01S23[S]",
+      "D06Z01S23[Cherubs]"
+    ]
+  },
+  {
+    "name": "D06Z01S24",
+    "zone": "Archcathedral Rooftops",
+    "order": 24,
+    "items": [
+      "Lady[D06Z01S24]"
+    ],
+    "doors": [
+      "D06Z01S24[W]"
+    ]
+  },
+  {
+    "name": "D06Z01S25",
+    "zone": "Archcathedral Rooftops",
+    "order": 25,
+    "items": [
+      "BS16"
+    ],
+    "doors": [
+      "D06Z01S25[W]",
+      "D06Z01S25[E]"
+    ]
+  },
+  {
+    "name": "D06Z01S26",
+    "zone": "Archcathedral Rooftops",
+    "order": 26,
+    "items": [],
+    "doors": [
+      "D06Z01S26[W]"
+    ]
   }
 ]
