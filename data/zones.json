@@ -62,5 +62,33 @@
   {
     "name": "All the Tears of the Sea",
     "order": 16
+  },
+  {
+    "name": "Library of the Negated Words",
+    "order": 17
+  },
+  {
+    "name": "The Sleeping Canvases",
+    "order": 18
+  },
+  {
+    "name": "Archcathedral Rooftops",
+    "order": 19
+  },
+  {
+    "name": "Deambulatory of his Holiness",
+    "order": 20
+  },
+  {
+    "name": "Bridge of the Three Calvaries",
+    "order": 21
+  },
+  {
+    "name": "Ferrous Tree",
+    "order": 22
+  },
+  {
+    "name": "Hall of the Dawning",
+    "order": 23
   }
 ]
