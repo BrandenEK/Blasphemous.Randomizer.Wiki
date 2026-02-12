@@ -2424,5 +2424,185 @@
       "D05BZ01S01[FrontalS]",
       "D05BZ01S01[FrontalN]"
     ]
+  },
+  {
+    "name": "D05Z02S01",
+    "zone": "The Sleeping Canvases",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D05Z02S01[W]",
+      "D05Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S02",
+    "zone": "The Sleeping Canvases",
+    "order": 2,
+    "items": [
+      "QI64"
+    ],
+    "doors": [
+      "D05Z02S02[SW]",
+      "D05Z02S02[NW]",
+      "D05Z02S02[SE]",
+      "D05Z02S02[NE]"
+    ]
+  },
+  {
+    "name": "D05Z02S03",
+    "zone": "The Sleeping Canvases",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D05Z02S03[W]",
+      "D05Z02S03[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S04",
+    "zone": "The Sleeping Canvases",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D05Z02S04[W]",
+      "D05Z02S04[E]",
+      "D05Z02S04[C]"
+    ]
+  },
+  {
+    "name": "D05Z02S05",
+    "zone": "The Sleeping Canvases",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D05Z02S05[W]",
+      "D05Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S06",
+    "zone": "The Sleeping Canvases",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D05Z02S06[SW]",
+      "D05Z02S06[NW]",
+      "D05Z02S06[SE]",
+      "D05Z02S06[NE]"
+    ]
+  },
+  {
+    "name": "D05Z02S07",
+    "zone": "The Sleeping Canvases",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D05Z02S07[W]",
+      "D05Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S08",
+    "zone": "The Sleeping Canvases",
+    "order": 8,
+    "items": [
+      "HE07"
+    ],
+    "doors": [
+      "D05Z02S08[W]"
+    ]
+  },
+  {
+    "name": "D05Z02S09",
+    "zone": "The Sleeping Canvases",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D05Z02S09[W]",
+      "D05Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S10",
+    "zone": "The Sleeping Canvases",
+    "order": 10,
+    "items": [
+      "RE05",
+      "PR05"
+    ],
+    "doors": [
+      "D05Z02S10[W]",
+      "D05Z02S10[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S11",
+    "zone": "The Sleeping Canvases",
+    "order": 11,
+    "items": [
+      "CO31"
+    ],
+    "doors": [
+      "D05Z02S11[W]",
+      "D05Z02S11[Cherubs]"
+    ]
+  },
+  {
+    "name": "D05Z02S12",
+    "zone": "The Sleeping Canvases",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D05Z02S12[W]",
+      "D05Z02S12[E]",
+      "D05Z02S12[N]"
+    ]
+  },
+  {
+    "name": "D05Z02S13",
+    "zone": "The Sleeping Canvases",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D05Z02S13[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S14",
+    "zone": "The Sleeping Canvases",
+    "order": 14,
+    "items": [
+      "BS06"
+    ],
+    "doors": [
+      "D05Z02S14[W]",
+      "D05Z02S14[E]"
+    ]
+  },
+  {
+    "name": "D05Z02S15",
+    "zone": "The Sleeping Canvases",
+    "order": 15,
+    "items": [
+      "QI104"
+    ],
+    "doors": [
+      "D05Z02S15[S]",
+      "D05Z02S15[E]"
+    ]
+  },
+  {
+    "name": "D05BZ02S01",
+    "zone": "The Sleeping Canvases",
+    "order": 16,
+    "items": [
+      "RB12",
+      "QI49",
+      "QI71"
+    ],
+    "doors": [
+      "D05BZ02S01[C]"
+    ]
   }
 ]
