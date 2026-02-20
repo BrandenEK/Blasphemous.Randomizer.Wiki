@@ -52,7 +52,9 @@ public class Generator()
         {
             string text = roomCreator.Create(room);
             roomExporter.Export(room.Name, text);
-            roomLayoutExporter.Export(room.Name);
+
+            if (room.HasLayout)
+                roomLayoutExporter.Export(room.Name);
         }
 
         long exportTime = sw.ElapsedMilliseconds;

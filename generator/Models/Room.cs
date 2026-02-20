@@ -14,6 +14,8 @@ public class Room
 
     public string[] Doors { get; }
 
+    public bool HasLayout { get; }
+
     [JsonConstructor]
     public Room(string name, string zone, int order, string[] items, string[] doors)
     {
@@ -22,5 +24,6 @@ public class Room
         Order = order;
         Items = items;
         Doors = doors;
+        HasLayout = zone != "Various";
     }
 }

@@ -40,10 +40,13 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine();
 
         // Image
-        sb.AppendLine($"<div style=\"display: inline-block; max-height: {MAX_HEIGHT_PIXELS}px; overflow: auto\">");
-        sb.AppendLine($"<img src=\"layout.png\" style=\"min-width: max-content; min-height: max-content; zoom: {ZOOM_PERCENT}%\" />");
-        sb.AppendLine("</div>");
-        sb.AppendLine();
+        if (room.HasLayout)
+        {
+            sb.AppendLine($"<div style=\"display: inline-block; max-height: {MAX_HEIGHT_PIXELS}px; overflow: auto\">");
+            sb.AppendLine($"<img src=\"layout.png\" style=\"min-width: max-content; min-height: max-content; zoom: {ZOOM_PERCENT}%\" />");
+            sb.AppendLine("</div>");
+            sb.AppendLine();
+        }
 
         // Items
         sb.AppendLine("## Items");
