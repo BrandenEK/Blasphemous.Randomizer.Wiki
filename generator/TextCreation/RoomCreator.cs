@@ -49,16 +49,22 @@ public class RoomCreator : ITextCreator<Room>
         }
 
         // Items
-        sb.AppendLine("## Items");
-        sb.AppendLine();
-        sb.Append(CreateItemTable(room.Items.Select(x => _locationMap[x])));
-        sb.AppendLine();
+        if (room.Items != null && room.Items.Length > 0)
+        {
+            sb.AppendLine("## Items");
+            sb.AppendLine();
+            sb.Append(CreateItemTable(room.Items.Select(x => _locationMap[x])));
+            sb.AppendLine();
+        }
 
         // Doors
-        sb.AppendLine("## Doors");
-        sb.AppendLine();
-        sb.Append(CreateDoorTable(room.Doors.Select(x => _doorMap[x])));
-        sb.AppendLine();
+        if (room.Doors != null && room.Doors.Length > 0)
+        {
+            sb.AppendLine("## Doors");
+            sb.AppendLine();
+            sb.Append(CreateDoorTable(room.Doors.Select(x => _doorMap[x])));
+            sb.AppendLine();
+        }
 
         return sb.ToString();
     }
