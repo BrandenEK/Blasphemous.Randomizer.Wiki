@@ -90,5 +90,25 @@
   {
     "name": "Hall of the Dawning",
     "order": 23
+  },
+  {
+    "name": "Wall of the Holy Prohibitions",
+    "order": 24
+  },
+  {
+    "name": "Brotherhood of the Silent Sorrow",
+    "order": 25
+  },
+  {
+    "name": "Echoes of Salt",
+    "order": 26
+  },
+  {
+    "name": "Mourning and Havoc",
+    "order": 27
+  },
+  {
+    "name": "The Resting Place of the Sister",
+    "order": 28
   }
 ]
