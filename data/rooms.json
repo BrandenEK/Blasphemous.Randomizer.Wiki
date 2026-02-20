@@ -3612,5 +3612,146 @@
       "D20Z01S14[S]",
       "D20Z01S14[E]"
     ]
+  },
+  {
+    "name": "D20Z02S01",
+    "zone": "Mourning and Havoc",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D20Z02S01[W]",
+      "D20Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S02",
+    "zone": "Mourning and Havoc",
+    "order": 2,
+    "items": [
+      "RB201"
+    ],
+    "doors": [
+      "D20Z02S02[W]"
+    ]
+  },
+  {
+    "name": "D20Z02S03",
+    "zone": "Mourning and Havoc",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D20Z02S03[W]",
+      "D20Z02S03[NE]",
+      "D20Z02S03[SE]"
+    ]
+  },
+  {
+    "name": "D20Z02S04",
+    "zone": "Mourning and Havoc",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D20Z02S04[W]",
+      "D20Z02S04[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S05",
+    "zone": "Mourning and Havoc",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D20Z02S05[SW]",
+      "D20Z02S05[NW]",
+      "D20Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S06",
+    "zone": "Mourning and Havoc",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D20Z02S06[SW]",
+      "D20Z02S06[SE]",
+      "D20Z02S06[NW]",
+      "D20Z02S06[NE]"
+    ]
+  },
+  {
+    "name": "D20Z02S07",
+    "zone": "Mourning and Havoc",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D20Z02S07[W]",
+      "D20Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S08",
+    "zone": "Mourning and Havoc",
+    "order": 8,
+    "items": [
+      "BossTrigger[5000]",
+      "QI202"
+    ],
+    "doors": [
+      "D20Z02S08[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S09",
+    "zone": "Mourning and Havoc",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D20Z02S09[W]",
+      "D20Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S10",
+    "zone": "Mourning and Havoc",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D20Z02S10[W]",
+      "D20Z02S10[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S11",
+    "zone": "Mourning and Havoc",
+    "order": 11,
+    "items": [
+      "PR202"
+    ],
+    "doors": [
+      "D20Z02S11[SW]",
+      "D20Z02S11[NW]",
+      "D20Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S12",
+    "zone": "Mourning and Havoc",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D20Z02S12[W]",
+      "D20Z02S12[E]"
+    ]
+  },
+  {
+    "name": "D20Z03S01",
+    "zone": "The Resting Place of the Sister",
+    "order": 1,
+    "items": [
+      "QI203"
+    ],
+    "doors": [
+      "D20Z03S01[W]"
+    ]
   }
 ]
