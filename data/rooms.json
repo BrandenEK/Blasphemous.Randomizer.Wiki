@@ -1716,6 +1716,228 @@
     ]
   },
   {
+    "name": "D03Z03S01",
+    "zone": "Grievance Ascends",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D03Z03S01[W]",
+      "D03Z03S01[S]",
+      "D03Z03S01[NL]",
+      "D03Z03S01[NC]",
+      "D03Z03S01[NR]"
+    ]
+  },
+  {
+    "name": "D03Z03S02",
+    "zone": "Grievance Ascends",
+    "order": 2,
+    "items": [
+      "QI44"
+    ],
+    "doors": [
+      "D03Z03S02[W]",
+      "D03Z03S02[NE]",
+      "D03Z03S02[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S03",
+    "zone": "Grievance Ascends",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D03Z03S03[W]",
+      "D03Z03S03[NE]",
+      "D03Z03S03[SE]"
+    ]
+  },
+  {
+    "name": "D03Z03S04",
+    "zone": "Grievance Ascends",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D03Z03S04[NW]",
+      "D03Z03S04[NE]",
+      "D03Z03S04[E]",
+      "D03Z03S04[SW]",
+      "D03Z03S04[SE]",
+      "D03Z03S04[-Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z03S05",
+    "zone": "Grievance Ascends",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D03Z03S05[NW]",
+      "D03Z03S05[NE]",
+      "D03Z03S05[SW]",
+      "D03Z03S05[SE]"
+    ]
+  },
+  {
+    "name": "D03Z03S06",
+    "zone": "Grievance Ascends",
+    "order": 6,
+    "items": [
+      "CO12",
+      "RE07",
+      "RESCUED_CHERUB_19"
+    ],
+    "doors": [
+      "D03Z03S06[W]"
+    ]
+  },
+  {
+    "name": "D03Z03S07",
+    "zone": "Grievance Ascends",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D03Z03S07[NW]",
+      "D03Z03S07[NE]",
+      "D03Z03S07[SW]",
+      "D03Z03S07[E]",
+      "D03Z03S07[S]"
+    ]
+  },
+  {
+    "name": "D03Z03S08",
+    "zone": "Grievance Ascends",
+    "order": 8,
+    "items": [
+      "QI10",
+      "RESCUED_CHERUB_21"
+    ],
+    "doors": [
+      "D03Z03S08[W]",
+      "D03Z03S08[-CherubsL]",
+      "D03Z03S08[-CherubsR]"
+    ]
+  },
+  {
+    "name": "D03Z03S09",
+    "zone": "Grievance Ascends",
+    "order": 9,
+    "items": [
+      "RESCUED_CHERUB_20"
+    ],
+    "doors": [
+      "D03Z03S09[SW]",
+      "D03Z03S09[N]"
+    ]
+  },
+  {
+    "name": "D03Z03S10",
+    "zone": "Grievance Ascends",
+    "order": 10,
+    "items": [
+      "QI13",
+      "RB06"
+    ],
+    "doors": [
+      "D03Z03S10[E]",
+      "D03Z03S10[Cherubs]"
+    ]
+  },
+  {
+    "name": "D03Z03S11",
+    "zone": "Grievance Ascends",
+    "order": 11,
+    "items": [],
+    "doors": [
+      "D03Z03S11[W]",
+      "D03Z03S11[E]",
+      "D03Z03S11[CherubsL]",
+      "D03Z03S11[CherubsR]"
+    ]
+  },
+  {
+    "name": "D03Z03S12",
+    "zone": "Grievance Ascends",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D03Z03S12[W]",
+      "D03Z03S12[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S13",
+    "zone": "Grievance Ascends",
+    "order": 13,
+    "items": [
+      "Oil[D03Z03S13]"
+    ],
+    "doors": [
+      "D03Z03S13[W]"
+    ]
+  },
+  {
+    "name": "D03Z03S14",
+    "zone": "Grievance Ascends",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D03Z03S14[W]"
+    ]
+  },
+  {
+    "name": "D03Z03S15",
+    "zone": "Grievance Ascends",
+    "order": 15,
+    "items": [
+      "BS04"
+    ],
+    "doors": [
+      "D03Z03S15[W]",
+      "D03Z03S15[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S16",
+    "zone": "Grievance Ascends",
+    "order": 16,
+    "items": [
+      "QI39"
+    ],
+    "doors": [
+      "D03Z03S16[W]",
+      "D03Z03S16[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S17",
+    "zone": "Grievance Ascends",
+    "order": 17,
+    "items": [],
+    "doors": [
+      "D03Z03S17[W]",
+      "D03Z03S17[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S18",
+    "zone": "Grievance Ascends",
+    "order": 18,
+    "items": [],
+    "doors": [
+      "D03Z03S18[E]"
+    ]
+  },
+  {
+    "name": "D03Z03S19",
+    "zone": "Grievance Ascends",
+    "order": 19,
+    "items": [],
+    "doors": [
+      "D03Z03S19[E]"
+    ]
+  },
+  {
     "name": "D04Z01S01",
     "zone": "Patio of the Silent Steps",
     "order": 1,
