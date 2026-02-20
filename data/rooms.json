@@ -3463,5 +3463,154 @@
       "D17BZ02S01[FrontL]",
       "D17BZ02S01[FrontR]"
     ]
+  },
+  {
+    "name": "D20Z01S01",
+    "zone": "Echoes of Salt",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D20Z01S01[W]",
+      "D20Z01S01[E]",
+      "D20Z01S01[S]",
+      "D20Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D20Z01S02",
+    "zone": "Echoes of Salt",
+    "order": 2,
+    "items": [
+      "RB108"
+    ],
+    "doors": [
+      "D20Z01S02[W]",
+      "D20Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S03",
+    "zone": "Echoes of Salt",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D20Z01S03[W]",
+      "D20Z01S03[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S04",
+    "zone": "Echoes of Salt",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D20Z01S04[W]",
+      "D20Z01S04[E]",
+      "D20Z01S04[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S05",
+    "zone": "Echoes of Salt",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D20Z01S05[W]",
+      "D20Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S06",
+    "zone": "Echoes of Salt",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D20Z01S06[NE]",
+      "D20Z01S06[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S07",
+    "zone": "Echoes of Salt",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D20Z01S07[NW]",
+      "D20Z01S07[NE]",
+      "D20Z01S07[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S08",
+    "zone": "Echoes of Salt",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D20Z01S08[W]"
+    ]
+  },
+  {
+    "name": "D20Z01S09",
+    "zone": "Echoes of Salt",
+    "order": 9,
+    "items": [
+      "RB202"
+    ],
+    "doors": [
+      "D20Z01S09[W]",
+      "D20Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S10",
+    "zone": "Echoes of Salt",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D20Z01S10[W]",
+      "D20Z01S10[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S11",
+    "zone": "Echoes of Salt",
+    "order": 11,
+    "items": [],
+    "doors": [
+      "D20Z01S11[W]",
+      "D20Z01S11[NW]",
+      "D20Z01S11[NE]",
+      "D20Z01S11[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S12",
+    "zone": "Echoes of Salt",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D20Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S13",
+    "zone": "Echoes of Salt",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D20Z01S13[W]",
+      "D20Z01S13[E]",
+      "D20Z01S13[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S14",
+    "zone": "Echoes of Salt",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D20Z01S14[S]",
+      "D20Z01S14[E]"
+    ]
   }
 ]
