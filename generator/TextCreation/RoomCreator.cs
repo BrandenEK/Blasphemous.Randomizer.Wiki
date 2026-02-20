@@ -40,22 +40,31 @@ public class RoomCreator : ITextCreator<Room>
         sb.AppendLine();
 
         // Image
-        sb.AppendLine($"<div style=\"display: inline-block; max-height: {MAX_HEIGHT_PIXELS}px; overflow: auto\">");
-        sb.AppendLine($"<img src=\"layout.png\" style=\"min-width: max-content; min-height: max-content; zoom: {ZOOM_PERCENT}%\" />");
-        sb.AppendLine("</div>");
-        sb.AppendLine();
+        if (room.HasLayout)
+        {
+            sb.AppendLine($"<div style=\"display: inline-block; max-height: {MAX_HEIGHT_PIXELS}px; overflow: auto\">");
+            sb.AppendLine($"<img src=\"layout.png\" style=\"min-width: max-content; min-height: max-content; zoom: {ZOOM_PERCENT}%\" />");
+            sb.AppendLine("</div>");
+            sb.AppendLine();
+        }
 
         // Items
-        sb.AppendLine("## Items");
-        sb.AppendLine();
-        sb.Append(CreateItemTable(room.Items.Select(x => _locationMap[x])));
-        sb.AppendLine();
+        if (room.Items != null && room.Items.Length > 0)
+        {
+            sb.AppendLine("## Items");
+            sb.AppendLine();
+            sb.Append(CreateItemTable(room.Items.Select(x => _locationMap[x])));
+            sb.AppendLine();
+        }
 
         // Doors
-        sb.AppendLine("## Doors");
-        sb.AppendLine();
-        sb.Append(CreateDoorTable(room.Doors.Select(x => _doorMap[x])));
-        sb.AppendLine();
+        if (room.Doors != null && room.Doors.Length > 0)
+        {
+            sb.AppendLine("## Doors");
+            sb.AppendLine();
+            sb.Append(CreateDoorTable(room.Doors.Select(x => _doorMap[x])));
+            sb.AppendLine();
+        }
 
         return sb.ToString();
     }
