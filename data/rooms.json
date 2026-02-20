@@ -3048,5 +3048,710 @@
       "D08Z03S03[W]",
       "D08Z03S03[E]"
     ]
+  },
+  {
+    "name": "D09Z01S01",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 1,
+    "items": [
+      "Amanecida[D09Z01S01]"
+    ],
+    "doors": [
+      "D09Z01S01[W]",
+      "D09Z01S01[E]"
+    ]
+  },
+  {
+    "name": "D09Z01S02",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 2,
+    "items": [
+      "QI51",
+      "RB11"
+    ],
+    "doors": [
+      "D09Z01S02[SW]",
+      "D09Z01S02[NW]",
+      "D09Z01S02[N]",
+      "D09Z01S02[Cell1]",
+      "D09Z01S02[Cell6]",
+      "D09Z01S02[Cell5]",
+      "D09Z01S02[Cell4]",
+      "D09Z01S02[Cell2]",
+      "D09Z01S02[Cell3]",
+      "D09Z01S02[Cell22]",
+      "D09Z01S02[Cell23]"
+    ]
+  },
+  {
+    "name": "D09Z01S03",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 3,
+    "items": [
+      "BS14"
+    ],
+    "doors": [
+      "D09Z01S03[W]",
+      "D09Z01S03[N]"
+    ]
+  },
+  {
+    "name": "D09Z01S04",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D09Z01S04[W]",
+      "D09Z01S04[E]",
+      "D09Z01S04[S]"
+    ]
+  },
+  {
+    "name": "D09Z01S05",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D09Z01S05[W]",
+      "D09Z01S05[SE]",
+      "D09Z01S05[NE]"
+    ]
+  },
+  {
+    "name": "D09Z01S06",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 6,
+    "items": [
+      "RESCUED_CHERUB_05"
+    ],
+    "doors": [
+      "D09Z01S06[-E]",
+      "D09Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D09Z01S07",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D09Z01S07[SW]",
+      "D09Z01S07[SE]",
+      "D09Z01S07[W]",
+      "D09Z01S07[E]",
+      "D09Z01S07[NW]",
+      "D09Z01S07[N]",
+      "D09Z01S07[NE]"
+    ]
+  },
+  {
+    "name": "D09Z01S08",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 8,
+    "items": [
+      "QI72"
+    ],
+    "doors": [
+      "D09Z01S08[W]",
+      "D09Z01S08[S]",
+      "D09Z01S08[SE]",
+      "D09Z01S08[NE]",
+      "D09Z01S08[Cell14]",
+      "D09Z01S08[Cell15]",
+      "D09Z01S08[Cell7]",
+      "D09Z01S08[Cell16]",
+      "D09Z01S08[Cell18]",
+      "D09Z01S08[Cell17]"
+    ]
+  },
+  {
+    "name": "D09Z01S09",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 9,
+    "items": [
+      "RB16"
+    ],
+    "doors": [
+      "D09Z01S09[SW]",
+      "D09Z01S09[NW]",
+      "D09Z01S09[E]",
+      "D09Z01S09[Cell24]",
+      "D09Z01S09[Cell19]",
+      "D09Z01S09[Cell20]",
+      "D09Z01S09[Cell21]"
+    ]
+  },
+  {
+    "name": "D09Z01S10",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 10,
+    "items": [
+      "QI70",
+      "CO27"
+    ],
+    "doors": [
+      "D09Z01S10[W]",
+      "D09Z01S10[Cell13]",
+      "D09Z01S10[Cell12]",
+      "D09Z01S10[Cell10]",
+      "D09Z01S10[Cell11]"
+    ]
+  },
+  {
+    "name": "D09Z01S11",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 11,
+    "items": [],
+    "doors": [
+      "D09Z01S11[W]",
+      "D09Z01S11[E]",
+      "D09Z01S11[S]"
+    ]
+  },
+  {
+    "name": "D09Z01S12",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 12,
+    "items": [
+      "Oil[D09Z01S12]"
+    ],
+    "doors": [
+      "D09Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D09Z01S13",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D09Z01S13[E]"
+    ]
+  },
+  {
+    "name": "D09BZ01S01",
+    "zone": "Wall of the Holy Prohibitions",
+    "order": 14,
+    "items": [
+      "CO10",
+      "QI69",
+      "RESCUED_CHERUB_03",
+      "CO24",
+      "RESCUED_CHERUB_34",
+      "CO26",
+      "CO02",
+      "CO37",
+      "RESCUED_CHERUB_04"
+    ],
+    "doors": [
+      "D09BZ01S01[Cell1]",
+      "D09BZ01S01[Cell2]",
+      "D09BZ01S01[Cell3]",
+      "D09BZ01S01[Cell4]",
+      "D09BZ01S01[Cell5]",
+      "D09BZ01S01[Cell6]",
+      "D09BZ01S01[Cell7]",
+      "D09BZ01S01[Cell10]",
+      "D09BZ01S01[Cell11]",
+      "D09BZ01S01[Cell12]",
+      "D09BZ01S01[Cell13]",
+      "D09BZ01S01[Cell14]",
+      "D09BZ01S01[Cell15]",
+      "D09BZ01S01[Cell16]",
+      "D09BZ01S01[Cell17]",
+      "D09BZ01S01[Cell18]",
+      "D09BZ01S01[Cell19]",
+      "D09BZ01S01[Cell20]",
+      "D09BZ01S01[Cell21]",
+      "D09BZ01S01[Cell22]",
+      "D09BZ01S01[Cell23]",
+      "D09BZ01S01[Cell24]"
+    ]
+  },
+  {
+    "name": "D17Z01S01",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 1,
+    "items": [
+      "RB204",
+      "RESCUED_CHERUB_06"
+    ],
+    "doors": [
+      "D17Z01S01[E]",
+      "D17Z01S01[Cherubs1]",
+      "D17Z01S01[Cherubs2]",
+      "D17Z01S01[Cherubs3]"
+    ]
+  },
+  {
+    "name": "D17Z01S02",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 2,
+    "items": [],
+    "doors": [
+      "D17Z01S02[W]",
+      "D17Z01S02[E]",
+      "D17Z01S02[N]"
+    ]
+  },
+  {
+    "name": "D17Z01S03",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D17Z01S03[W]",
+      "D17Z01S03[E]",
+      "D17Z01S03[relic]"
+    ]
+  },
+  {
+    "name": "D17Z01S04",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 4,
+    "items": [
+      "RE401"
+    ],
+    "doors": [
+      "D17Z01S04[W]",
+      "D17Z01S04[S]",
+      "D17Z01S04[FrontL]",
+      "D17Z01S04[N]",
+      "D17Z01S04[FrontR]"
+    ]
+  },
+  {
+    "name": "D17Z01S05",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D17Z01S05[W]",
+      "D17Z01S05[E]",
+      "D17Z01S05[S]"
+    ]
+  },
+  {
+    "name": "D17Z01S06",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D17Z01S06[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S07",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D17Z01S07[SW]",
+      "D17Z01S07[SE]",
+      "D17Z01S07[W]",
+      "D17Z01S07[NW]",
+      "D17Z01S07[N]"
+    ]
+  },
+  {
+    "name": "D17Z01S08",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 8,
+    "items": [
+      "Sword[D17Z01S08]"
+    ],
+    "doors": [
+      "D17Z01S08[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S09",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D17Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S10",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D17Z01S10[W]",
+      "D17Z01S10[S]"
+    ]
+  },
+  {
+    "name": "D17Z01S11",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 11,
+    "items": [
+      "BS13"
+    ],
+    "doors": [
+      "D17Z01S11[W]",
+      "D17Z01S11[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S12",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D17Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S13",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D17Z01S13[W]",
+      "D17Z01S13[E]"
+    ]
+  },
+  {
+    "name": "D17Z01S14",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 14,
+    "items": [
+      "PR203"
+    ],
+    "doors": [
+      "D17Z01S14[W]",
+      "D17Z01S14[E]",
+      "D17Z01S14[-Cherubs1]",
+      "D17Z01S14[-Cherubs2]",
+      "D17Z01S14[-Cherubs3]"
+    ]
+  },
+  {
+    "name": "D17Z01S15",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 15,
+    "items": [
+      "QI204",
+      "QI301"
+    ],
+    "doors": [
+      "D17Z01S15[E]"
+    ]
+  },
+  {
+    "name": "D17BZ01S01",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 16,
+    "items": [
+      "RE01"
+    ],
+    "doors": [
+      "D17BZ01S01[relic]"
+    ]
+  },
+  {
+    "name": "D17BZ02S01",
+    "zone": "Brotherhood of the Silent Sorrow",
+    "order": 17,
+    "items": [
+      "CO25"
+    ],
+    "doors": [
+      "D17BZ02S01[FrontL]",
+      "D17BZ02S01[FrontR]"
+    ]
+  },
+  {
+    "name": "D20Z01S01",
+    "zone": "Echoes of Salt",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D20Z01S01[W]",
+      "D20Z01S01[E]",
+      "D20Z01S01[S]",
+      "D20Z01S01[Cherubs]"
+    ]
+  },
+  {
+    "name": "D20Z01S02",
+    "zone": "Echoes of Salt",
+    "order": 2,
+    "items": [
+      "RB108"
+    ],
+    "doors": [
+      "D20Z01S02[W]",
+      "D20Z01S02[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S03",
+    "zone": "Echoes of Salt",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D20Z01S03[W]",
+      "D20Z01S03[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S04",
+    "zone": "Echoes of Salt",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D20Z01S04[W]",
+      "D20Z01S04[E]",
+      "D20Z01S04[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S05",
+    "zone": "Echoes of Salt",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D20Z01S05[W]",
+      "D20Z01S05[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S06",
+    "zone": "Echoes of Salt",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D20Z01S06[NE]",
+      "D20Z01S06[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S07",
+    "zone": "Echoes of Salt",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D20Z01S07[NW]",
+      "D20Z01S07[NE]",
+      "D20Z01S07[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S08",
+    "zone": "Echoes of Salt",
+    "order": 8,
+    "items": [],
+    "doors": [
+      "D20Z01S08[W]"
+    ]
+  },
+  {
+    "name": "D20Z01S09",
+    "zone": "Echoes of Salt",
+    "order": 9,
+    "items": [
+      "RB202"
+    ],
+    "doors": [
+      "D20Z01S09[W]",
+      "D20Z01S09[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S10",
+    "zone": "Echoes of Salt",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D20Z01S10[W]",
+      "D20Z01S10[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S11",
+    "zone": "Echoes of Salt",
+    "order": 11,
+    "items": [],
+    "doors": [
+      "D20Z01S11[W]",
+      "D20Z01S11[NW]",
+      "D20Z01S11[NE]",
+      "D20Z01S11[SE]"
+    ]
+  },
+  {
+    "name": "D20Z01S12",
+    "zone": "Echoes of Salt",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D20Z01S12[E]"
+    ]
+  },
+  {
+    "name": "D20Z01S13",
+    "zone": "Echoes of Salt",
+    "order": 13,
+    "items": [],
+    "doors": [
+      "D20Z01S13[W]",
+      "D20Z01S13[E]",
+      "D20Z01S13[N]"
+    ]
+  },
+  {
+    "name": "D20Z01S14",
+    "zone": "Echoes of Salt",
+    "order": 14,
+    "items": [],
+    "doors": [
+      "D20Z01S14[S]",
+      "D20Z01S14[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S01",
+    "zone": "Mourning and Havoc",
+    "order": 1,
+    "items": [],
+    "doors": [
+      "D20Z02S01[W]",
+      "D20Z02S01[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S02",
+    "zone": "Mourning and Havoc",
+    "order": 2,
+    "items": [
+      "RB201"
+    ],
+    "doors": [
+      "D20Z02S02[W]"
+    ]
+  },
+  {
+    "name": "D20Z02S03",
+    "zone": "Mourning and Havoc",
+    "order": 3,
+    "items": [],
+    "doors": [
+      "D20Z02S03[W]",
+      "D20Z02S03[NE]",
+      "D20Z02S03[SE]"
+    ]
+  },
+  {
+    "name": "D20Z02S04",
+    "zone": "Mourning and Havoc",
+    "order": 4,
+    "items": [],
+    "doors": [
+      "D20Z02S04[W]",
+      "D20Z02S04[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S05",
+    "zone": "Mourning and Havoc",
+    "order": 5,
+    "items": [],
+    "doors": [
+      "D20Z02S05[SW]",
+      "D20Z02S05[NW]",
+      "D20Z02S05[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S06",
+    "zone": "Mourning and Havoc",
+    "order": 6,
+    "items": [],
+    "doors": [
+      "D20Z02S06[SW]",
+      "D20Z02S06[SE]",
+      "D20Z02S06[NW]",
+      "D20Z02S06[NE]"
+    ]
+  },
+  {
+    "name": "D20Z02S07",
+    "zone": "Mourning and Havoc",
+    "order": 7,
+    "items": [],
+    "doors": [
+      "D20Z02S07[W]",
+      "D20Z02S07[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S08",
+    "zone": "Mourning and Havoc",
+    "order": 8,
+    "items": [
+      "BossTrigger[5000]",
+      "QI202"
+    ],
+    "doors": [
+      "D20Z02S08[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S09",
+    "zone": "Mourning and Havoc",
+    "order": 9,
+    "items": [],
+    "doors": [
+      "D20Z02S09[W]",
+      "D20Z02S09[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S10",
+    "zone": "Mourning and Havoc",
+    "order": 10,
+    "items": [],
+    "doors": [
+      "D20Z02S10[W]",
+      "D20Z02S10[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S11",
+    "zone": "Mourning and Havoc",
+    "order": 11,
+    "items": [
+      "PR202"
+    ],
+    "doors": [
+      "D20Z02S11[SW]",
+      "D20Z02S11[NW]",
+      "D20Z02S11[E]"
+    ]
+  },
+  {
+    "name": "D20Z02S12",
+    "zone": "Mourning and Havoc",
+    "order": 12,
+    "items": [],
+    "doors": [
+      "D20Z02S12[W]",
+      "D20Z02S12[E]"
+    ]
+  },
+  {
+    "name": "D20Z03S01",
+    "zone": "The Resting Place of the Sister",
+    "order": 1,
+    "items": [
+      "QI203"
+    ],
+    "doors": [
+      "D20Z03S01[W]"
+    ]
   }
 ]
