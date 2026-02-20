@@ -17,11 +17,22 @@ public class ZoneCreator : ITextCreator<Zone>
         sb.AppendLine($"last_modified_date: {DateTime.Now.ToString("yyyy-MM-dd")}");
         sb.AppendLine($"generator_version: {Version.GENERATOR_VERSION}");
         sb.AppendLine($"nav_order: {40 + zone.Order}");
+        sb.AppendLine($"has_toc: false");
         sb.AppendLine("---");
         sb.AppendLine();
 
         // Header
         sb.AppendLine($"# {zone.Name}");
+        sb.AppendLine();
+
+        // Divider
+        sb.AppendLine("---");
+        sb.AppendLine();
+
+        // Stats
+        sb.AppendLine("| Number of rooms | Number of items | Number of doors |");
+        sb.AppendLine("| :---: | :---: | :---: |");
+        sb.AppendLine($"| 1 | 2 | 3 |");
         sb.AppendLine();
 
         return sb.ToString();
