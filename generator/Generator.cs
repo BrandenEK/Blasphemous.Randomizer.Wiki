@@ -31,7 +31,7 @@ public class Generator()
         sw.Restart();
 
         // Setup zone things
-        var zoneCreator = new ZoneCreator();
+        var zoneCreator = new ZoneCreator(rooms);
         var zoneExporter = new InfoExporter(Path.Combine(exportDir, "zones"));
 
         // Create and export zone files
