@@ -6,6 +6,7 @@ using blas1wikigen.TextCreation;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace blas1wikigen;
@@ -29,6 +30,9 @@ public class Generator()
         sw.Stop();
         long loadTime = sw.ElapsedMilliseconds;
         sw.Restart();
+
+        // Generate special pages
+        GenerateSkipsPage(Path.Combine(dataDir, "skipvideos"), Path.Combine(exportDir, "skips"));
 
         // Setup zone things
         var zoneCreator = new ZoneCreator(rooms);
@@ -62,5 +66,31 @@ public class Generator()
         Logger.Info($"Time to load data: {loadTime}ms");
         Logger.Info($"Time to generate docs: {exportTime}ms");
         sw.Stop();
+    }
+
+    private void GenerateSkipsPage(string videosDir, string exportDir)
+    {
+        Logger.Info("Generating skips page");
+        var sb = new StringBuilder();
+
+        // Front matter
+        sb.AppendLine("---");
+        sb.AppendLine("title: Skips and Techniques");
+        sb.AppendLine("nav_order: 3");
+        sb.AppendLine("---");
+        sb.AppendLine();
+
+        // Header
+        sb.AppendLine("Skips and Techniques");
+        sb.AppendLine();
+
+        // Content
+        sb.AppendLine($"<video controls muted width=\"480\" height=\"360\">");
+        sb.AppendLine($"<source src=\"dawnjump.mp4\" type=\"video/mp4\"> Your browser doesn't support videos");
+        sb.AppendLine("</video>");
+        sb.AppendLine("This technique requires the item \"Brilliant Heart of Dawn\" to be equipped. Dash for a little bit before jumping.");
+        sb.AppendLine();
+
+        Directory.CreateDirectory(exportDir);
     }
 }
