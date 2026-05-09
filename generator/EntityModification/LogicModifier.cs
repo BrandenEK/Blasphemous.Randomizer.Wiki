@@ -1,5 +1,6 @@
 ﻿using blas1wikigen.Models;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace blas1wikigen.EntityModification;
 
@@ -24,7 +25,7 @@ public class LogicModifier
     {
         foreach (var macro in _macros)
         {
-            logic = logic.Replace(macro.Name, _logicCache[macro]);
+            logic = Regex.Replace(logic, $"\\b{macro.Name}\\b", _logicCache[macro]);
         }
 
         return logic;
